@@ -1,0 +1,36 @@
+*{margin:0px; padding:0px;}
+body{
+	font-family: "Myriad Pro";
+	color: #666;
+	background-color: #EDEDED;
+}
+#ff{
+	padding:20px;
+	width: 400px;
+	margin:auto;
+	background-color: #d6d6d6;
+	border: 1px solid #888;
+}
+#ff input[type="text"]{  /* selector de atributo */
+	background-color: #FAE978;
+	border: 1px solid #888;
+	padding:4px;
+	margin:10px;
+	color: #D09329;
+}
+#ff input[type="submit"]{
+	background-color: #F2C13E;
+	border: 1px solid #888;
+	padding:4px;
+	margin:10px;
+	width: 200px;
+
+	color: #D09329;
+}
+
+#muestraColor{
+	width:50px;
+	height: 50px;
+	border: 1px solid #ccc;
+	margin: 0 10px 0 10px; 
+}

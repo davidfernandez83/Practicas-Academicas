@@ -1,0 +1,69 @@
+STORE PROCEDURES SQL 20112014
+
+ create procedure p1 as
+ select * from Person.Person order by LastName desc
+ GO
+ p1
+
+ alter procedure p1 
+  @ID1 as int, @ID2 as int 
+ as
+ select * from Person.Person 
+ where BusinessEntityID > @ID1 and BusinessEntityID < @ID2
+ order by LastName desc
+ GO
+ p1 100,500
+
+ alter procedure p1 
+  as
+ select LastName, FirstName from Person.Person 
+ where BusinessEntityID <=10 
+ order by LastName desc
+ GO
+ p1 
+
+ alter procedure p1 
+  as
+ select top 10 BusinessEntityID,LastName,PersonType  from Person.Person 
+ order by BusinessEntityID desc
+ GO
+ p1 
+
+ alter procedure p1 @nom as nvarchar(50) 
+  as
+ select LastName, FirstName from Person.Person 
+ where FirstName = @nom 
+ order by BusinessEntityID asc
+ GO
+ p1 'Dylan'
+
+ alter procedure p1 @id1 as int, @ape as nvarchar(50) 
+  as
+ select BusinessEntityID,LastName, FirstName from Person.Person 
+ where BusinessEntityID > @id1 and LastName = @ape 
+ order by BusinessEntityID asc
+ GO
+ p1 1000, 'Perry'
+
+ alter procedure p1  @tipo as nvarchar(2) 
+ as
+ select BusinessEntityID,LastName, FirstName,PersonType  from Person.Person 
+ where PersonType = @tipo 
+ order by BusinessEntityID asc
+ GO
+ p1 'EM'
+
+alter procedure p1 @ape as nvarchar(50) 
+as
+select BusinessEntityID,LastName, FirstName from Person.Person 
+where LastName = @ape 
+order by BusinessEntityID asc
+GO
+p1 'Perry'
+
+-- 
+Has recibido este mensaje porque estás suscrito al grupo "UKSQL2014" de Grupos de Google.
+Para anular la suscripción a este grupo y dejar de recibir sus mensajes, envía un correo electrónico a uksql2014+unsubscribe@googlegroups.com.
+Para publicar una entrada en este grupo, envía un correo electrónico a uksql2014@googlegroups.com.
+Para ver este debate en la Web, visita https://groups.google.com/d/msgid/uksql2014/1fca7c4e-2564-43f3-9be6-f66036e7be23%40googlegroups.com.
+Para obtener más opciones, visita https://groups.google.com/d/optout.

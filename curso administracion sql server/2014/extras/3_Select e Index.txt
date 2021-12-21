@@ -1,0 +1,86 @@
+BETWEEN
+SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20
+
+Like
+SELECT * FROM Customers
+WHERE City LIKE 's%'
+
+Caracteres
+% A substitute for zero or more characters
+_ A substitute for a single character
+[charlist] Sets and ranges of characters to match
+[^charlist]
+or
+[!charlist] Matches only a character NOT specified within the brackets
+
+Select IN
+SELECT * FROM Customers
+WHERE City IN ('Paris','London')
+
+Uso de sobrenombres
+SELECT CustomerName AS Customer, ContactName AS [Contact Person]
+FROM Customers
+
+INDEX
+CREATE INDEX PIndex
+ON Persons (LastName)
+
+DROP
+DROP INDEX Persons.PIndex
+
+DROP TABLE table_name
+
+DROP DATABASE database_name
+
+TRUNCATE
+TRUNCATE TABLE table_name
+
+
+ALTER
+ALTER TABLE table_name
+ADD column_name datatype
+
+ALTER TABLE table_name
+DROP COLUMN column_name
+
+ALTER TABLE table_name
+ALTER COLUMN column_name datatype
+
+Auto incremental
+CREATE TABLE Persons
+(
+ID int IDENTITY(1,1) PRIMARY KEY,
+LastName varchar(255) NOT NULL,
+FirstName varchar(255),
+Address varchar(255),
+City varchar(255)
+)
+
+Vistas
+CREATE VIEW [Current Product List] AS
+SELECT ProductID,ProductName
+FROM Products
+WHERE Discontinued=No
+
+SELECT * FROM [Current Product List]
+
+ Valores Nulos
+
+SELECT LastName,FirstName,Address FROM Persons
+
+WHERE Address IS NULL
+
+ 
+
+ 
+
+
+
+
+-- 
+Has recibido este mensaje porque estás suscrito al grupo "UKSQL2014" de Grupos de Google.
+Para anular la suscripción a este grupo y dejar de recibir sus mensajes, envía un correo electrónico a uksql2014+unsubscribe@googlegroups.com.
+Para publicar una entrada en este grupo, envía un correo electrónico a uksql2014@googlegroups.com.
+Para ver este debate en la Web, visita https://groups.google.com/d/msgid/uksql2014/cbfeb88a-0d9e-4fb8-b0cd-1c4d45b13083%40googlegroups.com.
+Para obtener más opciones, visita https://groups.google.com/d/optout.

@@ -1,0 +1,16 @@
+<?php
+
+    const SERVER  = 'localhost';
+    const BASE    = 'nombreBase';
+    const USUARIO = 'root';
+    const CLAVE   = ''; 
+    
+    $opciones  = array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8");
+    
+    $link = new PDO(
+                     'mysql:host='.SERVER.';dbname='.BASE, 
+                     USUARIO, 
+                     CLAVE,
+                     $opciones
+                     );
+

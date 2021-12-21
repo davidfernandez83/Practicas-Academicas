@@ -1,0 +1,16 @@
+
+body{
+	background-color: #FCC3F9;
+}
+
+.contenedor{
+	width: 320px;
+	text-align: center;
+	border: 1px solid #555;
+	background-color: #fff;
+	margin: 6px;
+	padding: 90px;
+
+	float: left;
+
+}

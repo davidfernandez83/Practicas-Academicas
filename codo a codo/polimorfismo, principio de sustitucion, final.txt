@@ -1,0 +1,11 @@
+-Polimorfismo
+La capacidad que tienen las clases de comportarse de manera distinta aunque
+se parezca a la calase padre se llama polimorfismo
+
+-Principio de sustitución
+Capacida que tiene la JVM de "descubrir" quien se comporta de una manera
+y quien de otra manera
+
+-Final
+En el caso de los metodos no permite que sigan sobreescribiendo.
+Y en el caso de las clases te evita seguir haciendo herencia

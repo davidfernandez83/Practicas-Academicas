@@ -1,0 +1,16 @@
+<Datos>
+<DatosPersonales>
+	<NombreApellido>Juan Perez</NombreApellido>
+	<Domicilio>Libertador 234</Domicilio>
+	<Empresa>Microsoft</Empresa>
+</DatosPersonales>
+</Datos>
+
+
+<Datos>
+<DatosPersonales>
+	<Nombre>Juan Perez</Apellido>
+	<Domicilio>Libertador 234</Domicilio>
+	<Empresa>Microsoft</Empresa>
+</DatosPersonales>
+</Datos>

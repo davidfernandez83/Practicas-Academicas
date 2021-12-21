@@ -1,0 +1,1 @@
+Hacer panel de categorias, panel de usuarios, resultado 0 estetica, combo de categorias para buscador

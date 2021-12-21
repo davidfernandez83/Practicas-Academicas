@@ -1,0 +1,73 @@
+
+
+Menu Contextual
+
+Empecemos a partir de un proyecto nuevo, que ya debe contener por defecto una etiqueta de texto con un Hello World).
+
+Vamos a añadir en primer lugar un menú contextual que aparezca al pulsar sobre la etiqueta de texto. 
+
+1º) vamos a indicar en el método onCreate() de nuestra actividad principal que la etiqueta tendrá asociado un menú contextual. 
+Esto lo conseguimos con una llamada a registerForContextMenu():
+
+
+public void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.main);
+ 
+    //Obtenemos las referencias a los controles
+    lblMensaje = (TextView)findViewById(R.id.LblMensaje);
+ 
+    //Asociamos los menús contextuales a los controles
+    registerForContextMenu(lblMensaje);
+}
+
+
+2º) al igual que hacíamos con onCreateOptionsMenu() para los menús básicos, vamos a sobreescribir el evento encargado de construir los menús contextuales onCreateContextMenu(), y a diferencia de onCreateOptionsMenu() éste se llama cada vez que se necesita mostrar un menú contextual, y no una sola vez al inicio de la aplicación. 
+
+En este evento actuaremos igual que para los ménus básicos, inflando el menú XML que hayamos creado con las distintas opciones
+
+ “menu_ctx_etiqueta.xml“:
+
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+<item android:id="@+id/CtxLblOpc1"
+    android:title="OpcEtiqueta1"></item>
+<item android:id="@+id/CtxLblOpc2"
+    android:title="OpcEtiqueta2"></item>
+ 
+</menu>
+
+Por su parte el evento onCreateContextMenu() quedaría de la siguiente forma:
+
+
+@Override
+public void onCreateContextMenu(ContextMenu menu, View v,
+                                ContextMenuInfo menuInfo)
+{
+    super.onCreateContextMenu(menu, v, menuInfo);
+ 
+    MenuInflater inflater = getMenuInflater();
+    inflater.inflate(R.menu.menu_ctx_etiqueta, menu);
+
+
+
+
+
+3º) Para implementar las acciones a realizar tras pulsar una opción determinada del menú contextual, vamos a implementar el evento onContextItemSelected() de forma análoga a cómo hacíamos con onOptionsItemSelected() para los menús básicos:
+
+@Override
+public boolean onContextItemSelected(MenuItem item) {
+ 
+    switch (item.getItemId()) {
+        case R.id.CtxLblOpc1:
+            lblMensaje.setText("Etiqueta: Opcion 1 pulsada!");
+            return true;
+        case R.id.CtxLblOpc2:
+            lblMensaje.setText("Etiqueta: Opcion 2 pulsada!");
+            return true;
+        default:
+            return super.onContextItemSelected(item);
+    }
+}

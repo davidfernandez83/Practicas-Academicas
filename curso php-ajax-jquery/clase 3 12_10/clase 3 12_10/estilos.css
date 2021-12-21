@@ -1,0 +1,15 @@
+body{
+	font-family: verdana;
+	color: #FFAE00;
+}
+
+h2{
+	color:#5C8EFF;
+	font-size: 25px;
+}
+
+#pie{
+	background-color: #000;
+	color:#FFAE00;
+	text-align: center;
+}

@@ -1,0 +1,7 @@
+<Paises><Pais><Codigo>AR</Codigo><Nombre>Argentina</Nombre></Pais><Pais><Codigo>UR</Codigo><Nombre>Uruguay</Nombre></Pais><Pais><Codigo>PA</Codigo><Nombre>Paraguay</Nombre></Pais><Pais><Codigo>CH</Codigo><Nombre>Chile</Nombre></Pais></Paises>
+
+
+<Provincias><Provincia><Pais>AR</Pais><Codigo>BA</Codigo><Nombre>Buenos Aires</Nombre></Provincia><Provincia><Pais>AR</Pais><Codigo>ME</Codigo><Nombre>Mendoza</Nombre></Provincia><Provincia><Pais>CH</Pais><Codigo>VL</Codigo><Nombre>Valparaiso</Nombre></Provincia><Provincia><Pais>CH</Pais><Codigo>SA</Codigo><Nombre>Santiago</Nombre></Provincia></Provincias>
+
+<Paises><Pais Codigo="AR" Nombre="Argentina" /><Pais Codigo="UR" Nombre="Uruguay" /><Pais Codigo="PA" Nombre="Paraguay" /><Pais Codigo="CH" Nombre="Chile" /></Paises>
+

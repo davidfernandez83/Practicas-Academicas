@@ -1,0 +1,14 @@
+java.util
+Se implementan las clases, las interfaces, enumeraciones, etc. para administrar
+colecciones como arrray list, linked list, stack, etc
+
+javax.swing
+Aca se declaran las clases JFrame, Jbutton, JLabel
+
+java.lang
+Este es el unico paquete que no se requiere importar, porque ya viene con el compilador.
+String, Object, System, Double, etc
+
+java.sql
+Aca se encuentran todas las clases inherentes a sql.
+RecordSet

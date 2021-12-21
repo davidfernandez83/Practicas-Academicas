@@ -1,0 +1,4 @@
+Algoritmo PrimerPrograma //inicio del programa
+	Escribir "Hola mundo!";
+
+FinAlgoritmo //Cierre del programa

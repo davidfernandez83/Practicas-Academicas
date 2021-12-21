@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Validación de un formulario</title>
+</head>
+
+<body style="font-family:Trebuchet MS">
+<h1 id="validacion">Validación de un formulario</h1>
+<p>La principal utilidad de JavaScript en el manejo de los formularios es la validación de los datos introducidos por los usuarios. Antes de enviar un formulario al servidor, se recomienda validar mediante JavaScript los datos insertados por el usuario. De esta forma, si el usuario ha cometido algún error al rellenar el formulario, se le puede notificar de forma instantánea, sin necesidad de esperar la respuesta del servidor.</p>
+<p>Notificar los errores de forma inmediata mediante JavaScript mejora la satisfacción del usuario con la aplicación (lo que técnicamente se conoce como <em>&quot;mejorar la experiencia de usuario&quot;</em>) y ayuda a reducir la carga de procesamiento en el servidor.</p>
+<p>Normalmente, la validación de un formulario consiste en llamar a una función de validación cuando el usuario pulsa sobre el botón de envío del formulario. En esta función, se comprueban si los valores que ha introducido el usuario cumplen las restricciones impuestas por la aplicación.</p>
+<p>Aunque existen tantas posibles comprobaciones como elementos de formulario diferentes, algunas comprobaciones son muy habituales: que se rellene un campo obligatorio, que se seleccione el valor de una lista desplegable, que la dirección de email indicada sea correcta, que la fecha introducida sea lógica, que se haya introducido un número donde así se requiere, etc.</p>
+<p>A continuación se muestra el código JavaScript básico necesario para incorporar la validación a un formulario:</p>
+<div>
+  <pre>&lt;form action=&quot;&quot; method=&quot;&quot; id=&quot;&quot; name=&quot;&quot; onsubmit=&quot;return validacion()&quot;&gt;    ...  &lt;/form&gt;</pre>
+</div>
+<p>Y el esquema de la función validacion() es el siguiente:</p>
+<div>
+  <pre>function validacion() {    if (condicion que debe cumplir el primer campo del formulario) {      // Si no se cumple la condicion...      alert('[ERROR] El campo debe tener un valor de...');      return false;    }    else if (condicion que debe cumplir el segundo campo del formulario) {      // Si no se cumple la condicion...      alert('[ERROR] El campo debe tener un valor de...');      return false;    }    ...    else if (condicion que debe cumplir el último campo del formulario) {      // Si no se cumple la condicion...      alert('[ERROR] El campo debe tener un valor de...');      return false;    }       // Si el script ha llegado a este punto, todas las condiciones    // se han cumplido, por lo que se devuelve el valor true    return true;  }</pre>
+</div>
+<p>El funcionamiento de esta técnica de validación se basa en el comportamiento del evento onsubmitde JavaScript. Al igual que otros eventos como onclick y onkeypress, el evento 'onsubmit varía su comportamiento en función del valor que se devuelve.</p>
+<p>Así, si el evento onsubmit devuelve el valor true, el formulario se envía como lo haría normalmente. Sin embargo, si el evento onsubmit devuelve el valor false, el formulario no se envía. La clave de esta técnica consiste en comprobar todos y cada uno de los elementos del formulario. En cuando se encuentra un elemento incorrecto, se devuelve el valor false. Si no se encuentra ningún error, se devuelve el valor true.</p>
+<p>Por lo tanto, en primer lugar se define el evento onsubmit del formulario como:</p>
+<div>
+  <pre>onsubmit=&quot;return validacion()&quot;</pre>
+</div>
+<p>Como el código JavaScript devuelve el valor resultante de la función validacion(), el formulario solamente se enviará al servidor si esa función devuelve true. En el caso de que la funciónvalidacion() devuelva false, el formulario permanecerá sin enviarse.</p>
+<p>Dentro de la función validacion() se comprueban todas las condiciones impuestas por la aplicación. Cuando no se cumple una condición, se devuelve false y por tanto el formulario no se envía. Si se llega al final de la función, todas las condiciones se han cumplido correctamente, por lo que se devuelve true y el formulario se envía.</p>
+<p>La notificación de los errores cometidos depende del diseño de cada aplicación. En el código del ejemplo anterior simplemente se muestran mensajes mediante la función alert() indicando el error producido. Las aplicaciones web mejor diseñadas muestran cada mensaje de error al lado del elemento de formulario correspondiente y también suelen mostrar un mensaje principal indicando que el formulario contiene errores.</p>
+<p>Una vez definido el esquema de la función validacion(), se debe añadir a esta función el código correspondiente a todas las comprobaciones que se realizan sobre los elementos del formulario. A continuación, se muestran algunas de las validaciones más habituales de los campos de formulario.</p>
+<h3 id="validar_un_campo_de_texto_obligatorio">Validar un campo de texto obligatorio</h3>
+<p>Se trata de forzar al usuario a introducir un valor en un cuadro de texto o textarea en los que sea obligatorio. La condición en JavaScript se puede indicar como:</p>
+<div>
+  <pre>valor = document.getElementById(&quot;campo&quot;).value;  if( valor == null || valor.length == 0 || /^\s+$/.test(valor) ) {    return false;  }</pre>
+</div>
+<p>Para que se de por completado un campo de texto obligatorio, se comprueba que el valor introducido sea válido, que el número de caracteres introducido sea mayor que cero y que no se hayan introducido sólo espacios en blanco.</p>
+<p>La palabra reservada null es un valor especial que se utiliza para indicar <em>&quot;ningún valor&quot;</em>. Si el valor de una variable es null, la variable no contiene ningún valor de tipo objeto, array, numérico, cadena de texto o booleano.</p>
+<p>La segunda parte de la condición obliga a que el texto introducido tenga una longitud superior a cero caracteres, esto es, que no sea un texto vacío.</p>
+<p>Por último, la tercera parte de la condición (/^\s+$/.test(valor)) obliga a que el valor introducido por el usuario no sólo esté formado por espacios en blanco. Esta comprobación se basa en el uso de <em>&quot;expresiones regulares&quot;</em>, un recurso habitual en cualquier lenguaje de programación pero que por su gran complejidad no se van a estudiar. Por lo tanto, sólo es necesario copiar literalmente esta condición, poniendo especial cuidado en no modificar ningún carácter de la expresión.</p>
+<h3 id="validar_un_campo_de_texto_con_valores_numericos">Validar un campo de texto con valores numéricos</h3>
+<p>Se trata de obligar al usuario a introducir un valor numérico en un cuadro de texto. La condición JavaScript consiste en:</p>
+<div>
+  <pre>valor = document.getElementById(&quot;campo&quot;).value;  if( isNaN(valor) ) {    return false;  }</pre>
+</div>
+<p>Si el contenido de la variable valor no es un número válido, no se cumple la condición. La ventaja de utilizar la función interna isNaN() es que simplifica las comprobaciones, ya que JavaScript se encarga de tener en cuenta los decimales, signos, etc.</p>
+<p>A continuación se muestran algunos resultados de la función isNaN():</p>
+<div>
+  <pre>isNaN(3);          // false  isNaN(&quot;3&quot;);        // false  isNaN(3.3545);     // false  isNaN(32323.345);  // false  isNaN(+23.2);      // false  isNaN(&quot;-23.2&quot;);    // false  isNaN(&quot;23a&quot;);      // true  isNaN(&quot;23.43.54&quot;); // true</pre>
+</div>
+<h3 id="validar_que_se_ha_seleccionado_una_opcion_de_una_lista">Validar que se ha seleccionado una opción de una lista</h3>
+<p>Se trata de obligar al usuario a seleccionar un elemento de una lista desplegable. El siguiente código JavaScript permite conseguirlo:</p>
+<div>
+  <pre>indice = document.getElementById(&quot;opciones&quot;).selectedIndex;  if( indice == null || indice == 0 ) {    return false;  }     &lt;select id=&quot;opciones&quot; name=&quot;opciones&quot;&gt;    &lt;option value=&quot;&quot;&gt;- Selecciona un valor -&lt;/option&gt;    &lt;option value=&quot;1&quot;&gt;Primer valor&lt;/option&gt;    &lt;option value=&quot;2&quot;&gt;Segundo valor&lt;/option&gt;    &lt;option value=&quot;3&quot;&gt;Tercer valor&lt;/option&gt;  &lt;/select&gt;</pre>
+</div>
+<p>A partir de la propiedad selectedIndex, se comprueba si el índice de la opción seleccionada es válido y además es distinto de cero. La primera opción de la lista (- Selecciona un valor –) no es válida, por lo que no se permite el valor 0 para esta propiedad selectedIndex.</p>
+<h3 id="validar_una_direccion_de_email">Validar una dirección de email</h3>
+<p>Se trata de obligar al usuario a introducir una dirección de email con un formato válido. Por tanto, lo que se comprueba es que la dirección <em>parezca</em> válida, ya que no se comprueba si se trata de una cuenta de correo electrónico real y operativa. La condición JavaScript consiste en:</p>
+<div>
+  <pre>valor = document.getElementById(&quot;campo&quot;).value;  if( !(/\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)/.test(valor)) ) {    return false;  }</pre>
+</div>
+<p>La comprobación se realiza nuevamente mediante las expresiones regulares, ya que las direcciones de correo electrónico válidas pueden ser muy diferentes. Por otra parte, como el estándar que define el formato de las direcciones de correo electrónico es muy complejo, la expresión regular anterior es una simplificación. Aunque esta regla valida la mayoría de direcciones de correo electrónico utilizadas por los usuarios, no soporta todos los diferentes formatos válidos de email.</p>
+<h3 id="validar_una_fecha">Validar una fecha</h3>
+<p>Las fechas suelen ser los campos de formulario más complicados de validar por la multitud de formas diferentes en las que se pueden introducir. El siguiente código asume que de alguna forma se ha obtenido el año, el mes y el día introducidos por el usuario:</p>
+<div>
+  <pre>var ano = document.getElementById(&quot;ano&quot;).value;  var mes = document.getElementById(&quot;mes&quot;).value;  var dia = document.getElementById(&quot;dia&quot;).value;     valor = new Date(ano, mes, dia);     if( !isNaN(valor) ) {    return false;  }</pre>
+</div>
+<p>La función Date(ano, mes, dia) es una función interna de JavaScript que permite construir fechas a partir del año, el mes y el día de la fecha. Es muy importante tener en cuenta que el número de mes se indica de 0 a 11, siendo 0 el mes de Enero y 11 el mes de Diciembre. Los días del mes siguen una numeración diferente, ya que el mínimo permitido es 1 y el máximo 31.</p>
+<p>La validación consiste en intentar construir una fecha con los datos proporcionados por el usuario. Si los datos del usuario no son correctos, la fecha no se puede construir correctamente y por tanto la validación del formulario no será correcta.</p>
+<h3 id="validar_un_numero_de_dni">Validar un número de DNI</h3>
+<p>Se trata de comprobar que el número proporcionado por el usuario se corresponde con un número válido de Documento Nacional de Identidad o DNI. Aunque para cada país o región los requisitos del documento de identidad de las personas pueden variar, a continuación se muestra un ejemplo genérico fácilmente adaptable. La validación no sólo debe comprobar que el número esté formado por ocho cifras y una letra, sino que también es necesario comprobar que la letra indicada es correcta para el número introducido:</p>
+<div>
+  <pre>valor = document.getElementById(&quot;campo&quot;).value;  var letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T'];     if( !(/^\d{8}[A-Z]$/.test(valor)) ) {    return false;  }     if(valor.charAt(8) != letras[(valor.substring(0, 8))%23]) {    return false;  }</pre>
+</div>
+<p>La primera comprobación asegura que el formato del número introducido es el correcto, es decir, que está formado por 8 números seguidos y una letra. Si la letra está al principio de los números, la comprobación sería /^[A-Z]\d{8}$/. Si en vez de ocho números y una letra, se requieren diez números y dos letras, la comprobación sería /^\d{10}[A-Z]{2}$/ y así sucesivamente.</p>
+<p>La segunda comprobación aplica el algoritmo de cálculo de la letra del DNI y la compara con la letra proporcionada por el usuario. El algoritmo de cada documento de identificación es diferente, por lo que esta parte de la validación se debe adaptar convenientemente.</p>
+<h3 id="validar_un_numero_de_telefono">Validar un número de teléfono</h3>
+<p>Los números de teléfono pueden ser indicados de formas muy diferentes: con prefijo nacional, con prefijo internacional, agrupado por pares, separando los números con guiones, etc.</p>
+<p>El siguiente script considera que un número de teléfono está formado por nueve dígitos consecutivos y sin espacios ni guiones entre las cifras:</p>
+<div>
+  <pre>valor = document.getElementById(&quot;campo&quot;).value;  if( !(/^\d{9}$/.test(valor)) ) {    return false;  }</pre>
+</div>
+<p>Una vez más, la condición de JavaScript se basa en el uso de expresiones regulares, que comprueban si el valor indicado es una sucesión de nueve números consecutivos. A continuación se muestran otras expresiones regulares que se pueden utilizar para otros formatos de número de teléfono:</p>
+<div id="table_7_1">
+  <table>
+    <thead>
+      <tr>
+        <th>Número</th>
+        <th>Expresión regular</th>
+        <th>Formato</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>900900900</td>
+        <td>/^\d{9}$/</td>
+        <td>9 cifras seguidas</td>
+      </tr>
+      <tr>
+        <td>900-900-900</td>
+        <td>/^\d{3}-\d{3}-\d{3}$/</td>
+        <td>9 cifras agrupadas de 3 en 3 y separadas por guiones</td>
+      </tr>
+      <tr>
+        <td>900 900900</td>
+        <td>/^\d{3}\s\d{6}$/</td>
+        <td>9 cifras, las 3 primeras separadas por un espacio</td>
+      </tr>
+      <tr>
+        <td>900 90 09 00</td>
+        <td>/^\d{3}\s\d{2}\s\d{2}\s\d{2}$/</td>
+        <td>9 cifras, las 3 primeras separadas por un espacio, las siguientes agrupadas de 2 en 2</td>
+      </tr>
+      <tr>
+        <td>(900) 900900</td>
+        <td>/^\(\d{3}\)\s\d{6}$/</td>
+        <td>9 cifras, las 3 primeras encerradas por paréntesis y un espacio de separación respecto del resto</td>
+      </tr>
+      <tr>
+        <td>+34 900900900</td>
+        <td>/^\+\d{2,3}\s\d{9}$/</td>
+        <td>Prefijo internacional (+ seguido de 2 o 3 cifras), espacio en blanco y 9 cifras consecutivas</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<h3 id="validar_que_un_checkbox_ha_sido_seleccionado">Validar que un checkbox ha sido seleccionado</h3>
+<p>Si un elemento de tipo <em>checkbox</em> se debe seleccionar de forma obligatoria, JavaScript permite comprobarlo de forma muy sencilla:</p>
+<div>
+  <pre>elemento = document.getElementById(&quot;campo&quot;);  if( !elemento.checked ) {    return false;  }</pre>
+</div>
+<p>Si se trata de comprobar que todos los <em>checkbox</em> del formulario han sido seleccionados, es más fácil utilizar un bucle:</p>
+<div>
+  <pre>formulario = document.getElementById(&quot;formulario&quot;);  for(var i=0; i&lt;formulario.elements.length; i++) {    var elemento = formulario.elements[i];    if(elemento.type == &quot;checkbox&quot;) {      if(!elemento.checked) {        return false;      }    }  }</pre>
+</div>
+<h3 id="validar_que_un_radiobutton_ha_sido_seleccionado">Validar que un radiobutton ha sido seleccionado</h3>
+<p>Aunque se trata de un caso similar al de los <em>checkbox</em>, la validación de los <em>radiobutton</em> presenta una diferencia importante: en general, la comprobación que se realiza es que el usuario haya seleccionado algún <em>radiobutton</em> de los que forman un determinado grupo. Mediante JavaScript, es sencillo determinar si se ha seleccionado algún <em>radiobutton</em> de un grupo:</p>
+<div>
+  <pre>opciones = document.getElementsByName(&quot;opciones&quot;);     var seleccionado = false;  for(var i=0; i&lt;opciones.length; i++) {        if(opciones[i].checked) {      seleccionado = true;      break;    }  }     if(!seleccionado) {    return false;  }</pre>
+</div>
+<p>El anterior ejemplo recorre todos los <em>radiobutton</em> que forman un grupo y comprueba elemento por elemento si ha sido seleccionado. Cuando se encuentra el primer <em>radiobutton</em> seleccionado, se sale del bucle y se indica que al menos uno ha sido seleccionado.</p>
+</body>
+</html>

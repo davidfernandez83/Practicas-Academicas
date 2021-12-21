@@ -1,0 +1,61 @@
+en el formulario sobre el evento onsubmit:
+
+<form action="" method="" id="" name="" onsubmit="return validacion()">
+  ...
+</form>
+
+
+Y el esquema de la función validacion() es el siguiente:
+
+function validacion() {
+  if (condicion que debe cumplir el primer campo del formulario) {
+    // Si no se cumple la condicion...
+    alert('[ERROR] El campo debe tener un valor de...');
+    return false;
+  }
+  if (condicion que debe cumplir el segundo campo del formulario) {
+    // Si no se cumple la condicion...
+    alert('[ERROR] El campo debe tener un valor de...');
+    return false;
+  }
+  ...
+  if (condicion que debe cumplir el último campo del formulario) {
+    // Si no se cumple la condicion...
+    alert('[ERROR] El campo debe tener un valor de...');
+    return false;
+  }
+ 
+  // Si el script ha llegado a este punto, todas las condiciones
+  // se han cumplido, por lo que se devuelve el valor true
+  
+	return true;
+}
+
+######################
+específico: validaciones
+
+//campos obligatorios
+valor = document.getElementById("campo").value;
+if( valor == null || valor.length == 0 || /^\s+$/.test(valor) ) {
+  return false;
+}
+
+//campos numéricos
+valor = document.getElementById("campo").value;
+if( isNaN(parseInt(valor)) ) {
+  return false;
+}
+
+
+//combo/desplegable 
+indice = document.getElementById("opciones").selectedIndex;
+if( indice == null || indice == 0 ) {
+  return false;
+}
+
+
+//dirección de email
+valor = document.getElementById("campo").value;
+if( !(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.([a-zA-Z]{2,4})+$/.test(valor)) ) {
+  return false;
+}

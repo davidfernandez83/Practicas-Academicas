@@ -1,0 +1,30 @@
+body{
+	background-color: #777;
+	margin:0px;
+	padding: 0px;
+}
+
+#encabezado{
+	width: 960px;
+	height: 200px;
+	margin: auto;
+	background-color: #DC5F5F;
+}
+
+#menu{
+	width: 960px;
+	height:100px;
+	background-color: #5F82DC;
+}
+
+#contenido{
+	width: 960px;
+	height:400px;
+	background-color: #3DC463;
+}
+
+#pie{
+	width: 960px;
+	height:100px;
+	background-color: #DCDB5F;
+}

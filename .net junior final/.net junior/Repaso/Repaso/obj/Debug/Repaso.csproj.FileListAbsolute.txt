@@ -1,0 +1,11 @@
+C:\CursoBecasManiana\Repaso\Repaso\bin\Debug\Repaso.exe
+C:\CursoBecasManiana\Repaso\Repaso\bin\Debug\Repaso.pdb
+C:\CursoBecasManiana\Repaso\Repaso\bin\Debug\ClassLibrary1.dll
+C:\CursoBecasManiana\Repaso\Repaso\bin\Debug\ClassLibrary1.pdb
+C:\CursoBecasManiana\Repaso\Repaso\obj\Debug\ResolveAssemblyReference.cache
+C:\CursoBecasManiana\Repaso\Repaso\obj\Debug\Repaso.Form1.resources
+C:\CursoBecasManiana\Repaso\Repaso\obj\Debug\Repaso.Properties.Resources.resources
+C:\CursoBecasManiana\Repaso\Repaso\obj\Debug\Repaso.csproj.GenerateResource.Cache
+C:\CursoBecasManiana\Repaso\Repaso\obj\Debug\Repaso.exe
+C:\CursoBecasManiana\Repaso\Repaso\obj\Debug\Repaso.pdb
+C:\CursoBecasManiana\Repaso\Repaso\obj\Debug\Repaso.Form2.resources

@@ -1,0 +1,10 @@
+C:\CursoBecasManiana\EjemploFacturas\EjemploFacturas\bin\Debug\EjemploFacturas.exe
+C:\CursoBecasManiana\EjemploFacturas\EjemploFacturas\bin\Debug\EjemploFacturas.pdb
+C:\CursoBecasManiana\EjemploFacturas\EjemploFacturas\bin\Debug\ClasesFacturas.dll
+C:\CursoBecasManiana\EjemploFacturas\EjemploFacturas\bin\Debug\ClasesFacturas.pdb
+C:\CursoBecasManiana\EjemploFacturas\EjemploFacturas\obj\Debug\ResolveAssemblyReference.cache
+C:\CursoBecasManiana\EjemploFacturas\EjemploFacturas\obj\Debug\EjemploFacturas.Form1.resources
+C:\CursoBecasManiana\EjemploFacturas\EjemploFacturas\obj\Debug\EjemploFacturas.Properties.Resources.resources
+C:\CursoBecasManiana\EjemploFacturas\EjemploFacturas\obj\Debug\EjemploFacturas.csproj.GenerateResource.Cache
+C:\CursoBecasManiana\EjemploFacturas\EjemploFacturas\obj\Debug\EjemploFacturas.exe
+C:\CursoBecasManiana\EjemploFacturas\EjemploFacturas\obj\Debug\EjemploFacturas.pdb

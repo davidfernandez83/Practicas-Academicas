@@ -1,0 +1,70 @@
+*tarea:
+completar los server roles de servidor y de base de datos
+traer los roles de la bd reportserver
+
+-snapshot
+foto de la bd que se actualiza a ciertos intervalos de tiempo que yo programa
+esta arquictectura es utilizada para poder sincronizar datos entre varias bases de datos
+
+-databases
+--system databases: bases principales del sistema
+--database snapshop: maneja las replicas o fotos
+--bases de datos de usuarios: no vienen con el sistema
+
+-security
+el contenedor security tiene toda la informacion relacionada a usuario, roles, credenciales,
+certificador digitales criptograficos, auditorias y especificaciones de auditorias para el
+servidor
+
+--logins: todos los usuarios creados a los cuales se les permite ingreso al sistema. al
+crear un login se me presenta una pantalla que por su complejidad se divide en cinco paginas.
+la primer pagina es "general", la segunda "server roles", la tercera "user mapping", la cuarta
+"securables" y la quinta "status"
+
+---general:
+esta pagina tiene informacion basica sobre el usuario: nombre de usuario, metodo
+de autenticacion, politicas de clave, manejo de credenciales y certificados, base de datos por default y lenguaje. el boton search del pagina general del contenedor login permite buscar un usuario 
+existente en windows siempre y cuando el metodo de autenticacion sea windows, el mismo
+abrira una ventana para buscar usuarios utilizando active directory. cuando el metodo de
+autenticacion es sql el boton search se apaga, luego le pedira ingreso de la password y repeticion de
+la misma para confirmar que no haya error. les da tres opciones:
+Enforce password policy (forzar las politicas de password) las cuales se configuran en el servidor,
+por ejemplo cantidad minima de caracteres. la segunda opcion
+Enforce password expiration (fuerza la politica de que una clave inicial tenga vencimiento).
+la tercera opcion
+User most change password at next login (esta opcion si esta tildada obliga al cambio de password
+inicial)
+Otra opcion es la relacionada a certificados y credenciales, dichos certifiados deben existir en el servidor o ser suministrados por el administrador de windows. Las credenciales tambien deben ser
+suministradas por el administrador de la plataforma, una credencial es una tarjeta electronica que 
+permite acceso directo al sistema tal cual lo hacen las credenciales fisicas, finalmente como dato importante el sistema nos pedira default database (base de datos a la cual el usuario estara
+relacionado y que sera su base de uso).
+El ultimo parametro defualt language permite especificar el lenguaje asignado al usuario a fin de que
+pueda optimizar los codigos de pagina correcpondiente a su region, sql server es multilenguaje, pero
+depende como haya sido instalado el motor algunos pueden quedar excluidos
+
+---Server roles:
+la pagina server roles tiene un grupo predefinido de roles que permiten otorgarle ciertos privilegios
+a un usuario, dichos roles son
+
+1-bulkadmin
+los miembros de bulkadmin pueden ejecutar la sentencia bulk insert.
+2-dbcreator
+los miembros de este rol pueden crear, cambiar, eliminar y restaurar cualquier base de datos
+
+
+---User mapping
+Esta pagina permite mapear una base de datos a la que el usuario puede hacer login, hay que diferenciar
+la base por defualt a la base de login, la base de login sera la que yo me conecte y donde estara mi
+sesion, recordar que el usuario existe fisicamente en la master. cuando mapee una base al usuario la
+pagina me permite especificar elegir los roles de server que quiero asignar al usuario (ejemplo:
+public, dbowner). estos roles no son roles de servidor si no de base de datos. los roles de base de datos se conocen como database role a diferencia de los server roles que abarcan todo el servidor y todas sus bases
+
+1-public
+es el unico database role que no comienza con db. es un rol generico. cuando un usuario tiene public todos los valores default definidos en una base de datos son automaticamente asignados. este rol de base de datos es similar al grupo everyone de windows. este rol de base de datos no puede ser eliminado de la base de datos. esta escrito en el codigo de sql server. no obstante se puede agregar o quitar privilegios de este rol
+2-db_backupoperator
+todos los usuarios que tienen este rol pueden efectuar backup de la base de datos, algunas base de datos como la msdb (la que usa el agente) tienen roles especiales creados para esa base
+
+
+---status
+En esta pagina se pueden setear el estado de login (habilitado o deshabilitado) y tambien se puede
+otorgar o quitar la posibilidad de connect sql al login

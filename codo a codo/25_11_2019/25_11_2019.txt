@@ -1,0 +1,51 @@
+alumno
+*legajo
+nombre
+apellido
+telefono
+codmateria
+
+alumno-materia
+*legajo
+*codmateria
+*fechainscp
+codinscripc
+
+materia
+*codmateria
+nombre
+horario
+
+docente
+*coddocente
+nombre
+apellido
+telef
+
+docente-materia
+*coddocente
+*codmateria
+turno
+dia
+
+
+
+
+
+
+create table Medicamentos(
+    codigo int AUTO_INCREMENT,
+    nombre varchar(50),
+    laboratorio varchar(20),
+    precio float,
+    cantidad int,
+    primary key(codigo)
+    );
+
+insert into medicamentos (nombre,laboratorio,precio,cantidad) values("ibuprofeno","isa",70,1000);
+insert into medicamentos (nombre,laboratorio,precio,cantidad) values("sertal","roche",120,1000);
+insert into medicamentos (nombre,laboratorio,precio,cantidad) values("cafiaspirina","bayer",60,1000);
+insert into medicamentos (nombre,laboratorio,precio,cantidad) values("uvasal","bayer",40,20);
+insert into medicamentos (nombre,laboratorio,precio,cantidad) values("aspirineta","bayer",100,100);
+
+

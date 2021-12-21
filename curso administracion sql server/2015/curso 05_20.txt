@@ -1,0 +1,43 @@
+https://msdn.microsoft.com/es-AR/library/aa337545.aspx
+
+ROLES ESPECIFICOS DE USUARIO
+
+El administrador de base de datos (security admin) tiene la capacidad de crear roles y privilegios con los cuales
+administra la seguridad de acceso a todos los objetos de la base de datos. Los objetos de la base de datos
+son unidades minimas de administracion: tablas, usuarios, indices, store procedures, etc. En sql server 
+existen por lo tanto roles a nivel de servidor y roles a nivel de base de datos. Hay que distinguir tambien los
+logins de los usuarios (logins-usuarios). Login se crea a nivel de servidor de base datos. Pueden crearse como login
+de sql server o a partir de una cuenta de windows (lo que define el metodo de autenticacion). Por otro lado tenemos
+el usuario que se crea y se asocia a un login, el usuario es exclusivo de una base de datos. De esta manera tendre roles para login y roles para usuario.
+
+CREACION DE UN  USUARIO
+Al crear un usario se esta creando un acceso dentro de la base de datos, un usario puede tener esquemas o roles.
+El esquema se utiliza para simplificar la administracion de los permisos que el usario tendra sobre el objeto de la
+base de datos. Un esquema es un contenedor con nombre para los objetos de base de datos.
+Al crear un usuario debemos suministrar un login name y puedo asignar un esquema del cual se adueñara el usuario
+(owned schema) y tener asignado un rol del cual el usuario forma parte (rol membership), un usuario puede tener un esquema por default. Esto permite, en el caso de quitarle todos los esquemas, que por lo menos que uno asignado. Si
+borro este esquema fisicamente de la base de datos el usuario quedara inconsistente por no encontrar el esquema
+default
+
+RESUMEN DEL OBJECT EXPLORER - Sql server management studio
+El object explorer es una herramienta grafica que permite administrar el sql server.Para que este explorador de objetos funcione debe estar arriba el servicio de sql server, es decir el motor de base de datos (engine). Esta
+dividido en seis secciones generales:
+Database:
+desde este contenedor se realizan los mantenimientos de base de datos, reportes, mantenimiento de objetos de base de
+datos.
+Security:
+este contenedor maneja todo lo relacionado a seguridad, ingresos, credenciales, conexiones cifradas criptograficas
+Server objects:
+este contenedor maneja los objetos sobre los cuales va a realizar tareas de mantenimiento tales como backup
+(backup media). Tambien maneja los endpoints y los link servers. Posee tambien la capacidad de manejar triggers.
+Replication:
+este contenedor maneja las replicas y snapshots
+Management:
+Este contenedor es central para la administracion del servidor, dado que permite administrar politicas, planes de mantenimiento, mail para alarmas, logs del sistema y el DTC (distributed transaction cordinator).
+Finalmente puede estar activado el agente de sql server, en ese caso aparecera el contenedor de sql agent y tendra
+habilitadas todas sus opciones (jobs, alertas, operadores, proxys, error logs).
+
+El object explorer se conecta a un servidor. Sin embargo el microsoft management studio posee la capacidad de
+conectarse a mas de un servidor o instacia; por esta razón tendre diferentes exploradores para cada instancia que
+exista del sistema. No solo podre conectarme a una instancia del equipo actual sino a otro server que pueda
+existir en la red. Recordar que el sql configurator permite conexiones variadas a distintos servidores.

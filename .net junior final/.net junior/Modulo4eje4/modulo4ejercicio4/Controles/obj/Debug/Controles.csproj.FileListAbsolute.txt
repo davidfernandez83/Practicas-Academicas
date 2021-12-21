@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\Desktop\Modulo4eje4\modulo4ejercicio4\Controles\bin\Debug\Controles.dll
+C:\Documents and Settings\Administrator\Desktop\Modulo4eje4\modulo4ejercicio4\Controles\bin\Debug\Controles.pdb
+C:\Documents and Settings\Administrator\Desktop\Modulo4eje4\modulo4ejercicio4\Controles\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Modulo4eje4\modulo4ejercicio4\Controles\obj\Debug\Controles.dll
+C:\Documents and Settings\Administrator\Desktop\Modulo4eje4\modulo4ejercicio4\Controles\obj\Debug\Controles.pdb

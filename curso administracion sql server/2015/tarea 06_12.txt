@@ -1,0 +1,12 @@
+-Leer capitulo 5
+1-Armar un query que monitoree usuarios logueados en las bases creadas en el ejercicio anterior. Se deberan
+crear tres usuarios en por lo menos una de estas bases. La idea es crear un job con el agente que corra cada
+un minuto y nos alerte cuando haya mas de un usuario logueado
+2-Las alertas deben ser grabadas en el registro de eventos ya que no tenemos salida de email
+3-Realizar un segundo script que realice un kill de todas las sesiones cuando haya tres sesiones abiertas (va
+a estar corriendo en el agente)
+4- Verificar como usar un operador para estos controles y analizar si sirve algun proxy que me sirva para estas
+tareas
+5-Esquedulizar un job que ejecute un backup full y otro incremental a una hora determinada. Verificar en forma
+externa si el backup se esta generando y ver de monitorearlo desde el agente. Esquedulizar un restore automatico
+con por lo menos uno de los backups

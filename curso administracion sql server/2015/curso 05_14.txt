@@ -1,0 +1,27 @@
+-DB Master
+informacion de las db
+configuracion de las db
+usuarios
+
+-DB Model
+modelo para creacion de dbs
+
+-DB Msdb
+usada por el agente
+
+-DB tempdb
+tablas temporales
+joins
+objetos temporales
+
+
+
+tablas de sistema - diccionarios - vienen con el sistema
+
+-security
+logins * se pueden sacar reportes de login
+server roles
+credentials
+cryptographic providers
+audits
+server audit specifications

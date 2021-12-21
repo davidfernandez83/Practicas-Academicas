@@ -1,0 +1,23 @@
+body{
+	font-family: verdana;
+}
+table,th,td{
+	border-collapse: collapse;
+	border: 1px solid;
+	border-color: #FFC22F;
+	width:900px;
+	text-align: center;
+}
+table,th,td:hover{
+	background-color: #DFDFDF
+}
+th{
+	background-color: #FFC22F;
+	border-color: #000000;
+}
+td{
+	background-color: #A4A4A4;
+}
+/*h1{
+	text-align: center;
+}*/

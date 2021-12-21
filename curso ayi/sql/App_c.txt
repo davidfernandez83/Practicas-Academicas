@@ -1,0 +1,25 @@
+select l.location_id, l.street_address, l.city, l.state_province, c.country_name
+from locations l join countries c on l.country_id = c.country_id
+
+select e.last_name, e.department_id, d.department_name
+from employees e join departments d on e.department_id = d.department_id
+
+select e.last_name, e.job_id, d.department_id, d.department_name
+from employees e
+join departments d on e.department_id = d.department_id
+join locations l on l.location_id = d.location_id and l.city='Toronto'
+
+select e.last_name EMPLOYEE, e.employee_id "EMP#", m.last_name "MANAGER", m.employee_id "MGR#"
+from employees e join employees m on m.employee_id = e.manager_id;
+
+select e.last_name EMPLOYEE, e.employee_id "EMP#", m.last_name "MANAGER", m.employee_id "MGR#"
+from employees e left join employees m on e.manager_id=m.employee_id 
+
+
+
+
+
+
+select last_name from employees
+where hire_date > (select hire_date from employees where last_name = 'Davies')
+

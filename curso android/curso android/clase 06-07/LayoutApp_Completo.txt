@@ -1,0 +1,380 @@
+--------------------------------------------
+activity_main.xml
+--------------------------------------------
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ar.com.educacionit.android.layoutapp.MainActivity" >
+
+    <Button
+        android:id="@+id/button_linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="AbrirLinearLayout"
+        android:text="@string/str_linear_layout" />
+
+    <Button
+        android:id="@+id/button_RelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="AbrirRelativeLayout"
+        android:text="@string/str_relative_layout" />
+
+    <Button
+        android:id="@+id/button_GridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="AbrirGridLayout"
+        android:text="@string/str_grid_layout" />
+
+    <Button
+        android:id="@+id/button_SCrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="AbrirScrollView"
+        android:text="@string/str_scroll_view" />
+
+</LinearLayout>
+
+----------------------
+MainActivity.java
+----------------------
+
+(Por ahora nada......)
+
+----------------------
+Strings.xml
+----------------------
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LayoutApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_linear_layout">Linear Layout</string>
+    <string name="str_relative_layout">Relative Layout</string>
+    <string name="str_grid_layout">Grid_Layout</string>
+    <string name="str_scroll_view">Scroll View</string>
+    <string name="title_activity_linear_layout">LinearLayoutActivity</string>
+    <string name="title_activity_relative_layout">RelativeLayoutActivity</string>
+
+</resources>
+
+
+----------------------
+activity_linear_layout
+----------------------
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+ 
+  <TextView android:layout_width="fill_parent" 
+           android:layout_height="wrap_content"
+           android:text="Email:" 
+           android:padding="5dip"/>
+ 
+  <EditText android:layout_width="fill_parent" 
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="10dip"/>            
+ 
+  <Button android:layout_width="fill_parent"
+       	android:layout_height="wrap_content"
+        android:text="Login"/>
+ 
+<LinearLayout android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal" android:background="#2a2a2a"
+              android:layout_marginTop="25dip">
+ 
+  <TextView android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+         android:text="Home" 
+        android:padding="15dip" 
+        android:layout_weight="1"
+         android:gravity="center"/>
+ 
+  <TextView android:layout_width="fill_parent" 
+	     android:layout_height="wrap_content"
+         android:text="About" 
+         android:padding="15dip"
+         android:layout_weight="1"
+         android:gravity="center"/>  
+ 
+  </LinearLayout>
+  
+</LinearLayout>
+
+
+----------------------
+LinearLayouActivity
+----------------------
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
+public class LinearLayoutActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_linear_layout);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.linear_layout, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
+		int id = item.getItemId();
+		if (id == R.id.action_settings) {
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+}
+
+
+----------------------------------------------------------------------------------------
+Volver a MainActivity y crear el Método que asignamos en el OnClick del Boton:
+----------------------------------------------------------------------------------------
+/*		
+	public void AbrirXXXXXLayout(View view){
+
+		    Intent intent = new Intent(this, ClaseActivityXXXXX.class);
+		    startActivity(intent);
+		
+
+	}	
+	*/	
+
+
+public void AbrirLinearLayout(View view) {
+	    Intent intent = new Intent(this, LinearLayoutActivity.class);
+	    startActivity(intent);	
+	}
+
+
+
+------------------------------------------------------------------
+  crear otra activity "RelativeLayoutActivity" 
+------------------------------------------------------------------
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+    <TextView android:id="@+id/label" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label" />
+
+    <Button android:id="@+id/btnLogin" 
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_below="@id/inputEmail"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="10dp"
+            android:text="Login" />
+
+     <Button android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btnLogin"
+            android:layout_alignTop="@id/btnLogin"  
+            android:text="Cancel" />
+
+     <Button android:layout_width="wrap_content" 
+          android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" 
+            android:text="Register new Account"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+
+
+------------------------------------------------------------------
+MainActivity.java agregar metodo para abrir nuevo Activity
+------------------------------------------------------------------
+	
+	public void AbrirRelativeLayout(View view) {
+	    Intent intent = new Intent(this, RelativeLayoutActivity.class);
+	    startActivity(intent);	
+	}
+
+
+
+---------------------
+activity_grid_layout
+---------------------
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:useDefaultMargins="true"
+        android:alignmentMode="alignBounds"
+        android:columnOrderPreserved="false"
+        android:columnCount="4"         >
+
+    <TextView
+            android:text="Email setup"
+            android:textSize="32sp"
+            android:layout_columnSpan="4"
+            android:layout_gravity="center_horizontal"             />
+
+    <TextView
+            android:text="You can configure email in just a few steps:"
+            android:textSize="16sp"
+            android:layout_columnSpan="4"
+            android:layout_gravity="left"             />
+
+    <TextView
+            android:text="Email address:"
+            android:layout_gravity="right"             />
+
+    <EditText
+            android:ems="10"             />
+
+    <TextView
+            android:text="Password:"
+            android:layout_column="0"
+            android:layout_gravity="right"            />
+
+    <EditText
+            android:ems="8"             />
+
+    <Space
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:layout_gravity="fill"             />
+
+    <Button
+            android:text="Next"
+            android:layout_row="5"
+            android:layout_column="3"             />
+</GridLayout>
+
+
+
+
+
+------------------------------------------------------------------
+MainActivity.java agregar metodo para abrir nuevo Activity
+------------------------------------------------------------------
+	
+	public void AbrirGridLayout(View view) {
+	    Intent intent = new Intent(this, GridLayoutActivity.class);
+	    startActivity(intent);	
+	}
+
+
+-----------------------------------------------
+activity_scroll_view
+-----------------------------------------------
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:fillViewport="true"
+   android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView01"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingLeft="8dip"
+           android:paddingRight="8dip"
+           android:paddingTop="8dip"
+           android:text="This is a header"
+           android:textAppearance="?android:attr/textAppearanceLarge" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/TextView02"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_weight="1.0"
+           android:text="@+id/TextView02" >
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/Button01"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1.0"
+               android:text="Submit" >
+            </Button>
+
+            <Button
+                android:id="@+id/Button02"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1.0"
+               android:text="Cancel" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+
+----------------------------------------------------
+ScrollViewActivity.java agregar en OnCreate 
+estas líneas para llenar automáticamente con datos.
+----------------------------------------------------
+En Oncreate..... Despues de "setContentView(R.layout.main);" copiar:
+
+       TextView view =  (TextView) findViewById(R.id.TextView02);
+       String s="";
+       for (int i=0; i < 100; i++) {
+         s += "vogella.com ";
+       }
+       view.setText(s);
+
+
+
+------------------------------------------------------------------
+MainActivity.java agregar metodo para abrir nuevo Activity
+------------------------------------------------------------------
+	
+	public void AbrirScrollView(View view) {
+	    Intent intent = new Intent(this, ScrollViewActivity.class);
+	    startActivity(intent);	
+	}
+

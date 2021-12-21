@@ -1,0 +1,8 @@
+C:\CursoBecas\Collecciones\Collecciones\bin\Debug\Collecciones.exe
+C:\CursoBecas\Collecciones\Collecciones\bin\Debug\Collecciones.pdb
+C:\CursoBecas\Collecciones\Collecciones\obj\Debug\ResolveAssemblyReference.cache
+C:\CursoBecas\Collecciones\Collecciones\obj\Debug\Collecciones.Form1.resources
+C:\CursoBecas\Collecciones\Collecciones\obj\Debug\Collecciones.Properties.Resources.resources
+C:\CursoBecas\Collecciones\Collecciones\obj\Debug\Collecciones.csproj.GenerateResource.Cache
+C:\CursoBecas\Collecciones\Collecciones\obj\Debug\Collecciones.exe
+C:\CursoBecas\Collecciones\Collecciones\obj\Debug\Collecciones.pdb

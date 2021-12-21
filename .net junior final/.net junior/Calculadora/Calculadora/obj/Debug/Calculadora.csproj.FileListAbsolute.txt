@@ -1,0 +1,8 @@
+C:\CursoBecas\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\CursoBecas\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\CursoBecas\Calculadora\Calculadora\obj\Debug\ResolveAssemblyReference.cache
+C:\CursoBecas\Calculadora\Calculadora\obj\Debug\Calculadora.Form1.resources
+C:\CursoBecas\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\CursoBecas\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.Cache
+C:\CursoBecas\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\CursoBecas\Calculadora\Calculadora\obj\Debug\Calculadora.pdb

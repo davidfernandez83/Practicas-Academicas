@@ -1,0 +1,8 @@
+C:\Documents and Settings\Administrator\Desktop\EJE3\EJERCICIO3\EJERCICIO3\bin\Debug\EJERCICIO3.exe
+C:\Documents and Settings\Administrator\Desktop\EJE3\EJERCICIO3\EJERCICIO3\bin\Debug\EJERCICIO3.pdb
+C:\Documents and Settings\Administrator\Desktop\EJE3\EJERCICIO3\EJERCICIO3\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\EJE3\EJERCICIO3\EJERCICIO3\obj\Debug\EJERCICIO3.frmABMBancos.resources
+C:\Documents and Settings\Administrator\Desktop\EJE3\EJERCICIO3\EJERCICIO3\obj\Debug\EJERCICIO3.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\EJE3\EJERCICIO3\EJERCICIO3\obj\Debug\EJERCICIO3.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\EJE3\EJERCICIO3\EJERCICIO3\obj\Debug\EJERCICIO3.exe
+C:\Documents and Settings\Administrator\Desktop\EJE3\EJERCICIO3\EJERCICIO3\obj\Debug\EJERCICIO3.pdb

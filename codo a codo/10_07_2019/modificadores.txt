@@ -1,0 +1,28 @@
+MODIFICADORES
+
+private
+puede ser utilizado solo en la misma clase
+
+protected
+idem anterior, en las subclases de esas clases y en otras clases del mismo paquete
+
+public
+puede ser utilizado desde cualquier clase
+
+por defecto
+la visivilidad queda solo en el paquete
+
+static
+cuando vea un static significa que es un metodo de clase
+
+abstract
+cuando vean abstract es que el metodo es abstracto, la clase tambien, y no tiene codigo
+
+final
+cuando vea un final significa que el metodo no va a poder ser sobreescrito
+
+native
+cuando el metodo se encuentra en un archivo externo escrito en otro lenguaje
+
+synchronized
+este metodo es usado por un hilo a la vez (thread)

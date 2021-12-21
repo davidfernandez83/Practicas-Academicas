@@ -1,0 +1,49 @@
+SELECT AVG(column_name) FROM table_name
+
+SELECT COUNT(column_name) FROM table_name
+SELECT COUNT(*) FROM table_name
+SELECT COUNT(DISTINCT column_name) FROM table_name
+
+SELECT FIRST(column_name) FROM table_name
+
+SELECT TOP 1 column_name FROM table_name
+ORDER BY column_name ASC
+
+SELECT LAST(column_name) FROM table_name
+
+SELECT TOP 1 column_name FROM table_name
+ORDER BY column_name DESC
+
+SELECT MAX(column_name) FROM table_name
+
+SELECT MIN(column_name) FROM table_name
+
+SELECT SUM(column_name) FROM table_name
+
+SELECT column_name, aggregate_function(column_name)
+FROM table_name
+WHERE column_name operator value
+GROUP BY column_name
+
+SELECT UPPER(column_name) FROM table_name
+
+SELECT LOWER(column_name) FROM table_name
+
+SELECT SUBSTRING(column_name,start,length) AS some_name FROM table_name
+
+SELECT LEN(column_name) FROM table_name
+
+SELECT ROUND(column_name,decimals) FROM table_name
+
+SELECT NOW() FROM table_name
+
+ 
+
+
+
+-- 
+Has recibido este mensaje porque estás suscrito al grupo "UKSQL2014" de Grupos de Google.
+Para anular la suscripción a este grupo y dejar de recibir sus mensajes, envía un correo electrónico a uksql2014+unsubscribe@googlegroups.com.
+Para publicar una entrada en este grupo, envía un correo electrónico a uksql2014@googlegroups.com.
+Para ver este debate en la Web, visita https://groups.google.com/d/msgid/uksql2014/cbfeb88a-0d9e-4fb8-b0cd-1c4d45b13083%40googlegroups.com.
+Para obtener más opciones, visita https://groups.google.com/d/optout.

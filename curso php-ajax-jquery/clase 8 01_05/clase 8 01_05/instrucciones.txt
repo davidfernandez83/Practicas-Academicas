@@ -1,0 +1,5 @@
+1-iniciar apache + mysql
+2-iniciar software de administracion de mysql
+3-crear nueva base de datos catalogo
+4-seleccionar catalogo
+5-importar archivo backup-catalogo.sql

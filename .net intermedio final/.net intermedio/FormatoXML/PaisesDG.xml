@@ -1,0 +1,1195 @@
+<?xml version="1.0" standalone="yes"?>
+<diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+  <NewDataSet>
+    <Paises diffgr:id="Paises1" msdata:rowOrder="0">
+      <CountryRegionCode>AD</CountryRegionCode>
+      <Name>Andorra</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises2" msdata:rowOrder="1">
+      <CountryRegionCode>AE</CountryRegionCode>
+      <Name>United Arab Emirates</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises3" msdata:rowOrder="2">
+      <CountryRegionCode>AF</CountryRegionCode>
+      <Name>Afghanistan</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises4" msdata:rowOrder="3">
+      <CountryRegionCode>AG</CountryRegionCode>
+      <Name>Antigua and Barbuda</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises5" msdata:rowOrder="4">
+      <CountryRegionCode>AI</CountryRegionCode>
+      <Name>Anguilla</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises6" msdata:rowOrder="5">
+      <CountryRegionCode>AL</CountryRegionCode>
+      <Name>Albania</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises7" msdata:rowOrder="6">
+      <CountryRegionCode>AM</CountryRegionCode>
+      <Name>Armenia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises8" msdata:rowOrder="7">
+      <CountryRegionCode>AN</CountryRegionCode>
+      <Name>Netherlands Antilles</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises9" msdata:rowOrder="8">
+      <CountryRegionCode>AO</CountryRegionCode>
+      <Name>Angola</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises10" msdata:rowOrder="9">
+      <CountryRegionCode>AQ</CountryRegionCode>
+      <Name>Antarctica</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises11" msdata:rowOrder="10">
+      <CountryRegionCode>AR</CountryRegionCode>
+      <Name>Argentina</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises12" msdata:rowOrder="11">
+      <CountryRegionCode>AS</CountryRegionCode>
+      <Name>American Samoa</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises13" msdata:rowOrder="12">
+      <CountryRegionCode>AT</CountryRegionCode>
+      <Name>Austria</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises14" msdata:rowOrder="13">
+      <CountryRegionCode>AU</CountryRegionCode>
+      <Name>Australia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises15" msdata:rowOrder="14">
+      <CountryRegionCode>AW</CountryRegionCode>
+      <Name>Aruba</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises16" msdata:rowOrder="15">
+      <CountryRegionCode>AZ</CountryRegionCode>
+      <Name>Azerbaijan</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises17" msdata:rowOrder="16">
+      <CountryRegionCode>BA</CountryRegionCode>
+      <Name>Bosnia and Herzegovina</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises18" msdata:rowOrder="17">
+      <CountryRegionCode>BB</CountryRegionCode>
+      <Name>Barbados</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises19" msdata:rowOrder="18">
+      <CountryRegionCode>BD</CountryRegionCode>
+      <Name>Bangladesh</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises20" msdata:rowOrder="19">
+      <CountryRegionCode>BE</CountryRegionCode>
+      <Name>Belgium</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises21" msdata:rowOrder="20">
+      <CountryRegionCode>BF</CountryRegionCode>
+      <Name>Burkina Faso</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises22" msdata:rowOrder="21">
+      <CountryRegionCode>BG</CountryRegionCode>
+      <Name>Bulgaria</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises23" msdata:rowOrder="22">
+      <CountryRegionCode>BH</CountryRegionCode>
+      <Name>Bahrain</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises24" msdata:rowOrder="23">
+      <CountryRegionCode>BI</CountryRegionCode>
+      <Name>Burundi</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises25" msdata:rowOrder="24">
+      <CountryRegionCode>BJ</CountryRegionCode>
+      <Name>Benin</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises26" msdata:rowOrder="25">
+      <CountryRegionCode>BM</CountryRegionCode>
+      <Name>Bermuda</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises27" msdata:rowOrder="26">
+      <CountryRegionCode>BN</CountryRegionCode>
+      <Name>Brunei</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises28" msdata:rowOrder="27">
+      <CountryRegionCode>BO</CountryRegionCode>
+      <Name>Bolivia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises29" msdata:rowOrder="28">
+      <CountryRegionCode>BR</CountryRegionCode>
+      <Name>Brazil</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises30" msdata:rowOrder="29">
+      <CountryRegionCode>BS</CountryRegionCode>
+      <Name>Bahamas, The</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises31" msdata:rowOrder="30">
+      <CountryRegionCode>BT</CountryRegionCode>
+      <Name>Bhutan</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises32" msdata:rowOrder="31">
+      <CountryRegionCode>BV</CountryRegionCode>
+      <Name>Bouvet Island</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises33" msdata:rowOrder="32">
+      <CountryRegionCode>BW</CountryRegionCode>
+      <Name>Botswana</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises34" msdata:rowOrder="33">
+      <CountryRegionCode>BY</CountryRegionCode>
+      <Name>Belarus</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises35" msdata:rowOrder="34">
+      <CountryRegionCode>BZ</CountryRegionCode>
+      <Name>Belize</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises36" msdata:rowOrder="35">
+      <CountryRegionCode>CA</CountryRegionCode>
+      <Name>Canada</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises37" msdata:rowOrder="36">
+      <CountryRegionCode>CC</CountryRegionCode>
+      <Name>Cocos (Keeling) Islands</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises38" msdata:rowOrder="37">
+      <CountryRegionCode>CD</CountryRegionCode>
+      <Name>Congo (DRC)</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises39" msdata:rowOrder="38">
+      <CountryRegionCode>CF</CountryRegionCode>
+      <Name>Central African Republic</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises40" msdata:rowOrder="39">
+      <CountryRegionCode>CG</CountryRegionCode>
+      <Name>Congo</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises41" msdata:rowOrder="40">
+      <CountryRegionCode>CH</CountryRegionCode>
+      <Name>Switzerland</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises42" msdata:rowOrder="41">
+      <CountryRegionCode>CI</CountryRegionCode>
+      <Name>Côte d'Ivoire</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises43" msdata:rowOrder="42">
+      <CountryRegionCode>CK</CountryRegionCode>
+      <Name>Cook Islands</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises44" msdata:rowOrder="43">
+      <CountryRegionCode>CL</CountryRegionCode>
+      <Name>Chile</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises45" msdata:rowOrder="44">
+      <CountryRegionCode>CM</CountryRegionCode>
+      <Name>Cameroon</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises46" msdata:rowOrder="45">
+      <CountryRegionCode>CN</CountryRegionCode>
+      <Name>China</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises47" msdata:rowOrder="46">
+      <CountryRegionCode>CO</CountryRegionCode>
+      <Name>Colombia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises48" msdata:rowOrder="47">
+      <CountryRegionCode>CR</CountryRegionCode>
+      <Name>Costa Rica</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises49" msdata:rowOrder="48">
+      <CountryRegionCode>CS</CountryRegionCode>
+      <Name>Serbia and Montenegro</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises50" msdata:rowOrder="49">
+      <CountryRegionCode>CU</CountryRegionCode>
+      <Name>Cuba</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises51" msdata:rowOrder="50">
+      <CountryRegionCode>CV</CountryRegionCode>
+      <Name>Cape Verde</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises52" msdata:rowOrder="51">
+      <CountryRegionCode>CX</CountryRegionCode>
+      <Name>Christmas Island</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises53" msdata:rowOrder="52">
+      <CountryRegionCode>CY</CountryRegionCode>
+      <Name>Cyprus</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises54" msdata:rowOrder="53">
+      <CountryRegionCode>CZ</CountryRegionCode>
+      <Name>Czech Republic</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises55" msdata:rowOrder="54">
+      <CountryRegionCode>DE</CountryRegionCode>
+      <Name>Germany</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises56" msdata:rowOrder="55">
+      <CountryRegionCode>DJ</CountryRegionCode>
+      <Name>Djibouti</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises57" msdata:rowOrder="56">
+      <CountryRegionCode>DK</CountryRegionCode>
+      <Name>Denmark</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises58" msdata:rowOrder="57">
+      <CountryRegionCode>DM</CountryRegionCode>
+      <Name>Dominica</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises59" msdata:rowOrder="58">
+      <CountryRegionCode>DO</CountryRegionCode>
+      <Name>Dominican Republic</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises60" msdata:rowOrder="59">
+      <CountryRegionCode>DZ</CountryRegionCode>
+      <Name>Algeria</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises61" msdata:rowOrder="60">
+      <CountryRegionCode>EC</CountryRegionCode>
+      <Name>Ecuador</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises62" msdata:rowOrder="61">
+      <CountryRegionCode>EE</CountryRegionCode>
+      <Name>Estonia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises63" msdata:rowOrder="62">
+      <CountryRegionCode>EG</CountryRegionCode>
+      <Name>Egypt</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises64" msdata:rowOrder="63">
+      <CountryRegionCode>ER</CountryRegionCode>
+      <Name>Eritrea</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises65" msdata:rowOrder="64">
+      <CountryRegionCode>ES</CountryRegionCode>
+      <Name>Spain</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises66" msdata:rowOrder="65">
+      <CountryRegionCode>ET</CountryRegionCode>
+      <Name>Ethiopia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises67" msdata:rowOrder="66">
+      <CountryRegionCode>FI</CountryRegionCode>
+      <Name>Finland</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises68" msdata:rowOrder="67">
+      <CountryRegionCode>FJ</CountryRegionCode>
+      <Name>Fiji Islands</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises69" msdata:rowOrder="68">
+      <CountryRegionCode>FK</CountryRegionCode>
+      <Name>Falkland Islands (Islas Malvinas)</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises70" msdata:rowOrder="69">
+      <CountryRegionCode>FM</CountryRegionCode>
+      <Name>Micronesia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises71" msdata:rowOrder="70">
+      <CountryRegionCode>FO</CountryRegionCode>
+      <Name>Faroe Islands</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises72" msdata:rowOrder="71">
+      <CountryRegionCode>FR</CountryRegionCode>
+      <Name>France</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises73" msdata:rowOrder="72">
+      <CountryRegionCode>GA</CountryRegionCode>
+      <Name>Gabon</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises74" msdata:rowOrder="73">
+      <CountryRegionCode>GB</CountryRegionCode>
+      <Name>United Kingdom</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises75" msdata:rowOrder="74">
+      <CountryRegionCode>GD</CountryRegionCode>
+      <Name>Grenada</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises76" msdata:rowOrder="75">
+      <CountryRegionCode>GE</CountryRegionCode>
+      <Name>Georgia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises77" msdata:rowOrder="76">
+      <CountryRegionCode>GF</CountryRegionCode>
+      <Name>French Guiana</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises78" msdata:rowOrder="77">
+      <CountryRegionCode>GH</CountryRegionCode>
+      <Name>Ghana</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises79" msdata:rowOrder="78">
+      <CountryRegionCode>GI</CountryRegionCode>
+      <Name>Gibraltar</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises80" msdata:rowOrder="79">
+      <CountryRegionCode>GL</CountryRegionCode>
+      <Name>Greenland</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises81" msdata:rowOrder="80">
+      <CountryRegionCode>GM</CountryRegionCode>
+      <Name>Gambia, The</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises82" msdata:rowOrder="81">
+      <CountryRegionCode>GN</CountryRegionCode>
+      <Name>Guinea</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises83" msdata:rowOrder="82">
+      <CountryRegionCode>GP</CountryRegionCode>
+      <Name>Guadeloupe</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises84" msdata:rowOrder="83">
+      <CountryRegionCode>GQ</CountryRegionCode>
+      <Name>Equatorial Guinea</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises85" msdata:rowOrder="84">
+      <CountryRegionCode>GR</CountryRegionCode>
+      <Name>Greece</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises86" msdata:rowOrder="85">
+      <CountryRegionCode>GS</CountryRegionCode>
+      <Name>South Georgia and the South Sandwich Islands</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises87" msdata:rowOrder="86">
+      <CountryRegionCode>GT</CountryRegionCode>
+      <Name>Guatemala</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises88" msdata:rowOrder="87">
+      <CountryRegionCode>GU</CountryRegionCode>
+      <Name>Guam</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises89" msdata:rowOrder="88">
+      <CountryRegionCode>GW</CountryRegionCode>
+      <Name>Guinea-Bissau</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises90" msdata:rowOrder="89">
+      <CountryRegionCode>GY</CountryRegionCode>
+      <Name>Guyana</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises91" msdata:rowOrder="90">
+      <CountryRegionCode>HK</CountryRegionCode>
+      <Name>Hong Kong SAR</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises92" msdata:rowOrder="91">
+      <CountryRegionCode>HM</CountryRegionCode>
+      <Name>Heard Island and McDonald Islands</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises93" msdata:rowOrder="92">
+      <CountryRegionCode>HN</CountryRegionCode>
+      <Name>Honduras</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises94" msdata:rowOrder="93">
+      <CountryRegionCode>HR</CountryRegionCode>
+      <Name>Croatia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises95" msdata:rowOrder="94">
+      <CountryRegionCode>HT</CountryRegionCode>
+      <Name>Haiti</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises96" msdata:rowOrder="95">
+      <CountryRegionCode>HU</CountryRegionCode>
+      <Name>Hungary</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises97" msdata:rowOrder="96">
+      <CountryRegionCode>ID</CountryRegionCode>
+      <Name>Indonesia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises98" msdata:rowOrder="97">
+      <CountryRegionCode>IE</CountryRegionCode>
+      <Name>Ireland</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises99" msdata:rowOrder="98">
+      <CountryRegionCode>IL</CountryRegionCode>
+      <Name>Israel</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises100" msdata:rowOrder="99">
+      <CountryRegionCode>IN</CountryRegionCode>
+      <Name>India</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises101" msdata:rowOrder="100">
+      <CountryRegionCode>IO</CountryRegionCode>
+      <Name>British Indian Ocean Territory</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises102" msdata:rowOrder="101">
+      <CountryRegionCode>IQ</CountryRegionCode>
+      <Name>Iraq</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises103" msdata:rowOrder="102">
+      <CountryRegionCode>IR</CountryRegionCode>
+      <Name>Iran</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises104" msdata:rowOrder="103">
+      <CountryRegionCode>IS</CountryRegionCode>
+      <Name>Iceland</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises105" msdata:rowOrder="104">
+      <CountryRegionCode>IT</CountryRegionCode>
+      <Name>Italy</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises106" msdata:rowOrder="105">
+      <CountryRegionCode>JM</CountryRegionCode>
+      <Name>Jamaica</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises107" msdata:rowOrder="106">
+      <CountryRegionCode>JO</CountryRegionCode>
+      <Name>Jordan</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises108" msdata:rowOrder="107">
+      <CountryRegionCode>JP</CountryRegionCode>
+      <Name>Japan</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises109" msdata:rowOrder="108">
+      <CountryRegionCode>KE</CountryRegionCode>
+      <Name>Kenya</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises110" msdata:rowOrder="109">
+      <CountryRegionCode>KG</CountryRegionCode>
+      <Name>Kyrgyzstan</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises111" msdata:rowOrder="110">
+      <CountryRegionCode>KH</CountryRegionCode>
+      <Name>Cambodia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises112" msdata:rowOrder="111">
+      <CountryRegionCode>KI</CountryRegionCode>
+      <Name>Kiribati</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises113" msdata:rowOrder="112">
+      <CountryRegionCode>KM</CountryRegionCode>
+      <Name>Comoros</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises114" msdata:rowOrder="113">
+      <CountryRegionCode>KN</CountryRegionCode>
+      <Name>Saint Kitts and Nevis</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises115" msdata:rowOrder="114">
+      <CountryRegionCode>KP</CountryRegionCode>
+      <Name>North Korea</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises116" msdata:rowOrder="115">
+      <CountryRegionCode>KR</CountryRegionCode>
+      <Name>Korea</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises117" msdata:rowOrder="116">
+      <CountryRegionCode>KW</CountryRegionCode>
+      <Name>Kuwait</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises118" msdata:rowOrder="117">
+      <CountryRegionCode>KY</CountryRegionCode>
+      <Name>Cayman Islands</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises119" msdata:rowOrder="118">
+      <CountryRegionCode>KZ</CountryRegionCode>
+      <Name>Kazakhstan</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises120" msdata:rowOrder="119">
+      <CountryRegionCode>LA</CountryRegionCode>
+      <Name>Laos</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises121" msdata:rowOrder="120">
+      <CountryRegionCode>LB</CountryRegionCode>
+      <Name>Lebanon</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises122" msdata:rowOrder="121">
+      <CountryRegionCode>LC</CountryRegionCode>
+      <Name>Saint Lucia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises123" msdata:rowOrder="122">
+      <CountryRegionCode>LI</CountryRegionCode>
+      <Name>Liechtenstein</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises124" msdata:rowOrder="123">
+      <CountryRegionCode>LK</CountryRegionCode>
+      <Name>Sri Lanka</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises125" msdata:rowOrder="124">
+      <CountryRegionCode>LR</CountryRegionCode>
+      <Name>Liberia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises126" msdata:rowOrder="125">
+      <CountryRegionCode>LS</CountryRegionCode>
+      <Name>Lesotho</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises127" msdata:rowOrder="126">
+      <CountryRegionCode>LT</CountryRegionCode>
+      <Name>Lithuania</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises128" msdata:rowOrder="127">
+      <CountryRegionCode>LU</CountryRegionCode>
+      <Name>Luxembourg</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises129" msdata:rowOrder="128">
+      <CountryRegionCode>LV</CountryRegionCode>
+      <Name>Latvia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises130" msdata:rowOrder="129">
+      <CountryRegionCode>LY</CountryRegionCode>
+      <Name>Libya</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises131" msdata:rowOrder="130">
+      <CountryRegionCode>MA</CountryRegionCode>
+      <Name>Morocco</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises132" msdata:rowOrder="131">
+      <CountryRegionCode>MC</CountryRegionCode>
+      <Name>Monaco</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises133" msdata:rowOrder="132">
+      <CountryRegionCode>MD</CountryRegionCode>
+      <Name>Moldova</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises134" msdata:rowOrder="133">
+      <CountryRegionCode>MG</CountryRegionCode>
+      <Name>Madagascar</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises135" msdata:rowOrder="134">
+      <CountryRegionCode>MH</CountryRegionCode>
+      <Name>Marshall Islands</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises136" msdata:rowOrder="135">
+      <CountryRegionCode>MK</CountryRegionCode>
+      <Name>Macedonia, Former Yugoslav Republic of</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises137" msdata:rowOrder="136">
+      <CountryRegionCode>ML</CountryRegionCode>
+      <Name>Mali</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises138" msdata:rowOrder="137">
+      <CountryRegionCode>MM</CountryRegionCode>
+      <Name>Myanmar</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises139" msdata:rowOrder="138">
+      <CountryRegionCode>MN</CountryRegionCode>
+      <Name>Mongolia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises140" msdata:rowOrder="139">
+      <CountryRegionCode>MO</CountryRegionCode>
+      <Name>Macao SAR</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises141" msdata:rowOrder="140">
+      <CountryRegionCode>MP</CountryRegionCode>
+      <Name>Northern Mariana Islands</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises142" msdata:rowOrder="141">
+      <CountryRegionCode>MQ</CountryRegionCode>
+      <Name>Martinique</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises143" msdata:rowOrder="142">
+      <CountryRegionCode>MR</CountryRegionCode>
+      <Name>Mauritania</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises144" msdata:rowOrder="143">
+      <CountryRegionCode>MS</CountryRegionCode>
+      <Name>Montserrat</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises145" msdata:rowOrder="144">
+      <CountryRegionCode>MT</CountryRegionCode>
+      <Name>Malta</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises146" msdata:rowOrder="145">
+      <CountryRegionCode>MU</CountryRegionCode>
+      <Name>Mauritius</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises147" msdata:rowOrder="146">
+      <CountryRegionCode>MV</CountryRegionCode>
+      <Name>Maldives</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises148" msdata:rowOrder="147">
+      <CountryRegionCode>MW</CountryRegionCode>
+      <Name>Malawi</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises149" msdata:rowOrder="148">
+      <CountryRegionCode>MX</CountryRegionCode>
+      <Name>Mexico</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises150" msdata:rowOrder="149">
+      <CountryRegionCode>MY</CountryRegionCode>
+      <Name>Malaysia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises151" msdata:rowOrder="150">
+      <CountryRegionCode>MZ</CountryRegionCode>
+      <Name>Mozambique</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises152" msdata:rowOrder="151">
+      <CountryRegionCode>NA</CountryRegionCode>
+      <Name>Namibia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises153" msdata:rowOrder="152">
+      <CountryRegionCode>NC</CountryRegionCode>
+      <Name>New Caledonia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises154" msdata:rowOrder="153">
+      <CountryRegionCode>NE</CountryRegionCode>
+      <Name>Niger</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises155" msdata:rowOrder="154">
+      <CountryRegionCode>NF</CountryRegionCode>
+      <Name>Norfolk Island</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises156" msdata:rowOrder="155">
+      <CountryRegionCode>NG</CountryRegionCode>
+      <Name>Nigeria</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises157" msdata:rowOrder="156">
+      <CountryRegionCode>NI</CountryRegionCode>
+      <Name>Nicaragua</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises158" msdata:rowOrder="157">
+      <CountryRegionCode>NL</CountryRegionCode>
+      <Name>Netherlands</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises159" msdata:rowOrder="158">
+      <CountryRegionCode>NO</CountryRegionCode>
+      <Name>Norway</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises160" msdata:rowOrder="159">
+      <CountryRegionCode>NP</CountryRegionCode>
+      <Name>Nepal</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises161" msdata:rowOrder="160">
+      <CountryRegionCode>NR</CountryRegionCode>
+      <Name>Nauru</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises162" msdata:rowOrder="161">
+      <CountryRegionCode>NU</CountryRegionCode>
+      <Name>Niue</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises163" msdata:rowOrder="162">
+      <CountryRegionCode>NZ</CountryRegionCode>
+      <Name>New Zealand</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises164" msdata:rowOrder="163">
+      <CountryRegionCode>OM</CountryRegionCode>
+      <Name>Oman</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises165" msdata:rowOrder="164">
+      <CountryRegionCode>PA</CountryRegionCode>
+      <Name>Panama</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises166" msdata:rowOrder="165">
+      <CountryRegionCode>PE</CountryRegionCode>
+      <Name>Peru</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises167" msdata:rowOrder="166">
+      <CountryRegionCode>PF</CountryRegionCode>
+      <Name>French Polynesia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises168" msdata:rowOrder="167">
+      <CountryRegionCode>PG</CountryRegionCode>
+      <Name>Papua New Guinea</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises169" msdata:rowOrder="168">
+      <CountryRegionCode>PH</CountryRegionCode>
+      <Name>Philippines</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises170" msdata:rowOrder="169">
+      <CountryRegionCode>PK</CountryRegionCode>
+      <Name>Pakistan</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises171" msdata:rowOrder="170">
+      <CountryRegionCode>PL</CountryRegionCode>
+      <Name>Poland</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises172" msdata:rowOrder="171">
+      <CountryRegionCode>PM</CountryRegionCode>
+      <Name>Saint Pierre and Miquelon</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises173" msdata:rowOrder="172">
+      <CountryRegionCode>PN</CountryRegionCode>
+      <Name>Pitcairn Islands</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises174" msdata:rowOrder="173">
+      <CountryRegionCode>PR</CountryRegionCode>
+      <Name>Puerto Rico</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises175" msdata:rowOrder="174">
+      <CountryRegionCode>PS</CountryRegionCode>
+      <Name>Palestinian Authority</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises176" msdata:rowOrder="175">
+      <CountryRegionCode>PT</CountryRegionCode>
+      <Name>Portugal</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises177" msdata:rowOrder="176">
+      <CountryRegionCode>PW</CountryRegionCode>
+      <Name>Palau</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises178" msdata:rowOrder="177">
+      <CountryRegionCode>PY</CountryRegionCode>
+      <Name>Paraguay</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises179" msdata:rowOrder="178">
+      <CountryRegionCode>QA</CountryRegionCode>
+      <Name>Qatar</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises180" msdata:rowOrder="179">
+      <CountryRegionCode>RE</CountryRegionCode>
+      <Name>Réunion</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises181" msdata:rowOrder="180">
+      <CountryRegionCode>RO</CountryRegionCode>
+      <Name>Romania</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises182" msdata:rowOrder="181">
+      <CountryRegionCode>RU</CountryRegionCode>
+      <Name>Russia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises183" msdata:rowOrder="182">
+      <CountryRegionCode>RW</CountryRegionCode>
+      <Name>Rwanda</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises184" msdata:rowOrder="183">
+      <CountryRegionCode>SA</CountryRegionCode>
+      <Name>Saudi Arabia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises185" msdata:rowOrder="184">
+      <CountryRegionCode>SB</CountryRegionCode>
+      <Name>Solomon Islands</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises186" msdata:rowOrder="185">
+      <CountryRegionCode>SC</CountryRegionCode>
+      <Name>Seychelles</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises187" msdata:rowOrder="186">
+      <CountryRegionCode>SD</CountryRegionCode>
+      <Name>Sudan</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises188" msdata:rowOrder="187">
+      <CountryRegionCode>SE</CountryRegionCode>
+      <Name>Sweden</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises189" msdata:rowOrder="188">
+      <CountryRegionCode>SG</CountryRegionCode>
+      <Name>Singapore</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises190" msdata:rowOrder="189">
+      <CountryRegionCode>SH</CountryRegionCode>
+      <Name>Saint Helena</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises191" msdata:rowOrder="190">
+      <CountryRegionCode>SI</CountryRegionCode>
+      <Name>Slovenia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises192" msdata:rowOrder="191">
+      <CountryRegionCode>SJ</CountryRegionCode>
+      <Name>Svalbard and Jan Mayen</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises193" msdata:rowOrder="192">
+      <CountryRegionCode>SK</CountryRegionCode>
+      <Name>Slovakia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises194" msdata:rowOrder="193">
+      <CountryRegionCode>SL</CountryRegionCode>
+      <Name>Sierra Leone</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises195" msdata:rowOrder="194">
+      <CountryRegionCode>SM</CountryRegionCode>
+      <Name>San Marino</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises196" msdata:rowOrder="195">
+      <CountryRegionCode>SN</CountryRegionCode>
+      <Name>Senegal</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises197" msdata:rowOrder="196">
+      <CountryRegionCode>SO</CountryRegionCode>
+      <Name>Somalia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises198" msdata:rowOrder="197">
+      <CountryRegionCode>SR</CountryRegionCode>
+      <Name>Suriname</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises199" msdata:rowOrder="198">
+      <CountryRegionCode>ST</CountryRegionCode>
+      <Name>São Tomé and Príncipe</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises200" msdata:rowOrder="199">
+      <CountryRegionCode>SV</CountryRegionCode>
+      <Name>El Salvador</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises201" msdata:rowOrder="200">
+      <CountryRegionCode>SY</CountryRegionCode>
+      <Name>Syria</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises202" msdata:rowOrder="201">
+      <CountryRegionCode>SZ</CountryRegionCode>
+      <Name>Swaziland</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises203" msdata:rowOrder="202">
+      <CountryRegionCode>TC</CountryRegionCode>
+      <Name>Turks and Caicos Islands</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises204" msdata:rowOrder="203">
+      <CountryRegionCode>TD</CountryRegionCode>
+      <Name>Chad</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises205" msdata:rowOrder="204">
+      <CountryRegionCode>TF</CountryRegionCode>
+      <Name>French Southern and Antarctic Lands</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises206" msdata:rowOrder="205">
+      <CountryRegionCode>TG</CountryRegionCode>
+      <Name>Togo</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises207" msdata:rowOrder="206">
+      <CountryRegionCode>TH</CountryRegionCode>
+      <Name>Thailand</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises208" msdata:rowOrder="207">
+      <CountryRegionCode>TJ</CountryRegionCode>
+      <Name>Tajikistan</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises209" msdata:rowOrder="208">
+      <CountryRegionCode>TK</CountryRegionCode>
+      <Name>Tokelau</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises210" msdata:rowOrder="209">
+      <CountryRegionCode>TL</CountryRegionCode>
+      <Name>Timor-Leste</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises211" msdata:rowOrder="210">
+      <CountryRegionCode>TM</CountryRegionCode>
+      <Name>Turkmenistan</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises212" msdata:rowOrder="211">
+      <CountryRegionCode>TN</CountryRegionCode>
+      <Name>Tunisia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises213" msdata:rowOrder="212">
+      <CountryRegionCode>TO</CountryRegionCode>
+      <Name>Tonga</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises214" msdata:rowOrder="213">
+      <CountryRegionCode>TR</CountryRegionCode>
+      <Name>Turkey</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises215" msdata:rowOrder="214">
+      <CountryRegionCode>TT</CountryRegionCode>
+      <Name>Trinidad and Tobago</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises216" msdata:rowOrder="215">
+      <CountryRegionCode>TV</CountryRegionCode>
+      <Name>Tuvalu</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises217" msdata:rowOrder="216">
+      <CountryRegionCode>TW</CountryRegionCode>
+      <Name>Taiwan</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises218" msdata:rowOrder="217">
+      <CountryRegionCode>TZ</CountryRegionCode>
+      <Name>Tanzania</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises219" msdata:rowOrder="218">
+      <CountryRegionCode>UA</CountryRegionCode>
+      <Name>Ukraine</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises220" msdata:rowOrder="219">
+      <CountryRegionCode>UG</CountryRegionCode>
+      <Name>Uganda</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises221" msdata:rowOrder="220">
+      <CountryRegionCode>UM</CountryRegionCode>
+      <Name>U.S. Minor Outlying Islands</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises222" msdata:rowOrder="221">
+      <CountryRegionCode>US</CountryRegionCode>
+      <Name>United States</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises223" msdata:rowOrder="222">
+      <CountryRegionCode>UY</CountryRegionCode>
+      <Name>Uruguay</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises224" msdata:rowOrder="223">
+      <CountryRegionCode>UZ</CountryRegionCode>
+      <Name>Uzbekistan</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises225" msdata:rowOrder="224">
+      <CountryRegionCode>VA</CountryRegionCode>
+      <Name>Vatican City</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises226" msdata:rowOrder="225">
+      <CountryRegionCode>VC</CountryRegionCode>
+      <Name>Saint Vincent and the Grenadine</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises227" msdata:rowOrder="226">
+      <CountryRegionCode>VE</CountryRegionCode>
+      <Name>Venezuela</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises228" msdata:rowOrder="227">
+      <CountryRegionCode>VG</CountryRegionCode>
+      <Name>Virgin Islands, British</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises229" msdata:rowOrder="228">
+      <CountryRegionCode>VI</CountryRegionCode>
+      <Name>Virgin Islands, U.S.</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises230" msdata:rowOrder="229">
+      <CountryRegionCode>VN</CountryRegionCode>
+      <Name>Vietnam</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises231" msdata:rowOrder="230">
+      <CountryRegionCode>VU</CountryRegionCode>
+      <Name>Vanuatu</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises232" msdata:rowOrder="231">
+      <CountryRegionCode>WF</CountryRegionCode>
+      <Name>Wallis and Futuna</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises233" msdata:rowOrder="232">
+      <CountryRegionCode>WS</CountryRegionCode>
+      <Name>Samoa</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises234" msdata:rowOrder="233">
+      <CountryRegionCode>YE</CountryRegionCode>
+      <Name>Yemen</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises235" msdata:rowOrder="234">
+      <CountryRegionCode>YT</CountryRegionCode>
+      <Name>Mayotte</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises236" msdata:rowOrder="235">
+      <CountryRegionCode>ZA</CountryRegionCode>
+      <Name>South Africa</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises237" msdata:rowOrder="236">
+      <CountryRegionCode>ZM</CountryRegionCode>
+      <Name>Zambia</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+    <Paises diffgr:id="Paises238" msdata:rowOrder="237">
+      <CountryRegionCode>ZW</CountryRegionCode>
+      <Name>Zimbabwe</Name>
+      <ModifiedDate>1998-06-01T00:00:00-07:00</ModifiedDate>
+    </Paises>
+  </NewDataSet>
+</diffgr:diffgram>

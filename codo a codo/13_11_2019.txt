@@ -1,0 +1,171 @@
+Cardinalidad(DER)
+
+-1 a muchos (1:m)
+
+
+
+
+1:1
+--------
+PAIS
+--------
+*CodPais:PK
+ Nombre
+ CodJefe:FK
+  -
+  -
+  |
+  |
+  -
+  -
+-------
+JefeGob
+-------
+*CodJefe:PK
+ Nombre
+ Apellido
+
+
+
+
+
+
+-Asociativas
+
+-----------
+COMIDA
+-----------
+*CodComida:PK
+ Nombre
+ CodIngre:FK
+             ||
+                -
+                   -
+                      -
+                        -
+                           -
+                             <- -------------
+				COMIDA_INGRE
+				-------------
+				CodComida:FK
+				CodIngre:FK
+				Comidas
+                              <-
+                            -
+                         -
+                       -
+                     -
+                   -
+                 -
+                -
+               -
+----------- ||
+INGREDIENTE
+------------
+*CodIngre:PK
+ Nombre
+
+
+
+
+
+
+
+-Condiconal
+
+
+-------
+ALUMNO
+-------
+*Legajo:PK
+ Nombre
+ Apellido
+\|/
+|
+|
+|
+_
+_
+------------
+INSCRIPCION
+------------
+*Legajo:FK
+ CodMat:FK
+ fechaInsc
+*NInsc
+_
+_
+|
+|
+|
+/|\
+-----------
+MATERIA
+-----------
+*CodMat:PK
+ Nombre
+
+
+
+
+
+------------
+VEHICULO
+------------
+*NumMotor:PK
+ NumChasis
+ CodMarca:FK
+__          ->|-------||-------------
+|                       MARCA
+|                       -------------
+|                       *CodMarca
+|                        Nombre
+0                      
+_                      
+------------
+PATENTE
+------------
+*CodPat:PK
+ NumMotor:FK
+
+
+
+
+-Dobles Relaciones
+
+------------- ->-----salida---------|| -----------------
+VUELOS        ->-----llegada--------|| AEROPUERTOS
+-------------                       -----------------
+*NumVuelo:PK                        *CodAeropuerto:PK
+ FechaIni                            Nombre
+ CodAvion:FK                         CodCiudad:FK
+ CodAeropP:FK                       
+ CodAeropLl:FK                      
+_
+_
+|                                                    ----------
+|                                                     CIUDAD
+|                                                    ----------
+|                                                     *CodCiudad
+|                                                      Nombre
+|                                                     
+|
+_
+/|\
+----------------
+AVION
+----------------
+*CodAvion:PK
+ Marca:FK
+_
+_
+|
+|
+|
+|
+
+-------------
+MARCA
+-------------
+*CodMarca
+ Nombre

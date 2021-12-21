@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herencia", "Herencia\Herencia.csproj", "{C64A2ED3-0F5E-4D85-8B47-DEEA54BCCD29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controles", "Controles\Controles.csproj", "{26E5E629-7FD2-4A75-B470-AC28279F010E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C64A2ED3-0F5E-4D85-8B47-DEEA54BCCD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C64A2ED3-0F5E-4D85-8B47-DEEA54BCCD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C64A2ED3-0F5E-4D85-8B47-DEEA54BCCD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C64A2ED3-0F5E-4D85-8B47-DEEA54BCCD29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E5E629-7FD2-4A75-B470-AC28279F010E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E5E629-7FD2-4A75-B470-AC28279F010E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E5E629-7FD2-4A75-B470-AC28279F010E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E5E629-7FD2-4A75-B470-AC28279F010E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

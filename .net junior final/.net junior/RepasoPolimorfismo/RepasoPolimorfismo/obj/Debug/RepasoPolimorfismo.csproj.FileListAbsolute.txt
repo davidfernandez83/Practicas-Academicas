@@ -1,0 +1,10 @@
+C:\CursoBecasManiana\RepasoPolimorfismo\RepasoPolimorfismo\bin\Debug\RepasoPolimorfismo.exe
+C:\CursoBecasManiana\RepasoPolimorfismo\RepasoPolimorfismo\bin\Debug\RepasoPolimorfismo.pdb
+C:\CursoBecasManiana\RepasoPolimorfismo\RepasoPolimorfismo\bin\Debug\Componente.dll
+C:\CursoBecasManiana\RepasoPolimorfismo\RepasoPolimorfismo\bin\Debug\Componente.pdb
+C:\CursoBecasManiana\RepasoPolimorfismo\RepasoPolimorfismo\obj\Debug\ResolveAssemblyReference.cache
+C:\CursoBecasManiana\RepasoPolimorfismo\RepasoPolimorfismo\obj\Debug\RepasoPolimorfismo.Form1.resources
+C:\CursoBecasManiana\RepasoPolimorfismo\RepasoPolimorfismo\obj\Debug\RepasoPolimorfismo.Properties.Resources.resources
+C:\CursoBecasManiana\RepasoPolimorfismo\RepasoPolimorfismo\obj\Debug\RepasoPolimorfismo.csproj.GenerateResource.Cache
+C:\CursoBecasManiana\RepasoPolimorfismo\RepasoPolimorfismo\obj\Debug\RepasoPolimorfismo.exe
+C:\CursoBecasManiana\RepasoPolimorfismo\RepasoPolimorfismo\obj\Debug\RepasoPolimorfismo.pdb

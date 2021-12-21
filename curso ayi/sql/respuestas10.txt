@@ -1,0 +1,58 @@
+--1
+create view employees_vu as
+select employee_id, last_name Employee, department_id
+from employees
+
+
+--2
+select * from employees_vu
+
+--3
+select employee, department_id from employees_vu
+
+--4
+create view dept50(empno,employee,deptno)
+as
+select employee_id, last_name, department_id
+from employees
+where department_id=50
+with check option constraint dept50_ck
+
+5--
+describe dept50
+
+6--
+update dept50
+set deptno=80
+where empno=143
+
+7--
+create sequence dept_id_seq
+start with 200
+increment by 10
+maxvalue 1000;
+
+8--
+create sequence dept_id_seq
+start with 280
+increment by 10
+maxvalue 1000;
+
+drop sequence dept_id_seq;
+
+select * from dept
+
+insert into dept values(dept_id_seq.nextval, 'test1')
+insert into dept values(dept_id_seq.nextval, 'test2')
+
+9--
+create index dept_idx
+on dept(name)
+
+select * from dept
+
+10--
+create synonym emp
+for employees;
+
+select * from emp;

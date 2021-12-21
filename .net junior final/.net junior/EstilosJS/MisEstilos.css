@@ -1,0 +1,26 @@
+﻿body {
+}
+
+p
+{
+    font-family: Arial;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    color: #008000;
+    background-color: #66FF99;
+    border: thin solid #FF00FF;
+}
+
+p.importantes
+{
+    font-family: 'Arial Black';
+    font-size: large;
+    color: #FF0066;
+}
+
+.EstiloPrueba
+{
+    font-family: Modern;
+    color: #FF00FF;
+}

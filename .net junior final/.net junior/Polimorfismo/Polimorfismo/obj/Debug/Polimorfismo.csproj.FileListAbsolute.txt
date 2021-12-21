@@ -1,0 +1,17 @@
+C:\CursoBecas\Polimorfismo\Polimorfismo\bin\Debug\Polimorfismo.exe
+C:\CursoBecas\Polimorfismo\Polimorfismo\bin\Debug\Polimorfismo.pdb
+C:\CursoBecas\Polimorfismo\Polimorfismo\obj\Debug\ResolveAssemblyReference.cache
+C:\CursoBecas\Polimorfismo\Polimorfismo\obj\Debug\Polimorfismo.csproj.GenerateResource.Cache
+C:\CursoBecas\Polimorfismo\Polimorfismo\obj\Debug\Polimorfismo.exe
+C:\CursoBecas\Polimorfismo\Polimorfismo\obj\Debug\Polimorfismo.pdb
+C:\CursoBecas\Polimorfismo\Polimorfismo\obj\Debug\ComponentePM.Form1.resources
+C:\CursoBecas\Polimorfismo\Polimorfismo\obj\Debug\ComponentePM.frmClientes.resources
+C:\CursoBecas\Polimorfismo\Polimorfismo\obj\Debug\ComponentePM.frmPrincipal.resources
+C:\CursoBecas\Polimorfismo\Polimorfismo\obj\Debug\ComponentePM.frmProveedores.resources
+C:\CursoBecas\Polimorfismo\Polimorfismo\obj\Debug\ComponentePM.Properties.Resources.resources
+C:\CursoBecas\Polimorfismo\Polimorfismo\bin\Debug\ComponentePM.dll
+C:\CursoBecas\Polimorfismo\Polimorfismo\bin\Debug\ComponentePM.pdb
+C:\CursoBecas\Polimorfismo\Polimorfismo\obj\Debug\ComponentePM.frmArticulos.resources
+C:\CursoBecas\Polimorfismo\Polimorfismo\obj\Debug\ComponentePM.frmFacturas.resources
+Z:\Polimorfismo\Polimorfismo\obj\Debug\Polimorfismo.exe
+Z:\Polimorfismo\Polimorfismo\obj\Debug\Polimorfismo.pdb

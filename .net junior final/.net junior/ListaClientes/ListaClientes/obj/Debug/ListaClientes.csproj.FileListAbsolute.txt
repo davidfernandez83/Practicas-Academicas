@@ -1,0 +1,10 @@
+C:\CursoBecas\ListaClientes\ListaClientes\bin\Debug\ListaClientes.exe
+C:\CursoBecas\ListaClientes\ListaClientes\bin\Debug\ListaClientes.pdb
+C:\CursoBecas\ListaClientes\ListaClientes\bin\Debug\Clases.dll
+C:\CursoBecas\ListaClientes\ListaClientes\bin\Debug\Clases.pdb
+C:\CursoBecas\ListaClientes\ListaClientes\obj\Debug\ResolveAssemblyReference.cache
+C:\CursoBecas\ListaClientes\ListaClientes\obj\Debug\ListaClientes.Form1.resources
+C:\CursoBecas\ListaClientes\ListaClientes\obj\Debug\ListaClientes.Properties.Resources.resources
+C:\CursoBecas\ListaClientes\ListaClientes\obj\Debug\ListaClientes.csproj.GenerateResource.Cache
+C:\CursoBecas\ListaClientes\ListaClientes\obj\Debug\ListaClientes.exe
+C:\CursoBecas\ListaClientes\ListaClientes\obj\Debug\ListaClientes.pdb

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="AdventureWorks2008" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=W2K3\MSSQL2008;Initial Catalog=AdventureWorks2008;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="AdventureWorks2008ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="Person.CountryRegion" Member="CountryRegions">
+    <Type Name="CountryRegion">
+      <Column Name="CountryRegionCode" Type="System.String" DbType="NVarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="CountryRegion_StateProvince" Member="StateProvinces" ThisKey="CountryRegionCode" OtherKey="CountryRegionCode" Type="StateProvince" />
+    </Type>
+  </Table>
+  <Table Name="Person.StateProvince" Member="StateProvinces">
+    <Type Name="StateProvince">
+      <Column Name="StateProvinceID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="StateProvinceCode" Type="System.String" DbType="NChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="CountryRegionCode" Type="System.String" DbType="NVarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="IsOnlyStateProvinceFlag" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TerritoryID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="rowguid" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="CountryRegion_StateProvince" Member="CountryRegion" ThisKey="CountryRegionCode" OtherKey="CountryRegionCode" Type="CountryRegion" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.TraerProvincias" Method="TraerProvincias">
+    <Parameter Name="Pais" Parameter="pais" Type="System.String" DbType="VarChar(3)" />
+    <ElementType Name="TraerProvinciasResult">
+      <Column Name="StateProvinceID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StateProvinceCode" Type="System.String" DbType="NChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="CountryRegionCode" Type="System.String" DbType="NVarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="IsOnlyStateProvinceFlag" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TerritoryID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="rowguid" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GrabarProvincias" Method="GrabarProvincias">
+    <Parameter Name="CodProv" Parameter="codProv" Type="System.String" DbType="Char(3)" />
+    <Parameter Name="CodPais" Parameter="codPais" Type="System.String" DbType="VarChar(3)" />
+    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Territorio" Parameter="territorio" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

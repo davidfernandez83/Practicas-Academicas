@@ -1,0 +1,29 @@
+Ambiente conectado
+-using SqlConnection
+-using SqlCommand
+-using SqlDataReader
+
+Ambiente desconectado
+-using DataTable
+-using SqlConnection
+-using SqlDataAdapter
+
+using System.Data.SqlClient;
+
+public class Class1
+{
+	public DataTable TraerPaises()
+	{
+        using (DataTable dt = new DataTable())
+        {
+            using (SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["AdvWorks"].ConnectionString))
+            {
+                using (SqlDataAdapter da = new SqlDataAdapter("Select * from Person.CountryRegion", cn))
+                {
+                    da.Fill(dt);
+                }
+            }
+        return dt;
+        }
+    }
+}

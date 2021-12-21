@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Documents/NetBeansProjects/PatronMVC/src/modelo/dao/PersonaDao.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/PatronMVC/src/modelo/conexion/Conexion.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/PatronMVC/src/modelo/vo/PersonaVo.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/PatronMVC/src/controlador/Coordinador.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/PatronMVC/src/controlador/Principal.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/PatronMVC/src/vista/VentanaPrincipal.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/PatronMVC/src/vista/VentanaBuscar.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/PatronMVC/src/vista/VentanaRegistro.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/PatronMVC/src/modelo/Logica.java</file>
+        </group>
+    </open-files>
+</project-private>

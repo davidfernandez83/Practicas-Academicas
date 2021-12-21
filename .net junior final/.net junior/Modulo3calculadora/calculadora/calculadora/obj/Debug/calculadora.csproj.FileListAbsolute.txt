@@ -1,0 +1,8 @@
+C:\Documents and Settings\Administrator\Desktop\Modulo3calculadora\calculadora\calculadora\bin\Debug\calculadora.exe
+C:\Documents and Settings\Administrator\Desktop\Modulo3calculadora\calculadora\calculadora\bin\Debug\calculadora.pdb
+C:\Documents and Settings\Administrator\Desktop\Modulo3calculadora\calculadora\calculadora\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Modulo3calculadora\calculadora\calculadora\obj\Debug\calculadora.frmCalculadora.resources
+C:\Documents and Settings\Administrator\Desktop\Modulo3calculadora\calculadora\calculadora\obj\Debug\calculadora.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Modulo3calculadora\calculadora\calculadora\obj\Debug\calculadora.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\Modulo3calculadora\calculadora\calculadora\obj\Debug\calculadora.exe
+C:\Documents and Settings\Administrator\Desktop\Modulo3calculadora\calculadora\calculadora\obj\Debug\calculadora.pdb

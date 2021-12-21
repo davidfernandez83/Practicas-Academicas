@@ -1,0 +1,12 @@
+Las interfaces cumplen directivas especiales.
+Estandarizar la forma en que interactuan los objetos.
+
+Caracteristicas
+Definen un tipo de dato en termino de los metodos publicos que debe ofrecer.
+Solo pueden contener metodos abstractos.
+Se almacenan en un archivo .class.
+No se pueden instanciar.
+Todos sus metodos son publicos y abstractos.
+No tienen variables. Solo CONSTANTES.
+No son clases, aunque puedan entenderse como clases abstractas.
+La interface soluciona la falta de herencia multiple.

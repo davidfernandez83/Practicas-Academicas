@@ -1,0 +1,9 @@
+C:\Documents and Settings\Administrator\Desktop\Modulo4eje4\modulo4ejercicio4\modulo4ejercicio4\bin\Debug\modulo4ejercicio4.dll
+C:\Documents and Settings\Administrator\Desktop\Modulo4eje4\modulo4ejercicio4\modulo4ejercicio4\bin\Debug\modulo4ejercicio4.pdb
+C:\Documents and Settings\Administrator\Desktop\Modulo4eje4\modulo4ejercicio4\modulo4ejercicio4\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Modulo4eje4\modulo4ejercicio4\modulo4ejercicio4\obj\Debug\modulo4ejercicio4.dll
+C:\Documents and Settings\Administrator\Desktop\Modulo4eje4\modulo4ejercicio4\modulo4ejercicio4\obj\Debug\modulo4ejercicio4.pdb
+C:\Documents and Settings\Administrator\Desktop\Modulo4eje4\modulo4ejercicio4\modulo4ejercicio4\bin\Debug\Controles.dll
+C:\Documents and Settings\Administrator\Desktop\Modulo4eje4\modulo4ejercicio4\modulo4ejercicio4\bin\Debug\Controles.pdb
+C:\Documents and Settings\Administrator\Desktop\Modulo4eje4\modulo4ejercicio4\modulo4ejercicio4\obj\Debug\modulo4ejercicio4.Form1.resources
+C:\Documents and Settings\Administrator\Desktop\Modulo4eje4\modulo4ejercicio4\modulo4ejercicio4\obj\Debug\modulo4ejercicio4.csproj.GenerateResource.Cache

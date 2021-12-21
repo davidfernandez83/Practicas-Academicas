@@ -1,0 +1,8 @@
+Tablas temporales
+# LOCAL: Se borra cuando el usuario se desconecta
+## GLOBAL: Se borra cuando ya no la usan
+
+Variable tipo tabla
+@Tabla
+no se pueden crear indices
+nace y muere en la ejecucion del comando

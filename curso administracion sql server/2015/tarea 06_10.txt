@@ -1,0 +1,12 @@
+1-Crear una base de datos
+2-una vez creada, asegurarse que el modo operacional esta en simple
+3-crear otra base de datos y asegurarse que el modo operacional esta en full
+4-cambiar las opciones de crecimiento de logs para la full para que no sea por porcentaje 
+sino que el crecimiento sea de 2MB
+5-crear una tabla en cada base con por lo menos 10 registros
+6-hacer un backup full e incremental de la base 1 y full e icremental de la base 2
+7-eliminar la tabla de la primer base en modo simple y recuperla del backup
+¿es lo mismo recuperar del full que del incremental teniendo dos backups realizados?
+8-buscar como realizar un bloque transaccional y probar la sentencia rollback y commit en ambas base de datos
+9-¿como puedo comprobar que el modo operacional full funciona en la base 2?¿que ejemplo puedo inventar para 
+tener un testigo del caso?

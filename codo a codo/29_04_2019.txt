@@ -1,0 +1,5 @@
+Realizar un programa que imprima 25 terminos de la serie 1122334455...
+
+Realizar un programa que permita cargar n numeros enteros y que diga cuantos
+pares y cuantos impares
+

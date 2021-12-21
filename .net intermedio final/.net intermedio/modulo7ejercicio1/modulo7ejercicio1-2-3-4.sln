@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "modulo7ejercicio1", ".", "{43B73B81-C7AB-4573-899A-7CD0B56D0A0B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/modulo7ejercicio1"
+		Debug.AspNetCompiler.PhysicalPath = "..\modulo7ejercicio1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\modulo7ejercicio1\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/modulo7ejercicio1"
+		Release.AspNetCompiler.PhysicalPath = "..\modulo7ejercicio1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\modulo7ejercicio1\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1033"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43B73B81-C7AB-4573-899A-7CD0B56D0A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B73B81-C7AB-4573-899A-7CD0B56D0A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

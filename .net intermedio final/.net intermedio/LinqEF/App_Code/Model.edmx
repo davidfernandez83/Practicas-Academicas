@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="AdventureWorks2008Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+        <EntityContainer Name="AdventureWorks2008ModelStoreContainer">
+          <EntitySet Name="Address" EntityType="AdventureWorks2008Model.Store.Address" store:Type="Tables" Schema="Person" />
+          <EntitySet Name="CountryRegion" EntityType="AdventureWorks2008Model.Store.CountryRegion" store:Type="Tables" Schema="Person" />
+          <EntitySet Name="StateProvince" EntityType="AdventureWorks2008Model.Store.StateProvince" store:Type="Tables" Schema="Person" />
+          <AssociationSet Name="FK_Address_StateProvince_StateProvinceID" Association="AdventureWorks2008Model.Store.FK_Address_StateProvince_StateProvinceID">
+            <End Role="StateProvince" EntitySet="StateProvince" />
+            <End Role="Address" EntitySet="Address" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StateProvince_CountryRegion_CountryRegionCode" Association="AdventureWorks2008Model.Store.FK_StateProvince_CountryRegion_CountryRegionCode">
+            <End Role="CountryRegion" EntitySet="CountryRegion" />
+            <End Role="StateProvince" EntitySet="StateProvince" />
+          </AssociationSet>
+        </EntityContainer>
+        <!--Errors Found During Generation:
+      warning 6005: The data type 'geography' is not supported, the column 'SpatialLocation' in table 'AdventureWorks2008.Person.Address' was excluded.
+      -->
+        <EntityType Name="Address">
+          <Key>
+            <PropertyRef Name="AddressID" />
+          </Key>
+          <Property Name="AddressID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AddressLine1" Type="nvarchar" Nullable="false" MaxLength="60" />
+          <Property Name="AddressLine2" Type="nvarchar" MaxLength="60" />
+          <Property Name="City" Type="nvarchar" Nullable="false" MaxLength="30" />
+          <Property Name="StateProvinceID" Type="int" Nullable="false" />
+          <Property Name="PostalCode" Type="nvarchar" Nullable="false" MaxLength="15" />
+          <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CountryRegion">
+          <Key>
+            <PropertyRef Name="CountryRegionCode" />
+          </Key>
+          <Property Name="CountryRegionCode" Type="nvarchar" Nullable="false" MaxLength="3" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="StateProvince">
+          <Key>
+            <PropertyRef Name="StateProvinceID" />
+          </Key>
+          <Property Name="StateProvinceID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="StateProvinceCode" Type="nchar" Nullable="false" MaxLength="3" />
+          <Property Name="CountryRegionCode" Type="nvarchar" Nullable="false" MaxLength="3" />
+          <Property Name="IsOnlyStateProvinceFlag" Type="bit" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="TerritoryID" Type="int" Nullable="false" />
+          <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Address_StateProvince_StateProvinceID">
+          <End Role="StateProvince" Type="AdventureWorks2008Model.Store.StateProvince" Multiplicity="1" />
+          <End Role="Address" Type="AdventureWorks2008Model.Store.Address" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StateProvince">
+              <PropertyRef Name="StateProvinceID" />
+            </Principal>
+            <Dependent Role="Address">
+              <PropertyRef Name="StateProvinceID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StateProvince_CountryRegion_CountryRegionCode">
+          <End Role="CountryRegion" Type="AdventureWorks2008Model.Store.CountryRegion" Multiplicity="1" />
+          <End Role="StateProvince" Type="AdventureWorks2008Model.Store.StateProvince" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CountryRegion">
+              <PropertyRef Name="CountryRegionCode" />
+            </Principal>
+            <Dependent Role="StateProvince">
+              <PropertyRef Name="CountryRegionCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AdventureWorks2008Model" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+        <EntityContainer Name="AdventureWorks2008Entities">
+          <EntitySet Name="CountryRegion" EntityType="AdventureWorks2008Model.CountryRegion" />
+          <EntitySet Name="StateProvince" EntityType="AdventureWorks2008Model.StateProvince" />
+          <AssociationSet Name="FK_StateProvince_CountryRegion_CountryRegionCode" Association="AdventureWorks2008Model.FK_StateProvince_CountryRegion_CountryRegionCode">
+            <End Role="CountryRegion" EntitySet="CountryRegion" />
+            <End Role="StateProvince" EntitySet="StateProvince" />
+          </AssociationSet>
+          <EntitySet Name="Address" EntityType="AdventureWorks2008Model.Address" />
+          <AssociationSet Name="FK_Address_StateProvince_StateProvinceID" Association="AdventureWorks2008Model.FK_Address_StateProvince_StateProvinceID">
+            <End Role="StateProvince" EntitySet="StateProvince" />
+            <End Role="Address" EntitySet="Address" /></AssociationSet></EntityContainer>
+        <EntityType Name="CountryRegion">
+          <Key>
+            <PropertyRef Name="CountryRegionCode" />
+          </Key>
+          <Property Name="CountryRegionCode" Type="String" Nullable="false" MaxLength="3" Unicode="true" FixedLength="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ModifiedDate" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="StateProvince" Relationship="AdventureWorks2008Model.FK_StateProvince_CountryRegion_CountryRegionCode" FromRole="CountryRegion" ToRole="StateProvince" />
+        </EntityType>
+        <EntityType Name="StateProvince">
+          <Key>
+            <PropertyRef Name="StateProvinceID" />
+          </Key>
+          <Property Name="StateProvinceID" Type="Int32" Nullable="false" />
+          <Property Name="StateProvinceCode" Type="String" Nullable="false" MaxLength="3" Unicode="true" FixedLength="true" />
+          <Property Name="IsOnlyStateProvinceFlag" Type="Boolean" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="TerritoryID" Type="Int32" Nullable="false" />
+          <Property Name="rowguid" Type="Guid" Nullable="false" />
+          <Property Name="ModifiedDate" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="CountryRegion" Relationship="AdventureWorks2008Model.FK_StateProvince_CountryRegion_CountryRegionCode" FromRole="StateProvince" ToRole="CountryRegion" />
+          <NavigationProperty Name="Address" Relationship="AdventureWorks2008Model.FK_Address_StateProvince_StateProvinceID" FromRole="StateProvince" ToRole="Address" /></EntityType>
+        <Association Name="FK_StateProvince_CountryRegion_CountryRegionCode">
+          <End Role="CountryRegion" Type="AdventureWorks2008Model.CountryRegion" Multiplicity="1" />
+          <End Role="StateProvince" Type="AdventureWorks2008Model.StateProvince" Multiplicity="*" />
+        </Association>
+        <EntityType Name="Address">
+          <Key>
+            <PropertyRef Name="AddressID" /></Key>
+          <Property Name="AddressID" Type="Int32" Nullable="false" />
+          <Property Name="AddressLine1" Type="String" Nullable="false" />
+          <Property Name="AddressLine2" Type="String" Nullable="true" />
+          <Property Name="City" Type="String" Nullable="false" />
+          <Property Name="PostalCode" Type="String" Nullable="false" />
+          <Property Name="rowguid" Type="Guid" Nullable="false" />
+          <Property Name="ModifiedDate" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="StateProvince" Relationship="AdventureWorks2008Model.FK_Address_StateProvince_StateProvinceID" FromRole="Address" ToRole="StateProvince" /></EntityType>
+        <Association Name="FK_Address_StateProvince_StateProvinceID">
+          <End Type="AdventureWorks2008Model.StateProvince" Role="StateProvince" Multiplicity="1" />
+          <End Type="AdventureWorks2008Model.Address" Role="Address" Multiplicity="*" /></Association></Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+        <EntityContainerMapping StorageEntityContainer="AdventureWorks2008ModelStoreContainer" CdmEntityContainer="AdventureWorks2008Entities">
+          <EntitySetMapping Name="CountryRegion">
+            <EntityTypeMapping TypeName="IsTypeOf(AdventureWorks2008Model.CountryRegion)">
+              <MappingFragment StoreEntitySet="CountryRegion">
+                <ScalarProperty Name="CountryRegionCode" ColumnName="CountryRegionCode" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StateProvince">
+            <EntityTypeMapping TypeName="IsTypeOf(AdventureWorks2008Model.StateProvince)">
+              <MappingFragment StoreEntitySet="StateProvince">
+                <ScalarProperty Name="StateProvinceID" ColumnName="StateProvinceID" />
+                <ScalarProperty Name="StateProvinceCode" ColumnName="StateProvinceCode" />
+                <ScalarProperty Name="IsOnlyStateProvinceFlag" ColumnName="IsOnlyStateProvinceFlag" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="TerritoryID" ColumnName="TerritoryID" />
+                <ScalarProperty Name="rowguid" ColumnName="rowguid" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="FK_StateProvince_CountryRegion_CountryRegionCode" TypeName="AdventureWorks2008Model.FK_StateProvince_CountryRegion_CountryRegionCode" StoreEntitySet="StateProvince">
+            <EndProperty Name="CountryRegion">
+              <ScalarProperty Name="CountryRegionCode" ColumnName="CountryRegionCode" />
+            </EndProperty>
+            <EndProperty Name="StateProvince">
+              <ScalarProperty Name="StateProvinceID" ColumnName="StateProvinceID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <EntitySetMapping Name="Address">
+            <EntityTypeMapping TypeName="IsTypeOf(AdventureWorks2008Model.Address)">
+              <MappingFragment StoreEntitySet="Address">
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+                <ScalarProperty Name="rowguid" ColumnName="rowguid" />
+                <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="AddressLine2" ColumnName="AddressLine2" />
+                <ScalarProperty Name="AddressLine1" ColumnName="AddressLine1" />
+                <ScalarProperty Name="AddressID" ColumnName="AddressID" /></MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <AssociationSetMapping Name="FK_Address_StateProvince_StateProvinceID" TypeName="AdventureWorks2008Model.FK_Address_StateProvince_StateProvinceID" StoreEntitySet="Address">
+            <EndProperty Name="Address">
+              <ScalarProperty Name="AddressID" ColumnName="AddressID" /></EndProperty>
+            <EndProperty Name="StateProvince">
+              <ScalarProperty Name="StateProvinceID" ColumnName="StateProvinceID" /></EndProperty></AssociationSetMapping></EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram Name="Model">
+        <EntityTypeShape EntityType="AdventureWorks2008Model.CountryRegion" Width="1.5" PointX="0.75" PointY="1.25" Height="1.5923063151041672" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2008Model.StateProvince" Width="1.5" PointX="3" PointY="0.875" Height="2.2496956380208335" IsExpanded="true" />
+        <AssociationConnector Association="AdventureWorks2008Model.FK_StateProvince_CountryRegion_CountryRegionCode" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="2.0461531575520837" />
+          <ConnectorPoint PointX="3" PointY="2.0461531575520837" /></AssociationConnector>
+        <EntityTypeShape EntityType="AdventureWorks2008Model.Address" Width="1.5" PointX="5.25" PointY="1" Height="2.2496956380208335" />
+        <AssociationConnector Association="AdventureWorks2008Model.FK_Address_StateProvince_StateProvinceID" >
+          <ConnectorPoint PointX="4.5" PointY="2.1248478190104167" />
+          <ConnectorPoint PointX="5.25" PointY="2.1248478190104167" /></AssociationConnector></Diagram></edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,21 @@
+Abrir script
+Menu archivo-abrir- Elegir .sql
+Ejecutar script: Boton Ejecutar o f5
+
+
+Consulta select
+select nombre de columnas
+from nombre de tabla
+
+Para pararse sobre una BD
+USE CursoSql
+GO
+
+Path index
+
+el operador NOT sirve para todas las demas formas que vimos anteriormente, por ej.
+si quisiesemos filtrar canale y noel de todas las marcas tendriamos que utilizar
+el operador NOT junto y antecediendo al IN
+
+buscar en la bd de productos todos los productos cuya marca sea canale o noel
+utilizando desde la a hasta la e

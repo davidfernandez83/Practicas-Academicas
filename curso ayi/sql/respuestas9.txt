@@ -1,0 +1,32 @@
+--1
+create table dept
+(
+id number(7) constraint dept_id_pk2 primary key,
+name varchar2(25)
+)
+
+describe dept
+
+--2
+insert into dept
+select department_id, department_name from departments;
+
+--3
+create table emp
+(
+id number(7),
+last_name varchar2(25),
+first_name varchar2(25),
+dept_id number(7) constraint dept_dept_id_fk references dept(id)
+);
+
+describe emp;
+
+--4
+create table employees2(id,first_name,last_name,salary,dept_id)
+as
+select employee_id, first_name, last_name,salary,department_id
+from employees
+
+--5
+drop table emp;

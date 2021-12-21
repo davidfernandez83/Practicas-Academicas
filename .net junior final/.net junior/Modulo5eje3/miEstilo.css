@@ -1,0 +1,26 @@
+﻿body {
+}
+p
+{
+    color:Red;
+}
+h1
+{
+    text-align:center;
+    color:Blue;
+}
+a:link
+{
+    text-decoration:none;
+    color:Green;
+}
+a:visited
+{
+    text-decoration:none;
+    color:Purple;
+}
+a:hover
+{
+    text-decoration:underline;
+    color:Blue;
+}

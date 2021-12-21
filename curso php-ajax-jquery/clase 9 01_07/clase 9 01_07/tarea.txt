@@ -1,0 +1,1 @@
+Mostrar en una tabla nombre, descripcion y precio de la tabla productos

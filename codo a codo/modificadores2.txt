@@ -1,0 +1,23 @@
+Modificadores especificadores
+
+-static
+
+
+-final
+
+
+-abstract
+
+
+-Synchronized
+Usado para acceder a subprocesos, llamados también hilos (threads)
+
+-Trasient
+Usado para serializar. Identificar. Trasient = transitorio
+
+-Volatile
+Multihilos. Una variable puede tomar un valor en un hilo y otro valor en otro hilo
+
+-Native
+Cuando utiliza algunos metodos que vienen de otros lenguajes como c y c++.
+Se le llama metodos nativos y metodos externos.

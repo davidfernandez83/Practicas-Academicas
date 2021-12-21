@@ -1,0 +1,12 @@
+Metodo abstracto
+public abstract [tipoDato] [nombreMetodo]();
+
+Clase abstracta
+abstract class[NombreClase]{}
+
+Cuando creas una clase abstracta te obliga a definir metodo abstracto
+Los metodos abstractos solo se definen
+
+Las clases abstractas deberian ir a la cuspide de mi jerarquia de clases
+
+Las clases que heredan de una clase abstracta también DEBEN definir metodos abstractos

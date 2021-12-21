@@ -1,0 +1,5 @@
+C:\BecasTarde\ClientesTarde\ClientesTarde\bin\Debug\ClientesTarde.dll
+C:\BecasTarde\ClientesTarde\ClientesTarde\bin\Debug\ClientesTarde.pdb
+C:\BecasTarde\ClientesTarde\ClientesTarde\obj\Debug\ResolveAssemblyReference.cache
+C:\BecasTarde\ClientesTarde\ClientesTarde\obj\Debug\ClientesTarde.dll
+C:\BecasTarde\ClientesTarde\ClientesTarde\obj\Debug\ClientesTarde.pdb

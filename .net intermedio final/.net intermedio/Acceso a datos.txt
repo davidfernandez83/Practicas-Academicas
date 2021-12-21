@@ -1,0 +1,16 @@
+System.Data.SqlClient
+-.oracle
+-.oledb
+-.odbc
+
+Objetos
+-Connection: conexion
+-Command: sentencias sql
+
+Registros
+-ambiente conectado
+ DataReader: lectura secuencial
+-ambiente desconectado
+ -DataAdapter
+  DataSet: base de datos en memoria
+  DataTable: tablas

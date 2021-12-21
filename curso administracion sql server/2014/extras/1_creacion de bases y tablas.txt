@@ -1,0 +1,56 @@
+CREATE DATABASE dbname;
+
+CREATE TABLE Persons
+(
+PersonID int,
+LastName varchar(255),
+FirstName varchar(255),
+Address varchar(255),
+City varchar(255)
+)
+
+
+CREATE TABLE PersonsNotNull
+(
+P_Id int NOT NULL,
+LastName varchar(255) NOT NULL,
+FirstName varchar(255),
+Address varchar(255),
+City varchar(255)
+)
+
+CREATE TABLE Persons
+(
+P_Id int NOT NULL UNIQUE,
+LastName varchar(255) NOT NULL,
+FirstName varchar(255),
+Address varchar(255),
+City varchar(255)
+)
+
+CREATE TABLE Persons
+(
+P_Id int NOT NULL PRIMARY KEY,
+LastName varchar(255) NOT NULL,
+FirstName varchar(255),
+Address varchar(255),
+City varchar(255)
+)
+
+
+
+
+CREATE TABLE table_name
+(
+column_name1 data_type(size) constraint_name,
+column_name2 data_type(size) constraint_name,
+column_name3 data_type(size) constraint_name,
+....
+);
+
+-- 
+Has recibido este mensaje porque estás suscrito al grupo "UKSQL2014" de Grupos de Google.
+Para anular la suscripción a este grupo y dejar de recibir sus mensajes, envía un correo electrónico a uksql2014+unsubscribe@googlegroups.com.
+Para publicar una entrada en este grupo, envía un correo electrónico a uksql2014@googlegroups.com.
+Para ver este debate en la Web, visita https://groups.google.com/d/msgid/uksql2014/5c5c6159-0209-4eec-a759-7a872393d732%40googlegroups.com.
+Para obtener más opciones, visita https://groups.google.com/d/optout.

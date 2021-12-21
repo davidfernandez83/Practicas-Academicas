@@ -1,0 +1,5 @@
+C:\CursoBecas\Herencia\Controles\bin\Debug\Controles.dll
+C:\CursoBecas\Herencia\Controles\bin\Debug\Controles.pdb
+C:\CursoBecas\Herencia\Controles\obj\Debug\ResolveAssemblyReference.cache
+C:\CursoBecas\Herencia\Controles\obj\Debug\Controles.dll
+C:\CursoBecas\Herencia\Controles\obj\Debug\Controles.pdb

@@ -1,0 +1,65 @@
+SERVER ROLES
+
+sysadmin
+pueden realizar cualquier actividad en el servidor.
+
+serveradmin
+pueden cambiar las opciones de configuración del servidor y apagarlo.
+
+securityadmin
+administran los inicios de sesión y sus propiedades. Administran los permisos de servidor GRANT, DENY y REVOKE. También pueden administrar los permisos de nivel de base de datos GRANT, DENY y REVOKE si tienen acceso a una base de datos. Asimismo, pueden restablecer las contraseñas para los inicios de sesión de SQL Server.
+Nota de seguridad Nota de seguridad
+La capacidad de conceder acceso a Motor de base de datos y configurar los permisos de usuario permite que el administrador de seguridad asigne la mayoría de los permisos de servidor. El rol securityadmin se debe tratar como equivalente al rol sysadmin.
+
+processadmin
+pueden finalizar los procesos que se ejecuten en una instancia de SQL Server.
+
+setupadmin
+pueden agregar y quitar servidores vinculados mediante instrucciones Transact-SQL. (Se necesita la pertenencia a sysadmin cuando se utiliza Management Studio).
+
+bulkadmin
+pueden ejecutar la instrucción BULK INSERT.
+
+diskadmin
+se usa para administrar archivos de disco.
+
+dbcreator
+pueden crear, modificar, quitar y restaurar cualquier base de datos.
+
+public
+Cada inicio de sesión de SQL Server pertenece al rol de servidor public. Cuando a una entidad de seguridad de servidor no se le han concedido ni denegado permisos específicos para un objeto protegible, el usuario hereda los permisos concedidos al rol public para ese objeto. Solo asigne permisos públicos en cualquier objeto cuando desee que el objeto esté disponible para todos los usuarios. No puede cambiar la pertenencia en public.
+Nota
+public se implementa de manera diferente que otros roles. Sin embargo, se pueden conceder, denegar o revocar permisos desde public.
+
+
+DATABASE ROLES - BASE DE DATOS REPORTSERVER
+
+db_owner
+pueden realizar todas las actividades de configuración y mantenimiento en la base de datos y también pueden eliminar la base de datos.
+
+db_securityadmin
+pueden modificar la pertenencia a roles y administrar permisos. Si se agregan entidades de seguridad a este rol, podría habilitarse un aumento de privilegios no deseado.
+
+db_accessadmin
+pueden agregar o quitar el acceso a la base de datos para inicios de sesión de Windows, grupos de Windows e inicios de sesión de SQL Server.
+
+db_backupoperator
+pueden crear copias de seguridad de la base de datos.
+
+db_ddladmin
+pueden ejecutar cualquier comando del lenguaje de definición de datos (DDL) en una base de datos.
+
+db_datawriter
+pueden agregar, eliminar o cambiar datos en todas las tablas de usuario.
+
+db_datareader
+pueden leer todos los datos de todas las tablas de usuario.
+
+db_denydatawriter
+no pueden agregar, modificar ni eliminar datos de tablas de usuario de una base de datos.
+
+db_denydatareader
+no pueden leer datos de las tablas de usuario dentro de una base de datos.
+
+RSExecRole
+Reporting Services utiliza un rol de base de datos predefinido denominado RSExecRole para conceder permisos de servidor de informes a la base de datos del servidor de informes. El rol RSExecRole se crea automáticamente con la base de datos del servidor de informes. Por norma, nunca debería modificarlo ni asignar otros usuarios a dicho rol. Sin embargo, cuando se mueve una base de datos del servidor de informes a un Motor de base de datos de SQL Server nuevo o diferente, se debe volver a crear el rol en las bases de datos del sistema Master y MSDB.

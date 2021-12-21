@@ -1,0 +1,11 @@
+C:\BecasTarde\ClientesTarde\PruebaClientes\bin\Debug\PruebaClientes.exe
+C:\BecasTarde\ClientesTarde\PruebaClientes\bin\Debug\PruebaClientes.pdb
+C:\BecasTarde\ClientesTarde\PruebaClientes\obj\Debug\ResolveAssemblyReference.cache
+C:\BecasTarde\ClientesTarde\PruebaClientes\obj\Debug\PruebaClientes.Properties.Resources.resources
+C:\BecasTarde\ClientesTarde\PruebaClientes\obj\Debug\PruebaClientes.csproj.GenerateResource.Cache
+C:\BecasTarde\ClientesTarde\PruebaClientes\obj\Debug\PruebaClientes.exe
+C:\BecasTarde\ClientesTarde\PruebaClientes\obj\Debug\PruebaClientes.pdb
+C:\BecasTarde\ClientesTarde\PruebaClientes\obj\Debug\PruebaClientes.Form1.resources
+C:\BecasTarde\ClientesTarde\PruebaClientes\obj\Debug\PruebaClientes.Form2.resources
+C:\BecasTarde\ClientesTarde\PruebaClientes\bin\Debug\ClientesTarde.dll
+C:\BecasTarde\ClientesTarde\PruebaClientes\bin\Debug\ClientesTarde.pdb

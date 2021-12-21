@@ -1,0 +1,56 @@
+-pipe(||)
+-concatena campos
+
+select nombre,apellidorzsocial,nombre||' '||apellidorzsocial as 'nombre completo'
+from Clientes
+
+select nombre,apellidorzsocial,nombre+' '+apellidorzsocial as 'nombre completo'
+from Clientes
+
+
+
+-trim
+-quita espacios en blanco a los costados
+
+select trim(nombre),apellidorzsocial,nombre+' '+apellidorzsocial as 'nombre completo'
+from Clientes
+
+
+
+-substring(substr)
+-extrae una cadena de caracteres
+
+select substr(nombre,3,2)
+
+
+
+-character
+-cuenta la cantidad de caracteres de un campo
+
+select nombre, apellidorzsocial,character(apellidorzsocial) as caractreres_apellido
+from clientes
+
+
+
+-position
+-busca una posicion dentro de un campo
+
+
+
+-case
+-condicional
+
+select *
+case
+when sexo='f' then 'femenino'
+when sexo='m' then 'masculino'
+else ''
+end sexo2
+from tabla
+
+
+
+-count distinct
+-cuenta los registros distintos
+
+select count(distinct(apellido)) as 'apellidos distintos'

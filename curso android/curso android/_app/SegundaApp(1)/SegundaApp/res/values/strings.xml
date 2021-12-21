@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SegundaApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="boton_abrir_activity">Abrir Activity</string>
+<string name="edit_txt_texto">Ingrese un texto</string>
+</resources>

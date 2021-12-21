@@ -1,0 +1,5 @@
+C:\CursoBecasManiana\RepasoPolimorfismo\Componente\bin\Debug\Componente.dll
+C:\CursoBecasManiana\RepasoPolimorfismo\Componente\bin\Debug\Componente.pdb
+C:\CursoBecasManiana\RepasoPolimorfismo\Componente\obj\Debug\ResolveAssemblyReference.cache
+C:\CursoBecasManiana\RepasoPolimorfismo\Componente\obj\Debug\Componente.dll
+C:\CursoBecasManiana\RepasoPolimorfismo\Componente\obj\Debug\Componente.pdb

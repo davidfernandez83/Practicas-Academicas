@@ -1,0 +1,32 @@
+Prueba
+
+tabla alumnos
+id		int
+nombre		nvarchar(50)
+apellido	nvarchar(50)
+email		nvarchar(50)
+tel		nvarchar(20)
+direccion	nvarchar(60)
+cp		nvarchar(6)
+
+
+tabla materias
+id		int
+idAlumno	int
+nombre		nvarchar(30)
+descripcion	nvarchar(100)
+horas		int
+
+3-crear un procedimiento de carga para la tabla alumnos y un procedimiento para la tabla materias
+
+4-crear procedimientos de modificacion para ambas tablas
+
+5-crear procedimiento de borrado para ambas tablas
+
+6-en una consulta traer todos los registros que coincidan en ambas tablas
+
+7-en una consulta traer todos los registros que coincidan en ambas tablas mas todos los alumnos que no tengan materias
+
+8-en una consulta traer todos los registros que coincidan en ambas tablas mas todos mas todas las materias que no tengan alumnos
+
+9-crear un procedimiento que traiga ordenados por materias todos los alumnos y sus datos

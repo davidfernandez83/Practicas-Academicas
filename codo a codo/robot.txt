@@ -1,0 +1,4 @@
+1. Ir hasta la escalera
+2. Subir una pierna hasta la altura del escalon
+3. Subir la otra pierna hasta la altura del  siguiente escalon
+4. Repetir el paso 2 y el 3

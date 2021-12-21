@@ -1,0 +1,12 @@
+C:\CursoBecas\Objetos\Objetos\bin\Debug\Objetos.exe
+C:\CursoBecas\Objetos\Objetos\bin\Debug\Objetos.pdb
+C:\CursoBecas\Objetos\Objetos\obj\Debug\ResolveAssemblyReference.cache
+C:\CursoBecas\Objetos\Objetos\obj\Debug\Objetos.Form1.resources
+C:\CursoBecas\Objetos\Objetos\obj\Debug\Objetos.Properties.Resources.resources
+C:\CursoBecas\Objetos\Objetos\obj\Debug\Objetos.csproj.GenerateResource.Cache
+C:\CursoBecas\Objetos\Objetos\obj\Debug\Objetos.exe
+C:\CursoBecas\Objetos\Objetos\obj\Debug\Objetos.pdb
+C:\CursoBecas\Objetos\Objetos\obj\Debug\Objetos.Form2.resources
+C:\CursoBecas\Objetos\Objetos\bin\Debug\MiDll.dll
+C:\CursoBecas\Objetos\Objetos\bin\Debug\MiDll.pdb
+C:\CursoBecas\Objetos\Objetos\obj\Debug\Objetos.Form3.resources

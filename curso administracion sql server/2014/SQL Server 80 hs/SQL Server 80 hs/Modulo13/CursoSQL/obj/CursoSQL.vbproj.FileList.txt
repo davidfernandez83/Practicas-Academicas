@@ -1,0 +1,9 @@
+bin\Debug\CursoSQL.dll
+bin\Debug\CursoSQL.pdb
+bin\Debug\CursoSQL.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CursoSQL.Resources.resources
+obj\Debug\CursoSQL.vbproj.GenerateResource.Cache
+obj\Debug\CursoSQL.dll
+obj\Debug\CursoSQL.xml
+obj\Debug\CursoSQL.pdb

@@ -1,0 +1,10 @@
+C:\CursoBecas\Herencia\Herencia\obj\Debug\ResolveAssemblyReference.cache
+C:\CursoBecas\Herencia\Herencia\obj\Debug\Herencia.Form1.resources
+C:\CursoBecas\Herencia\Herencia\obj\Debug\Herencia.Properties.Resources.resources
+C:\CursoBecas\Herencia\Herencia\obj\Debug\Herencia.csproj.GenerateResource.Cache
+C:\CursoBecas\Herencia\Herencia\bin\Debug\Herencia.exe
+C:\CursoBecas\Herencia\Herencia\bin\Debug\Herencia.pdb
+C:\CursoBecas\Herencia\Herencia\obj\Debug\Herencia.exe
+C:\CursoBecas\Herencia\Herencia\obj\Debug\Herencia.pdb
+C:\CursoBecas\Herencia\Herencia\bin\Debug\Controles.dll
+C:\CursoBecas\Herencia\Herencia\bin\Debug\Controles.pdb

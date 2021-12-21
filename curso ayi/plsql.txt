@@ -1,0 +1,52 @@
+--2_4
+set serveroutput on;
+declare
+v_today DATE := SYSDATE;
+v_tomorrow v_today%TYPE;
+begin
+v_tomorrow:=v_today+1;
+dbms_output.put_line('Hello world');
+dbms_output.put_line('TODAY: '||v_today);
+dbms_output.put_line('TOMORROW: '||v_tomorrow);
+end;
+
+4
+set serveroutput on;
+declare
+v_max_deptno number;
+v_dept_name departments.department_name%type := 'Education';
+v_dept_id number;
+begin
+select max(department_id) into v_max_deptno from departments;
+v_dept_id := v_max_deptno + 10;
+dbms_output.put_line('Maximo: ' || v_max_deptno);
+insert into departments(department_name,department_id,location_id) values(v_dept_name,v_dept_id,null);
+dbms_output.put_line('SQL%ROWCOUNT: '|| sql%rowcount);
+end;
+
+
+select * from departments where department_id=280;
+
+delete from departments where department_id=280
+update departments set location_id=3000 where department_id=280
+
+
+5
+begin
+for i in 1..10 loop
+if i=6 or i = 8 then
+null;
+else
+insert into messages values(i);
+end if;
+end loop;
+commit;
+end;
+/
+select * from emp;
+
+create table emp
+as
+select * from employees;
+
+6

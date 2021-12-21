@@ -1,0 +1,5 @@
+C:\CursoBecas\ListaClientes\Clases\bin\Debug\Clases.dll
+C:\CursoBecas\ListaClientes\Clases\bin\Debug\Clases.pdb
+C:\CursoBecas\ListaClientes\Clases\obj\Debug\ResolveAssemblyReference.cache
+C:\CursoBecas\ListaClientes\Clases\obj\Debug\Clases.dll
+C:\CursoBecas\ListaClientes\Clases\obj\Debug\Clases.pdb

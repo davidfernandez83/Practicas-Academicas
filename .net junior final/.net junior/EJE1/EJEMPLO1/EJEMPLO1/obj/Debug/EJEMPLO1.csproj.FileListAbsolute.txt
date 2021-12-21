@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\Desktop\EJE1\EJEMPLO1\EJEMPLO1\bin\Debug\EJEMPLO1.exe
+C:\Documents and Settings\Administrator\Desktop\EJE1\EJEMPLO1\EJEMPLO1\bin\Debug\EJEMPLO1.pdb
+C:\Documents and Settings\Administrator\Desktop\EJE1\EJEMPLO1\EJEMPLO1\bin\Debug\ClassLibrary1.dll
+C:\Documents and Settings\Administrator\Desktop\EJE1\EJEMPLO1\EJEMPLO1\bin\Debug\ClassLibrary1.pdb
+C:\Documents and Settings\Administrator\Desktop\EJE1\EJEMPLO1\EJEMPLO1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\EJE1\EJEMPLO1\EJEMPLO1\obj\Debug\EJEMPLO1.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\EJE1\EJEMPLO1\EJEMPLO1\obj\Debug\EJEMPLO1.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\EJE1\EJEMPLO1\EJEMPLO1\obj\Debug\EJEMPLO1.exe
+C:\Documents and Settings\Administrator\Desktop\EJE1\EJEMPLO1\EJEMPLO1\obj\Debug\EJEMPLO1.pdb
+C:\Documents and Settings\Administrator\Desktop\EJE1\EJEMPLO1\EJEMPLO1\obj\Debug\EJEMPLO1.frmPrestamos.resources

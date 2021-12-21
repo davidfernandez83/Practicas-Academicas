@@ -1,0 +1,38 @@
+Los sistemas de backup solo cubren necesidades locales e inmediatas. Para grandes volumenes de datos
+se debe desarrollar un DRP (Disaster Recovery Plan). Estos planes preveen sacar las cintas y llevarlas
+a otro lugar con rotacion y reutilizacion de las mismas. Tambien prevee que en el destino de guarda
+puedan ser recuperadas en un servidores de simil caracteristicas al original. De esta manera nos podemos asegurar
+no solo que las cintas son legibles sino tambien que el proceso de recuperacion funciona correctamente. En caso
+de un desastre ya sea climatico intencional o fortuito se podra poner en operacion este servidor el cual
+garantiza el mismo nivel operacional del original. El DBA tiene la responsabilidad de coordinar, mantener, ejecutar
+y crear DRPs. Un backup es completo cuando sus politicas incluyen todas las posibilidades de desastres tanto
+internas como externas. Los sitios de recupracion frente a desastres en donde corren los DRPs deben ser monitoreados
+por el DBA. Se dice que un sistema de backup es completo siempre y cuando este acompañado de un DRP. Caso contrario
+el backup es simple y no garantizara recovery o recupero en situaciones extremas.
+
+
+AUTOMATIZACION DE TAREAS ADMINISTRATIVAS
+
+Microsoft SQL Server utiliza el agente de sql server para la automatizacion de tareas. Se pueden crear trabajos,
+alertas y operadores que luego podran automatizarse generando planes de mantenimiento. Un plan de mantenimiento
+no es mas que un conjunto de tareas que deben ejecutarse a un tiempo determinado. Los planes mas utilizados son:
+-Reorganizar datos de la pagina de datos y de indices: este proceso permite la defragmentacion de la base para
+lograr un procesamiento mas rapido del acceso a datos. Tambien mejora el crecimiento a futuro dejando los bloques
+libres contiguos a los datos de indices y tablas. Por lo general se reservan discos exclusivos para la base
+de datos para que el sistema operativo no los utilice en otras actividades. No obstante, la misma base produce
+fragmentacion y debe ejecutarse un plan de mantenimiento
+-Comprimir archivos de datos mediante la eliminacion de paginas o bloques que esten vacios
+-Actualizar estadisticas de indices y datos para que el optimizador de querys trabaje mejor
+-Chequear el estado de la base de datos y verificar que no tenga bloques corruptos
+-Realizar copias de seguridad y restauracion: puedo planificar trabajos de backup y recovery. Los trabajos de backup
+estan fuertemente pensados para el lugar local y los de recovery para el sitio de consingencia
+-Tareas o trabajos de sql server: comunmente llamados jobs son utilizados para ejecutar querys o bloques transaccionales
+que realizan tareas especificas como por ejemplo "cierre de fin de mes". Tambien puedo como DBA armar querys
+que por ejemplo controlen si existen bloqueos de usuarios, cual es el horario pico de ingreso de usuarios.
+
+El sql agent tiene la capacidad de ejecutar un job y enviar el resultado por mail. Esto automatiza fuertemente la
+tarea del DBA.
+
+La herramienta permite en forma grafica armar cadenas de proceso complejas y robusta. Un proceso puede tener dependencia de otro
+y esto enriquece el trabajo del agente.
+

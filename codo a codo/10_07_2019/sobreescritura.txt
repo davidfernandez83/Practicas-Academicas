@@ -1,0 +1,2 @@
+java permite la sobreescritura de metodos
+pueden ser metodos creados por el programador o metodos heredados

@@ -1,0 +1,22 @@
+*{margin:0px; padding:0px;}
+body{
+	background-color: #ddd;
+	font-family: "Myriad Pro";
+	color: #333;
+}
+form{
+	width:600px;
+	background-color: #fff;
+	padding:20px;
+	border: 1px solid #999;
+
+}
+/*
+b{width:200px; background-color: #aaa; display: block}
+*/
+
+label{
+	width: 100px;
+	display: inline-block;
+}
+input{margin: 8px 0px;}

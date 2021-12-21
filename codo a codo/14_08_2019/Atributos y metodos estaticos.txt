@@ -1,0 +1,14 @@
+Static
+Es aplicada a variables constantes y metodos.
+Puede indicar que un atributo de una clase puede no pertenecer a una instancia de clase,
+sino una clase en si.
+
+Metodos estaticos
+Los metodos estaticos pertenecen a una clase y no a un objeto.
+Para llamarlo no podemos utilizar ningun objeto, y solo tienen acceso a los atributos
+static de la clase por lo que no es necesario instanciar un objeto para invocarlo
+Ej: Nombredelaclase.metodo();
+    Math.pow(2,3);
+Los metodos estaticos nunca actuan sobre los campos de clase
+
+

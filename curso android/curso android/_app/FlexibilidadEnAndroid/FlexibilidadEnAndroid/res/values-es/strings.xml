@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flexibilidad en Android</string>
+    <string name="hello_world">Hola mundo!</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="str_mostrar_texto">Mostrar Texto</string>
+    <string name="str_ingrese_un_texto">Ingrese una frase</string>
+</resources>

@@ -1,0 +1,56 @@
+SELECT campo1, campo2
+FROM Dummy
+ORDER BY Campo1
+FOR XML AUTO, TYPE
+ 
+ 
+SELECT campo1, campo2
+FROM Dummy
+ORDER BY Campo1
+FOR XML AUTO, ELEMENTS
+ 
+ 
+SELECT campo1, campo2
+FROM Dummy
+ORDER BY Campo1
+FOR XML RAW, TYPE
+ 
+ 
+SELECT campo1, campo2
+FROM Dummy
+ORDER BY Campo1
+FOR XML RAW, ELEMENTS
+ 
+SELECT campo1, campo2
+FROM Dummy
+ORDER BY Campo1
+FOR XML RAW (‘Datos’), TYPE
+ 
+SELECT campo1, campo2
+FROM Dummy
+ORDER BY Campo1
+FOR XML RAW (‘Datos’), ELEMENTS
+ 
+ 
+CREATE TABLE tablaXML
+(
+ID int not null identity,
+DOC xml null,
+constraint PK_tablaXML PRIMARY KEY (ID)
+)
+GO
+DECLARE @xml xml -- Variable de tipo XML
+
+SET @xml = (SELECT campo1, campo2 FROM Dummy FOR XML AUTO)
+
+INSERT INTO tablaXML
+(DOC) VALUES (@xml)
+ 
+SELECT * FROM tablaXML
+
+-- 
+Has recibido este mensaje porque estás suscrito al grupo "UKSQL2014" de Grupos de Google.
+Para anular la suscripción a este grupo y dejar de recibir sus mensajes, envía un correo electrónico a uksql2014+unsubscribe@googlegroups.com.
+Para publicar una entrada en este grupo, envía un correo electrónico a uksql2014@googlegroups.com.
+Para ver este debate en la Web, visita https://groups.google.com/d/msgid/uksql2014/66aa7ce9-c1b5-43eb-b7bd-8aed9b7648bd%40googlegroups.com.
+Para obtener más opciones, visita https://groups.google.com/d/optout.

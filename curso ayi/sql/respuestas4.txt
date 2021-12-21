@@ -1,0 +1,42 @@
+1-
+true
+
+2-
+true
+
+3-
+true
+
+4-
+select round(max(salary)) Maximun, round(min(salary)) Minimun, round(sum(salary)) "Sum", round(avg(salary)) Average
+from employees
+
+5-
+select job_id, round(max(salary)) Maximun, round(min(salary)) Minimun, round(sum(salary)) "Sum", round(avg(salary)) Average
+from employees
+group by job_id;
+
+6-
+select job_id, count(*)
+from employees
+where job_id=&trabajo
+group by job_id
+
+7-
+SELECT COUNT(DISTINCT MANAGER_ID) "Number of manager"
+FROM EMPLOYEES
+
+8-
+select max(salary)-min(salary) DIFFERENCE
+from employees
+
+
+11-
+select job_id,
+sum(decode(department_id,20, salary)) "d20",
+sum(decode(department_id,50, salary)) d50,
+sum(decode(department_id,80, salary)) d80,
+sum(decode(department_id,90, salary)) d90,
+sum(salary) total
+from employees
+group by job_id

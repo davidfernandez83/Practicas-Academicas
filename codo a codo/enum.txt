@@ -1,0 +1,1 @@
+El enum nun debe declararse dentro de un metodo

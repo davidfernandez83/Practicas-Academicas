@@ -1,0 +1,42 @@
+CREATE TABLE my_employee
+(id NUMBER(4)
+CONSTRAINT my_employee_id_nn NOT NULL,
+last_name varchar2(25),
+first_name varchar2(25),
+userid varchar2(8),
+salary NUMBER(9,2));
+
+--3
+insert into my_employee values(1,'Patel','Ralph','rpatel',895)
+
+--4
+insert into my_employee (id,last_name,first_name,userid,salary) values(2,'Dancs','Betty','bdancs',860);
+--5
+select * from my_employee;
+
+--7
+insert into my_employee (id,last_name,first_name,userid,salary) values(4,'Newmman','Chad','cnewman',750);
+
+--9
+
+--11
+update my_employee
+set salary = 1000
+where salary<900
+
+--13
+delete from my_employee
+where id=2
+
+Insert into HR.MY_EMPLOYEE (ID,LAST_NAME,FIRST_NAME,USERID,SALARY) values (1,'Patel','Ralph','rpatel',1000);
+Insert into HR.MY_EMPLOYEE (ID,LAST_NAME,FIRST_NAME,USERID,SALARY) values (3,'Biri','Drexler','bbiri',1100);
+Insert into HR.MY_EMPLOYEE (ID,LAST_NAME,FIRST_NAME,USERID,SALARY) values (4,'Newmman','Chad','cnewman',1000);
+insert into my_employee values(5,'Ropeburn','Audrey','aropebur',1550);
+
+commit;
+
+delete from my_employee;
+
+rollback;
+
+select * from my_employee;

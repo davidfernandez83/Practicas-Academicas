@@ -1,0 +1,9 @@
+C:\Teresa\Cursos\Plan Mas\CursoBs SQL Server Plan Mas\Labs SQL Programacion\Modulo13\CursoSQL\bin\Debug\CursoSQL.dll
+C:\Teresa\Cursos\Plan Mas\CursoBs SQL Server Plan Mas\Labs SQL Programacion\Modulo13\CursoSQL\bin\Debug\CursoSQL.pdb
+C:\Teresa\Cursos\Plan Mas\CursoBs SQL Server Plan Mas\Labs SQL Programacion\Modulo13\CursoSQL\bin\Debug\CursoSQL.xml
+C:\Teresa\Cursos\Plan Mas\CursoBs SQL Server Plan Mas\Labs SQL Programacion\Modulo13\CursoSQL\obj\Debug\ResolveAssemblyReference.cache
+C:\Teresa\Cursos\Plan Mas\CursoBs SQL Server Plan Mas\Labs SQL Programacion\Modulo13\CursoSQL\obj\Debug\CursoSQL.Resources.resources
+C:\Teresa\Cursos\Plan Mas\CursoBs SQL Server Plan Mas\Labs SQL Programacion\Modulo13\CursoSQL\obj\Debug\CursoSQL.vbproj.GenerateResource.Cache
+C:\Teresa\Cursos\Plan Mas\CursoBs SQL Server Plan Mas\Labs SQL Programacion\Modulo13\CursoSQL\obj\Debug\CursoSQL.dll
+C:\Teresa\Cursos\Plan Mas\CursoBs SQL Server Plan Mas\Labs SQL Programacion\Modulo13\CursoSQL\obj\Debug\CursoSQL.xml
+C:\Teresa\Cursos\Plan Mas\CursoBs SQL Server Plan Mas\Labs SQL Programacion\Modulo13\CursoSQL\obj\Debug\CursoSQL.pdb

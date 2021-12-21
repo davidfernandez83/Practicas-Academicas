@@ -1,0 +1,5 @@
+cargar 5 numeros por teclado, recrear un metodo para sacar el promedio,
+otro que lo sume y otro que los imprima de mayor a menor
+
+cargar 5 empleados con 5 sueldos que imprima los sueldos mayores a 30000
+y si es mas de 30000 que saque ganancias

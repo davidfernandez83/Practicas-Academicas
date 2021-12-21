@@ -1,0 +1,6 @@
+C:\IntermedioManiana\AccesoDatos\DllAccesoDatos\bin\Debug\DllAccesoDatos.dll.config
+C:\IntermedioManiana\AccesoDatos\DllAccesoDatos\bin\Debug\DllAccesoDatos.dll
+C:\IntermedioManiana\AccesoDatos\DllAccesoDatos\bin\Debug\DllAccesoDatos.pdb
+C:\IntermedioManiana\AccesoDatos\DllAccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\IntermedioManiana\AccesoDatos\DllAccesoDatos\obj\Debug\DllAccesoDatos.dll
+C:\IntermedioManiana\AccesoDatos\DllAccesoDatos\obj\Debug\DllAccesoDatos.pdb

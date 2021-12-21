@@ -1,0 +1,7 @@
+Guia para conectar con server de bbdd desde php
+
+1-Conexion a server + seleccion de base
+2-Creacion de SQL
+3-Ejecucion de SQL
+4-Informes (muestreo de datos en pantalla)
+5-Desconexion de SERVER

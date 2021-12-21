@@ -1,0 +1,5 @@
+PLUGINS DE SUBLIME TEXT - PACKAGE CONTROL
+html5
+html attributes
+color highlighter
+color picker

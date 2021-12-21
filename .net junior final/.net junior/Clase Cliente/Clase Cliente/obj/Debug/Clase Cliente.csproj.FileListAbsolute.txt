@@ -1,0 +1,8 @@
+C:\Documents and Settings\Administrator\Desktop\Clase Cliente\Clase Cliente\bin\Debug\Clase Cliente.exe
+C:\Documents and Settings\Administrator\Desktop\Clase Cliente\Clase Cliente\bin\Debug\Clase Cliente.pdb
+C:\Documents and Settings\Administrator\Desktop\Clase Cliente\Clase Cliente\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Clase Cliente\Clase Cliente\obj\Debug\Clase_Cliente.frm1.resources
+C:\Documents and Settings\Administrator\Desktop\Clase Cliente\Clase Cliente\obj\Debug\Clase_Cliente.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Clase Cliente\Clase Cliente\obj\Debug\Clase Cliente.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\Clase Cliente\Clase Cliente\obj\Debug\Clase Cliente.exe
+C:\Documents and Settings\Administrator\Desktop\Clase Cliente\Clase Cliente\obj\Debug\Clase Cliente.pdb

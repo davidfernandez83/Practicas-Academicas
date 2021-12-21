@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ar.com.empleartec.android.flexibilidad.MainActivity" >
+
+    <TextView
+        android:id="@+id/txt_hola_mundo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <EditText
+        android:id="@+id/edit_txt_mensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/str_ingrese_un_texto" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_cambiar_texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_mostrar_texto" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.12"
+        android:src="@drawable/novia" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.36"
+        android:src="@drawable/novio" />
+
+</LinearLayout>

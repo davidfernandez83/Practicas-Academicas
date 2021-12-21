@@ -1,0 +1,2 @@
+shift+ojo: oculta las demas capas
+

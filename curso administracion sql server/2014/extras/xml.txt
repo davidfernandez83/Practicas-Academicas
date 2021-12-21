@@ -1,0 +1,58 @@
+Xml
+
+declare @xml xml
+set @xml =
+	'<Recorstore>
+		<Album ID="1" category="Rock">
+			<Artist>Rockers Utd.</Artist>
+			<Title>Rock Until you dream</Title>
+			<ReleaseYear>2005</ReleaseYear>
+			<Price>10</Price>
+		</Album>	
+		<Album ID="2" category="Oldies">
+			<Artist> Oldies Inc </Artist>
+			<Title>Rock like there wasa a tomorow </Title>
+			<ReleaseYear>1960 </ReleaseYear>
+			<Price>5 </Price>
+		</Album>	
+		<Album ID="3" category="Rock">
+			<Artist>ShockRockers</Artist>
+			<Title>Sockrock</Title>
+			<ReleaseYear>2000</ReleaseYear>
+			<Price>12</Price>
+		</Album>	
+		<Album ID="4" category="Dance">
+			<Artist>Swing</Artist>
+			<Title>Shake and Bake</Title>
+			<ReleaseYear>2005</ReleaseYear>
+			<Price>65</Price>
+		</Album>	
+		<Album ID="5" category="Rock">
+			<Artist>ABC Rockers</Artist>
+			<Title>Rock You</Title>
+			<ReleaseYear>2005</ReleaseYear>
+			<Price>20</Price>
+		</Album>
+	</Recorstore>'
+	
+select @xml.query('/Recorstore/Album/Price')
+select @xml.query('/Recorstore/Album[@category="Oldies"]/Title')
+select @xml.query('/Recorstore/Album/Price')
+select @xml.query('/Recorstore/Album[Title="Shake and Bake"]/Artist')
+select @xml.query('/Recorstore/Album[Price>60]/Title')
+select @xml.query('/Recorstore/Album[position()<=2]/Title')
+select @xml.query('/Recorstore/Album/Artist')
+select @xml.query('/Recorstore/Album')
+select @xml.query('/Recorstore/Album[ReleaseYear=2005]/Price')
+select @xml.query('/Recorstore/Album[position()<=3]/Artist')
+select @xml.query('/Recorstore/Album[Price<20]/Title')
+select @xml.query('/Recorstore/Album[@ID="1"]')
+select @xml.query('/Recorstore/Album[@ID="1"]/ReleaseYear')
+select @xml.query('/Recorstore/Album[@category="Rock"]/Title')
+
+-- 
+Has recibido este mensaje porque estás suscrito al grupo "UKSQL2014" de Grupos de Google.
+Para anular la suscripción a este grupo y dejar de recibir sus mensajes, envía un correo electrónico a uksql2014+unsubscribe@googlegroups.com.
+Para publicar una entrada en este grupo, envía un correo electrónico a uksql2014@googlegroups.com.
+Para ver este debate en la Web, visita https://groups.google.com/d/msgid/uksql2014/4e785ff6-92d0-4e63-9320-911a67588f74%40googlegroups.com.
+Para obtener más opciones, visita https://groups.google.com/d/optout.

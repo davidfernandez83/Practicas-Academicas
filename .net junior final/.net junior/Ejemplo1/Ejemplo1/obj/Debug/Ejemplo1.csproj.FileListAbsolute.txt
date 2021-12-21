@@ -1,0 +1,11 @@
+C:\BecasManiana\Ejemplo1\Ejemplo1\bin\Debug\Ejemplo1.exe
+C:\BecasManiana\Ejemplo1\Ejemplo1\bin\Debug\Ejemplo1.pdb
+C:\BecasManiana\Ejemplo1\Ejemplo1\obj\Debug\ResolveAssemblyReference.cache
+C:\BecasManiana\Ejemplo1\Ejemplo1\obj\Debug\Ejemplo1.AboutBox1.resources
+C:\BecasManiana\Ejemplo1\Ejemplo1\obj\Debug\Ejemplo1.Form1.resources
+C:\BecasManiana\Ejemplo1\Ejemplo1\obj\Debug\Ejemplo1.Properties.Resources.resources
+C:\BecasManiana\Ejemplo1\Ejemplo1\obj\Debug\Ejemplo1.csproj.GenerateResource.Cache
+C:\BecasManiana\Ejemplo1\Ejemplo1\obj\Debug\Ejemplo1.exe
+C:\BecasManiana\Ejemplo1\Ejemplo1\obj\Debug\Ejemplo1.pdb
+C:\BecasManiana\Ejemplo1\Ejemplo1\obj\Debug\Ejemplo1.Form2.resources
+C:\BecasManiana\Ejemplo1\Ejemplo1\obj\Debug\Ejemplo1.Form3.resources

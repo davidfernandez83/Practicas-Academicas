@@ -1,0 +1,7 @@
+--6
+select e.department_id, e.last_name empleado, c.last_name colega
+from employees e
+join employees c on c.department_id = e.department_id
+where e.last_name <> c.last_name
+order by e.department_id, empleado
+

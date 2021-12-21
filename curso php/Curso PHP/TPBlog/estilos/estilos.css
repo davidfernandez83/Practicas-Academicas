@@ -1,0 +1,37 @@
+body
+{
+	font-family:Tahoma;
+}
+body a:link
+{
+	color:#90D8F0;
+}
+body a:hover
+{
+	color:grey;
+}
+body a:visited
+{
+	color:#D05C59;
+}
+
+#superior
+{
+	background-color:#000000;
+	font-family:Tahoma;
+	text-align:right;
+	color:white;
+	
+}
+#superior a:link
+{
+	color:#A0D8F2;
+}
+#superior a:hover
+{
+	color:#D0ECF9;
+}
+#superior a:visited
+{
+	color:#D05C59;
+}

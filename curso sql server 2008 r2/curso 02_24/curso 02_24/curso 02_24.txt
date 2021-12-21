@@ -1,0 +1,10 @@
+pedidos mayores al 50 y cuyo nro cliente este comprendido entre 5000 y 10000
+
+
+-realizar una consulta que devuelva todas las provincias que estan referenciadas
+por clientes incluyendo aquellas que no lo estan. usar para una consulta left y
+para otra consulta exists
+
+-realizar una consulta que devuelva todos los pedidos que tengan al menos un
+producto cargado. se pide visualizar nro de pedido, codigo de producto y
+descripcion de producto

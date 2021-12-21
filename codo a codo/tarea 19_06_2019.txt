@@ -1,0 +1,11 @@
+en un proyecto van a crear la clase club y clase socio
+
+socio
+private nombre
+private antiguedad
+en el constructor pedir la carga de nombre y antiguedad
+
+club
+3 atributos uno por cada socio
+
+definir en un metodo la mayor antiguedad en el club

@@ -1,0 +1,5 @@
+C:\CursoBecas\Polimorfismo\ComponentePM\obj\Debug\ResolveAssemblyReference.cache
+C:\CursoBecas\Polimorfismo\ComponentePM\bin\Debug\ComponentePM.dll
+C:\CursoBecas\Polimorfismo\ComponentePM\bin\Debug\ComponentePM.pdb
+C:\CursoBecas\Polimorfismo\ComponentePM\obj\Debug\ComponentePM.dll
+C:\CursoBecas\Polimorfismo\ComponentePM\obj\Debug\ComponentePM.pdb

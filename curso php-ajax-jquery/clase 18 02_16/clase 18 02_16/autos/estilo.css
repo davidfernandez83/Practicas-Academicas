@@ -1,0 +1,19 @@
+body{
+	font-family: Verdana;
+	background-color: #fff;
+}
+
+#header{
+	background-color: #98C1DB;
+	height: 120px;
+	color:#fff;
+	/*padding: 40px;*/
+	text-align: center;
+}
+
+
+.listado{
+	margin: auto;
+	width: 960px;
+	background-color: #FFD74E;
+}

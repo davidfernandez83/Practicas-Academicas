@@ -1,0 +1,5 @@
+C:\CursoBecasManiana\EjemploFacturas\ClasesFacturas\bin\Debug\ClasesFacturas.dll
+C:\CursoBecasManiana\EjemploFacturas\ClasesFacturas\bin\Debug\ClasesFacturas.pdb
+C:\CursoBecasManiana\EjemploFacturas\ClasesFacturas\obj\Debug\ResolveAssemblyReference.cache
+C:\CursoBecasManiana\EjemploFacturas\ClasesFacturas\obj\Debug\ClasesFacturas.dll
+C:\CursoBecasManiana\EjemploFacturas\ClasesFacturas\obj\Debug\ClasesFacturas.pdb

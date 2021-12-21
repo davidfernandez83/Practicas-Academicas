@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">segunda_app</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mi_edittext_texto">Ingrese un texto</string>
+    <string name="boton1">Pulsar</string>
+    <string name="title_activity_display_message">Segunda Activity</string>
+
+</resources>

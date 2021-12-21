@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Base Datos</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="val">Nombre:</string>
+    <string name="nreg">Codigo:</string>
+    <string name="ins">Ins</string>
+    <string name="act">Act</string>
+    <string name="elim">Elim</string>
+    <string name="edad">Edad:</string>
+    <string name="btnConsultar">Consultar</string>
+
+</resources>

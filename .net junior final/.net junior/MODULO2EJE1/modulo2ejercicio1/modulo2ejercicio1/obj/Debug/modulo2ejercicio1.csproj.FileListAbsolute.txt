@@ -1,0 +1,8 @@
+C:\Documents and Settings\Administrator\Desktop\MODULO2EJE1\modulo2ejercicio1\modulo2ejercicio1\bin\Debug\modulo2ejercicio1.exe
+C:\Documents and Settings\Administrator\Desktop\MODULO2EJE1\modulo2ejercicio1\modulo2ejercicio1\bin\Debug\modulo2ejercicio1.pdb
+C:\Documents and Settings\Administrator\Desktop\MODULO2EJE1\modulo2ejercicio1\modulo2ejercicio1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\MODULO2EJE1\modulo2ejercicio1\modulo2ejercicio1\obj\Debug\modulo2ejercicio1.Form1.resources
+C:\Documents and Settings\Administrator\Desktop\MODULO2EJE1\modulo2ejercicio1\modulo2ejercicio1\obj\Debug\modulo2ejercicio1.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\MODULO2EJE1\modulo2ejercicio1\modulo2ejercicio1\obj\Debug\modulo2ejercicio1.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\MODULO2EJE1\modulo2ejercicio1\modulo2ejercicio1\obj\Debug\modulo2ejercicio1.exe
+C:\Documents and Settings\Administrator\Desktop\MODULO2EJE1\modulo2ejercicio1\modulo2ejercicio1\obj\Debug\modulo2ejercicio1.pdb
