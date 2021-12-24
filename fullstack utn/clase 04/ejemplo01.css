@@ -1,0 +1,18 @@
+.contenedor{
+    background-color: gray;
+    display: inline-flex;
+    /* display: flex; */
+    /* display: row; */
+    /* display: row-reverse; */
+    /* display: column; */
+    display: column-reverse;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+    color: white;
+    font-size:35px;
+}

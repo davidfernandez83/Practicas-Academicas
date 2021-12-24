@@ -1,0 +1,46 @@
+/*tipo etiqueta*/
+p{
+    color:red;
+}
+
+/*tipo clase*/
+.destacados{
+    color:violet;
+}
+
+/*tipo ID*/
+#azul{
+    background-color: lightblue;
+    width: 200px;
+    height: 300px;
+    padding:20px;
+    box-sizing: border-box;
+    padding: 20px 20px; /*ejeY - ejeX*/
+    cursor: pointer;
+}
+
+#azul:hover{
+    background-color:yellowgreen;
+}
+
+a{
+    font-size:25px;
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: violet;
+    color:white;
+}
+
+#rojo{
+    background-color: yellow;
+    color: white;
+    width: 300px;
+    height: 200px;
+    border: 20px solid red;
+        box-sizing: border-box;
+        border-top: 10px dashed blue; /*grosor - tipo de linea - color*/
+    margin: 30px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="caja2" style="border:2px solid blue">
+        <p>parrafo 1 de la caja 2</p>
+        <p>parrafo 2 de la caja 2</p>
+
+    </div>
+
+    <p>parrafo 1 que esta afuera</p>
+    <p>parrafo 2 que esta afuera</p>
+    <button>parrafos de la caja 1</button>
+    <button>parrafos de la caja 2</button>
+
+    <script>
+        function todosParrafos(){
+            var allParrafos = document.getElementsByTagName('p');
+            var num = allParrafos.length;
+            alert("Hay " + num + "etiquetas <p> dentro del documento");
+        }
+        function caja1Parrafos(){
+            var caja1 = document.getElementsById('caja1');
+            var cajaP = caja1.getElementsById('p')
+            var num = cajaP.length;
+            alert("Hay " + num + "etiquetas <p> dentro de caja1");
+        }
+
+        function caja2Parrafos(){
+            var caja2 = document.getElementsById('caja2');
+            var caja2P = caja2.getElementsById('p')
+            var num = caja2P.length;
+            alert("Hay " + num + "etiquetas <p> dentro de caja2");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejemplo.css">
+    <title>Javascript - clases CSS</title>
+</head>
+<body>
+    <h1>Agregar y remover clases de CSS</h1>
+    <div class="cuadrado">
+        <p>
+        <button class="boton" id="rojo">Rojo</button>
+        <button class="boton" id="borde">Borde</button>
+        <button class="boton" id="reset">Reset</button>
+        </p>
+    </div>
+
+
+    <script>
+        var cuadrado = document.getElementsByClassName('cuadrado')[0];
+        var rojo = document.getElementById('rojo');
+        var borde = document.getElementById('borde');
+        var reset = document.getElementById('reset');
+        rojo.addEventListener('click',function(e){
+            cuadrado.classList.add('rojo');
+        });
+        borde.addEventListener('click',function(e){
+            borde.classList.add('borde');
+        });
+        reset.addEventListener('click',function(e){
+            reset.classList.remove('rojo');
+        });
+
+    </script>
+    
+</body>
+</html>
