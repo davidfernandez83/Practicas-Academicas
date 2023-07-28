@@ -1,0 +1,345 @@
+﻿Clase 6 
+Introducción al marco Legal
+¿Qué vamos a ver hoy?
+Vamos a hacer un repaso de la clase 5 y a charlar un poco sobre la autoevaluación. Vamos a sacarnos un poquito el miedo con la guía WCAG 2.1 en una ejercitación. Vamos a adentrarnos en el mundo de la legislación de accesibilidad web con algunos ejemplos.
+Diferencias entre la accesibilidad legal y la accesibilidad real en la web
+
+
+En los últimos tiempos, la accesibilidad web ha venido ganando espacio debido a una serie de requisitos que nacen de normas legales y que, aunadas al entendimiento y compresión de las necesidades de los usuarios, derivan en la garantía de que éstas puedan ser utilizadas sin importar que las personas tengan desarrollado al máximo sus capacidades personales o sensoriales, así como los conocimientos técnicos adecuados para navegar a través de ellas.
+
+
+Para esto debemos tener claro dos tipos de accesibilidad web, la legal y la real. Conociendo sus diferencias podremos entender que es necesario complementarlas para poder obtener resultados de mayor calidad e impacto.
+
+
+La accesibilidad legal presta especial atención al cumplimiento de los requisitos o recomendaciones que la ley o las normas exigen para poder catalogar a las webs como accesibles, como la WCAG 2.1 o el Real Decreto 1112/2018. Dichas normas pretenden vigilar que se cumplan en todo momento buenas prácticas que resulten en el mayor beneficio para todas las personas que accedan al mundo digital.
+
+
+Por otro parte, la accesibilidad real no solo se preocupa de cumplir las normas mínimas legales, sino al cumplimiento de los objetivos de accesibilidad web. Su meta principal es conseguir que todas las personas con discapacidad puedan navegar e interactuar de manera autónoma con los sitios web y aplicaciones móviles.
+
+
+Esto debido a que, al entender las necesidades de cada usuario podemos desarrollar soluciones que se adapten de manera más efectiva a las distintas situaciones que limitan a las personas con discapacidad en el mundo digital; sumándose de manera natural al cumplimiento de normativas que promueven el bienestar común para todos.
+
+
+Por qué tomar en cuenta la accesibilidad legal y la accesibilidad real en la web
+Debemos tomar en cuenta la legal tanto como la real debido a que en los últimos años las normativas y estándares sobre accesibilidad web han venido evolucionando de manera muy rápida a nivel mundial, esto con la finalidad de poder brindar a la mayor cantidad de personas, un acceso a la información, servicios, educación y recreación libre de barreras.
+
+
+Sin duda, hemos tenido que prestando mucha más atención a las exigencias y recomendaciones que se transmiten desde las organizaciones encargadas de velar para que la accesibilidad web sea un hecho.
+
+
+Es importante destacar que, para poder cumplir con las leyes impuestas, es necesario entender el por qué y para qué de las soluciones que puedan ofrecerse. Para ello es clave conocer a la perfección las necesidades que el grupo de personas con discapacidad demanda.
+
+
+El hecho de cumplir con la accesibilidad legal y la accesibilidad real en la web, nos permite que seamos protagonistas y agentes de cambio que contribuyen a la transformación digital garantizando el derecho a la accesibilidad universal, a la igualdad y equidad de oportunidades y condiciones, a la mejora de la experiencia del usuario, a la generación de empleo, al acceso a la información y al aprovechamiento por parte del sector comercial y empresarial de un segmento que hasta ahora se encuentra desaprovechado.
+
+
+Sentando bases 
+¿Qué es la WCAG? 
+Lista técnica de pautas que detallan cómo hacer accesible el contenido de un sitio web o una aplicación móvil. Está destinado principalmente a profesionales de la accesibilidad, desarrolladores de software y diseñadores.
+Versiones
+WCAG ha sido el estándar internacionalmente reconocido para la accesibilidad web durante más de 20 años. WCAG 1.0 fue publicado por el W3C en 1999, WCAG 2.0 en 2008 y WCAG 2.1 en 2018. 
+
+
+Todos los requisitos (criterios de conformidad) de la versión 2.0 están incluidos en 2.1. 
+
+
+Desde el 2018, las WCAG 2.1 son una recomendación del World Wide Web Consortium: la diferencia con respecto a las pautas anteriores se puede ver en la búsqueda  de ampliar la accesibilidad a “usuarios con discapacidad cognitiva o de aprendizaje, usuarios con problema de visión y usuarios con discapacidad en dispositivos móviles”.
+
+La versión actual WCAG 2.1 es una implementación de la 2.0 y contiene 17 nuevos criterios. Su objetivo principal es favorecer la accesibilidad a las personas con discapacidad visual, con discapacidad cognitiva o dificultad de aprendizaje.
+
+
+El W3C ahora está trabajando en WCAG 2.2 y espera publicarlo a finales del 2022.
+
+
+Las directrices publicadas por la Iniciativa para la Accesibilidad Web (WAI), del consorcio World Wide Web (W3C), no tienen carácter normativo ni legal por ellas mismas, pero se han convertido en un estándar de facto, y diversos países las han adoptado como referentes importante para el cumplimiento de la accesibilidad web.
+
+
+Legislación Marco Regulatorio
+La aparición de las nuevas tecnologías en el mundo obligó a la comunidad internacional a regular gradualmente dichas innovaciones tecnológicas, toda vez que su implementación comenzó a incidir considerablemente en la vida de la población.
+
+
+Particularmente, la aparición del internet en la década de los años sesenta, significó un cambió drástico en la manera de comunicar y almacenar información, así como de socializar contenidos, toda vez que simplificó la manera de transmitir éstos, reduciendo distancias, eficientando procesos y garantizando el acceso a un número mayor de usuarios.
+
+
+Si consideramos que el internet planteó una innovadora fórmula que permitió vincular información en forma lógica y a través de redes, conocidas como world wide web, el internet rápidamente se volvió una herramienta de uso indispensable, a tal grado de llegar a ser considerado por la Organización de las Naciones (ONU) como un derecho humano en 2011, cuando la Asamblea General de dicho organismo declaró que el acceso al internet constituía un derecho humano por ser una herramienta que favorecía el crecimiento y progreso de la sociedad en su conjunto, ratificando posteriormente dicha declaración el propio Consejo de Seguridad que en 2016 manifestaría mediante una nueva resolución que “los derechos de las personas también deben estar protegidos en internet, en particular la libertad de expresión”.
+
+
+Al respecto, cabe destacar que uno de los sectores que más se ha beneficiado del progreso de la tecnología, han sido sin duda las personas con discapacidad, quienes han encontrado en las nuevas tecnologías un aliado para materializar sus derechos humanos, tales como la libertad de expresión, el derecho a la información y el acceso a la información pública, por mencionar sólo los más relevantes y por lo que, en consecuencia, garantizar el acceso a éstas resulta fundamental.
+
+
+En este sentido, la accesibilidad, como un derecho humano de las personas con discapacidad, en el contexto del internet y las nuevas tecnologías, resulta indispensable para la plena y efectiva realización de otros derechos, razón por la cual la necesidad de garantizar la accesibilidad web se vuelve indispensable, y a lo cual los organismos internacionales de derechos humanos no han sido indiferentes.
+
+
+Al respecto, cabe destacar que el Comité de Expertos de la Convención sobre los Derechos de las Personas con Discapacidad de ONU, en su Observación General No. 2, sobre el Artículo 9º de dicho instrumento relativa a la accesibilidad, habla de la necesidad de garantizar dicha accesibilidad en el ámbito del internet y las nuevas tecnologías, determinando que la “aplicación estricta del diseño universal a todos los nuevos bienes, productos, instalaciones, tecnologías y servicios debe garantizar un acceso pleno, en pie de igualdad y sin trabas a todos los consumidores potenciales, incluidas las personas con discapacidad, de una manera que tenga plenamente en cuenta su dignidad y diversidad intrínsecas” .
+
+
+Está comprobado que la tecnología disminuye las barreras de acceso a la información, comunicación, entre otras más, de las personas con discapacidad, por lo que no garantizar la accesibilidad web y tecnológica a este grupo poblacional, constituye una grave falta al pleno y efectivo ejercicio de los derechos humanos de este grupo poblacional.
+
+
+Derecho a la Información y al Acceso
+
+
+En cualquier sociedad es fundamental que exista la libertad de expresión y el derecho a la información. Su importancia radica en qué tan libre será una sociedad para emitir sus ideas, así como para difundirlas y, sobre todo, cuánta información podrá recibir la misma para emitir un juicio propio y debidamente informado.
+
+
+En este sentido, el derecho a la información se entiende a partir del contenido del derecho a la libertad de expresión, definido por la Comisión Interamericana de Derechos Humanos, como un derecho con una cualidad dual, al poseer dos dimensiones, una de carácter individual, y otra de carácter social.
+
+
+La primera se refiere a que todas las personas deben tener la posibilidad de difundir, transmitir y exteriorizar sus pensamientos, mientras que la segunda se basa en que el público busque, conozca, reciba y acceda a la información por cualquier medio, incluido por supuesto el Internet.
+
+
+Al respecto, el Sistema Universal de Protección a los Derechos Humanos, tutela el derecho humano a la libertad de expresión, así como el derecho a la información, estableciendo dichas prerrogativas en el Artículo 19º del Pacto Internacional de Derechos Civiles y Políticos, el cual prevé que (i) nadie podrá ser molestado a causa de sus opiniones, y que (ii) toda persona tiene derecho a la libertad de expresión; este derecho comprende la libertad de buscar, recibir y difundir informaciones e ideas de toda índole, sin consideración de fronteras, ya sea oralmente, por escrito o en forma impresa o artística, o por cualquier otro procedimiento de su elección.
+
+
+Asimismo, el Sistema Interamericano de Derechos Humanos, prevé también protecciones similares, protegiendo los derechos de libertad de pensamiento y expresión en el Artículo 13º de la Convención Americana de Derechos Humano, al considerar que toda persona tiene derecho a la libertad de pensamiento y de expresión, y estableciendo a su vez que dicha protección comprende la libertad de buscar, recibir y difundir informaciones e ideas de toda índole, sin consideración de fronteras, ya sea oralmente, por escrito o en forma impresa o artística, o por cualquier otro procedimiento de su elección.
+
+
+Dicho lo anterior, la Convención sobre los Derechos de las Personas con Discapacidad, no crea en ningún momento derechos nuevos en este sentido, sino que contextualiza dichos derechos a la realidad de las personas con discapacidad, previendo en consecuencia en su Artículo 9º que los Estados Partes están obligados a adoptar aquellas medidas necesarias para asegurar el acceso de las personas con discapacidad, en igualdad de condiciones con las demás a (i) la información y las comunicaciones, incluidos los sistemas y las tecnologías de la información y las comunicaciones incluyendo el internet, así como a (ii) que la información proporcionada por internet, esté en formatos accesibles paras las personas con discapacidad.
+
+
+Se concluye en consecuencia que, no hacer lo anterior, no sólo significaría un acto discriminatorio, sino que éste a su vez constituiría una barrera significativa que impediría el pleno goce del derecho a la libertad de expresión, información y de acceso a ésta de manera genérica.
+El acceso a la información es un Derecho humano 
+Todos los derechos humanos tienen la misma importancia y todos los gobiernos deben tratarlos de un modo justo y equitativo, en los mismos términos y con el mismo énfasis. 
+
+
+Todos los Estados tienen, con independencia de su sistema político, económico y cultural, la obligación de promover y proteger todos los derechos humanos para todas las personas sin discriminación.
+
+
+Así, no importa las distinciones que hagan las personas, hay un solo principio básico que subyace en todos los derechos contenidos en la DUDH: que todos los seres humanos tienen los mismos derechos inalienables. Esto significa que los derechos humanos son los mismos para todos los hombres, mujeres, niños y niñas de todo el mundo, con independencia de cuáles sean sus circunstancias.
+
+
+Dia internacional por el acceso Universal a la información
+Reconociendo la importancia del acceso a la información, la 74ª Asamblea General de las Naciones Unidas proclamó el 28 de septiembre como el Día Internacional del Acceso Universal a la Información (IDUAI) a nivel de las Naciones Unidas en octubre de 2019. La Conferencia General de la UNESCO había proclamado el día en 2015, tras la aprobación de la Resolución 38 C/57 en la que se declaraba el 28 de septiembre de cada año Día Internacional del Acceso Universal a la Información (IDUAI).
+
+
+El tema del Día Internacional del Acceso Universal a la Información de 2021 destacó el papel de las leyes de acceso a la información y su aplicación para volver a crear instituciones sólidas para el bien público y el desarrollo sostenible, así como para reforzar el derecho a la información y la cooperación internacional en el ámbito de la aplicación de este derecho humano.
+
+
+La Accesibilidad Web es un Derecho
+El derecho de acceso a la web está orientado a la manera en que una sociedad ejerce la inclusión de todas las personas que pertenecen a ésta, con base en el principio de igualdad.
+
+
+En consecuencia, para dar cabal cumplimiento a esta obligación, los instrumentos y organismos internacionales, han ya determinado que los Estados deberán promover tecnologías auxiliares, las cuales tienen como finalidad que las personas con discapacidad hagan uso de la web y se beneficien de las tecnologías de la información y la comunicación (comúnmente conocidas como TIC’s), así como de los contenidos digitales, debiendo ser éstos de fácil percepción, operatividad, comprensión y entendimiento, en atención a los estándares internacionales que para tal efecto existan, o bien, se desarrollen con el tiempo.
+
+
+Cabe destacar que Frank La Rue, quien fuera de 2008 a 2014 el Relator Especial para la Promoción y la Protección del Derecho a la Libertad de Opinión y de Expresión de ONU, instó en su momento a que se tradujeran los sitios web en varios idiomas, y se tomaran medidas para que esos sitios fueran accesibles para las personas con discapacidad, enfatizando que “el hecho de que las personas con discapacidad puedan participar en la misma plataforma de comunicación, facilita una sociedad verdaderamente global” .
+
+
+Para lograr la igualdad de oportunidades y un acceso equitativo a la web es necesario eliminar las barreras que producen una brecha digital que, en palabras del propio La Rue, ésta es “la separación entre quienes tienen acceso efectivo a las tecnologías digitales y de la información, en particular a Internet, y quienes tienen un acceso muy limitado o carecen de él” .
+
+
+En este sentido, es necesario mencionar que, desde el derecho internacional de los derechos humanos, se han definido ya ciertos principios para que la web se considere como accesible, libre y abierta, haciendo de ésta un auténtico derecho humano, a saber:
+
+
+* Acceso Universal: Se refiere a la necesidad de garantizar la conectividad y el acceso universal, ubicuo, equitativo, verdaderamente asequible y de calidad adecuada, a la infraestructura de Internet y a los servicios de las TIC, en todo el territorio del Estado. El acceso no solo abarca la infraestructura del Internet, sino también la a las nuevas herramientas existentes en la web (culturales, educativas, de entretenimiento).
+
+
+* Pluralismo: Se debe proteger la naturaleza multidireccional de la red y promover las plataformas que permitan la búsqueda y difusión de informaciones e ideas de toda índole, sin consideración de fronteras, en los términos del artículo 13 de la Convención Americana .
+
+
+* No Discriminación: Garantizar que todas las personas, especialmente aquellas que pertenecen a grupos vulnerables o que expresan visiones críticas sobre asuntos de interés público, puedan difundir contenidos y opiniones en igualdad de condiciones .
+
+
+* Privacidad: Obligación de crear un ambiente protegido para el ejercicio del derecho a la libertad de expresión, toda vez que la vulneración de la privacidad de las comunicaciones tiene un efecto inhibitorio y afecta el pleno ejercicio del derecho a comunicarse .
+
+
+* Neutralidad: Condición necesaria para ejercer la libertad de expresión en Internet es decir la libertad de acceso y elección de los usuarios de utilizar, enviar, recibir u ofrecer cualquier contenido o aplicación por medio de Internet no esté condicionada, direccionada o restringida, por medio de bloqueo, filtración, o interferencia.
+
+
+Marco Legislativo ambito internacional
+Diversos países han reconocido la importancia de que los servicios sean accesibles en la Web para todas las personas y han publicado legislaciones, recomendaciones y pautas relativas a la accesibilidad sobre la educación, la edificación, y otros ámbitos.
+
+
+Estados Unidos
+En Estados Unidos (EEUU), la primera legislación relativa a la accesibilidad fue la Ley sobre Estadounidenses con Discapacidades, (Americans with Disabilities), de 1990. Esta ley protege los derechos civiles de las personas con discapacidades para que tengan igualdad de derechos en el empleo, transportes, servicios del gobierno y en las telecomunicaciones.
+
+
+Concretamente, la Sección 508 de las ADA determina las normas que se deben tener en cuenta para crear aplicaciones y páginas Web accesibles y se aplica en todas las agencias federales de los Estados Unidos. Las pautas de la Sección 508 tienen muchas similitudes con las WCAG.
+
+
+En el año 2010, se firmó la Ley de Accesibilidad de las Comunicaciones y el Vídeo en el Siglo, (21st Century Communications and Video Accessibility), que establece garantías para asegurar que los teléfonos móviles inteligentes (smartphones), programas de televisión y otras tecnologías de la comunicación sean accesibles para las personas con discapacidad.
+Argentina
+La ley N° 26.653 de Acceso a la información Pública, y sus reglamentarias, reconocen la necesidad de facilitar Accesibilidad de la Información en las Páginas Web, garantiza y amplía el acceso a la información pública a las personas con discapacidad. Mediante esta ley, el Estado Nacional debe respetar en los diseños de sus páginas Web las normas y requisitos sobre accesibilidad de la información que faciliten el acceso a sus contenidos para todas las personas con discapacidad, con el objeto de garantizarles la igualdad real de oportunidades y trato, evitando así todo tipo de discriminación.
+
+
+En los anexos complementarios a la disposición 6/2019 se incorporan las Pautas de Accesibilidad de Contenido Web y los Criterios de Conformidad aplicables de acuerdo a dichas pautas (38 criterios, 25 tipo A o “Must”, y 13 Tipo AA o “Should”). La disposición obliga al cumplimiento de un nivel mínimo de 20 criterios en el plazo de un año contado a partir de la fecha de la disposición, es decir desde el 29/09/2019, y de 30 criterios a partir de períodos subsiguientes.
+
+
+Monitoreo y evaluaciones de Accesibilidad Web. La ONTI, en su rol de Autoridad de Aplicación de la Ley, monitorea y evalúa la accesibilidad de sitios web en el marco del Decreto N° 656/2019.
+
+
+Estándares de accesibilidad web. Analizamos, recomendamos y aprobamos estándares. Conocé los estándares de accesibilidad web vigentes aprobados mediante la Disposición ONTI N° 6/2019.
+
+
+Recomendaciones y guías. Desarrollamos documentación para facilitar el cumplimiento de los estándares de accesibilidad. Podés consultar las recomendaciones y guías sobre accesibilidad web que publicamos en el “Repositorio oficial del Gobierno de la República Argentina”.
+
+
+El día 26 de mayo, el Banco Central emitió la comunicación “A” 7517 que obliga a las entidades financieras a garantizar la accesibilidad de sus páginas webs y da un plazo de 180 días para incorporar recursos como reproductores de audio -tanto en sus homebanking, como en sus aplicaciones de banca móvil-, para permitir una adecuada lectura de sus contenidos a personas con discapacidad. 
+
+
+Comunidad de Accesibilidad Web de la APN. Promovemos la participación, el desarrollo de iniciativas y la gestión del conocimiento entre funcionarios y agentes de la APN interesados en la temática. Si aún no sos parte te invitamos a conocer más de la Comunidad y que participes.
+Union Europea
+En el año 1999, la Comisión Europea (CE) puso en marcha la iniciativa eEurope: Una sociedad de la información para todos, un ambicioso programa destinado a difundir en la mayor medida posible las tecnologías de la información. Dentro de esta iniciativa se impulsaron varios planes para el desarrollo de las TIC y de la sociedad de la información:
+* eEurope: una sociedad de la información para todos (durante el período de 1999 a 2005) se marcó como objetivo evitar que la sociedad de la información se convirtiera en una nueva forma de exclusión social para las personas con discapacidad.
+* i2010: una sociedad europea de la información para el crecimiento y el empleo (durante el período de 2005 a 2009).
+
+
+En 2006, la Declaración Ministerial de Riga sobre una sociedad de la información incluyente vuelve a incorporar el compromiso de que la totalidad de los sitios web públicos sean accesibles y fija el año 2010 como límite para lograrlo
+
+
+Dentro del programa Europa 2020, la iniciativa Una agenda digital para Europa (prevista para el período de 2010 a 2020) constituye el nuevo horizonte de la Unión Europea en el que «propone explotar mejor el potencial de las tecnologías de la información y la comunicación (TIC) para favorecer la innovación, el crecimiento económico y el progreso».
+
+
+A principios de 2014 se aprobó la EN 301 549 – Requisitos de accesibilidad adecuados para la contratación pública de productos y servicios TIC en Europa, (Accessibility requirements suitable for public procurement of ICT products and services in Europe). 
+
+
+Esta es la primera norma europea de accesibilidad para regular la accesibilidad en la contratación pública de productos y servicios de las Tecnologías de la Información y Comunicación (TIC). Para favorecer la integración, se incluyen los requisitos de accesibilidad de la norma ISO/IEC 40500, que hacen referencia a las pautas WCAG 2.0.
+
+
+A partir de la iniciativa de la Unión Europea, otros países, tanto comunitarios como no comunitarios han desarrollado leyes relacionadas con la accesibilidad web.
+
+
+España
+La primera referencia a la accesibilidad web en España se hizo en la Ley 32 de 2002, donde se estipuló que las Administraciones Públicas debían tomar las medidas necesarias para que toda la información de sus páginas web fuera accesible a personas con discapacidad y de edad avanzada. 
+
+
+Sin embargo, como consecuencia de la baja implementación de las medidas y, para evitar que cada persona interpretara la ley a su modo, en 2007 se publicó el Real Decreto 1494 /2007 de 12 de noviembre, con el que se establecieron las condiciones básicas para el acceso de las personas con discapacidad a las tecnologías, productos y servicios en Internet. 
+
+
+A finales del mismo año, se publicaron las infracciones y sanciones por la violación de esta ley. Aunque las multas pueden ascender hasta un millón de euros, en España aún no se ha impuesto ninguna sanción de este tipo. 
+
+
+Posteriormente, con la publicación de las medidas de impulso de la sociedad de la información en la Ley 56/2007 de 28 de diciembre, se pretende que las páginas de Internet que presten servicios al público en general funcionen de acuerdo a directrices de accesibilidad web. Así, aunque no es obligatorio que toda página web adapte sus contenidos de acuerdo a las WCAG, es recomendable pensar en aquellos usuarios que podrían beneficiarse de lo recomendado por el W3C.
+
+
+Cuadro leyes de accesibilidad y WCAG en América 
+País
+	Ley de accesibilidad
+	Basada en
+	Año de creación
+	Ecuador
+
+
+	Normativa Técnica INEN-ISO/IEC 40500
+	WCAG 2.0
+	2014
+	Colombia
+	Normativa Técnica 5854
+
+
+	WCAG 2.0
+
+
+	2011
+	Chile
+	Decreto/Supremo 100/2006 -
+Norma técnica para el desarrollo de sitios web
+de los 􀀁
+órganos de la administración del Estado
+	WCAG 2.0
+
+
+	2006
+	Brasil
+	Decreto N° 5296
+	 WCAG 2.0 y propios
+	2004
+	Argentina
+	Ley de accesibilidad de la información en las
+páginas web.
+
+
+	WCAG 1.0
+
+
+WCAG 2.0 (Actualmente)
+	2008
+
+
+	Peru
+	Lineamientos para la accesibilidad a páginas
+web􀀁
+y Aplicaciones para telefonía móvil
+
+
+	WCAG 1.0
+
+
+	2005
+
+
+	Bolivia
+	NO ES UNA LEY -Guía de estandarización
+para sitios web
+	WCAG 2.0
+	2009
+
+
+	Puerto Rico
+	Ley N° 229: "Ley para Garantizar el Acceso
+de Información a las Personas con 
+Impedimentos"
+	WCAG 2.0
+
+
+	2003
+
+
+	Venezuela
+	Resolución 026 de la Gaceta Oficial Nº 39.633
+	WCAG 2.0
+	2011
+
+
+	Uruguay
+	Guía para diseño e implementación de Portales
+Estatales
+	WCAG 2.0
+
+
+	2009
+
+
+	México
+
+
+	Acuerdo por el que se establecen las
+Disposiciones generales de accesibilidad Web
+	WCAG
+2.0
+http://ww
+w.dof.gob.mx/
+nota_detalle.p
+hp?codigo=54
+18749&fecha=
+03/12/2015
+
+
+	2015
+
+
+	
+
+
+
+SUMEN MATERIAL REFERIDO SOLO A ACCESIBILIDAD WEB!
+
+
+
+
+
+
+
+
+
+
+Material para profundizar
+Si te interesó algunos de los temas de hoy, te dejo material alternativo para que profundices al respecto, te recomiendo ver los videos que son cortos e interesantes! No es material obligatorio
+
+
+CONVENCIÓN SOBRE LOS DERECHOS DE LAS PERSONAS  CON DISCAPACIDAD 
+Link de descarga Derechos de las personas con discapacidad pdf
+
+
+La accesibilidad es un derecho, no un privilegio (Martin Baldassare)
+Podcast UXBS

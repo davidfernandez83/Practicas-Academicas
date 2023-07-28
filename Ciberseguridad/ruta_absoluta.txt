@@ -1,0 +1,44 @@
+[david@localhost Test]$ ls -l -R
+.:
+total 0
+-rw-r--r--. 2 root root  0 Nov 30 14:16 cia_ln
+drwxr-xr-x. 4 root root 27 Nov 30 13:47 Datos
+drwxr-xr-x. 5 root root 45 Nov 30 13:47 Documentos
+drwxr-xr-x. 2 root root 23 Nov 30 14:28 UTN
+
+./Datos:
+total 0
+drwxr-xr-x. 2 root root 19 Nov 30 14:14 DB
+drwxr-xr-x. 2 root root 24 Nov 30 14:15 WWW
+
+./Datos/DB:
+total 0
+-rw-r--r--. 1 root root 0 Nov 30 14:14 pp.db
+
+./Datos/WWW:
+total 0
+-rw-r--r--. 1 root root 0 Nov 30 14:15 index.html
+
+./Documentos:
+total 0
+drwxr-xr-x. 2 root root  6 Nov 30 13:47 Libros
+drwxr-xr-x. 2 root root  6 Nov 30 13:47 Revistas
+drwxr-xr-x. 2 root root 58 Nov 30 14:16 X
+
+./Documentos/Libros:
+total 0
+
+./Documentos/Revistas:
+total 0
+
+./Documentos/X:
+total 0
+-rw-r--r--. 1 root root 0 Nov 30 14:16 area61.txt
+-rw-r--r--. 2 root root 0 Nov 30 14:16 cia.txt
+-rw-r--r--. 1 root root 0 Nov 30 14:16 secreto.txt
+
+./UTN:
+total 0
+lrwxrwxrwx. 1 root root 26 Nov 30 14:28 area61_ln -> ../Documentos/X/area61.txt
+[david@localhost Test]$ 
+

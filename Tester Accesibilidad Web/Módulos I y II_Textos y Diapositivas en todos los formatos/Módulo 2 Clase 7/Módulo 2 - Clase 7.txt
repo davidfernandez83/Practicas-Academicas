@@ -1,0 +1,602 @@
+﻿Clase 7 
+“Conceptos Básicos de diseño y accesibilidad”
+¿Qué vamos a ver hoy?
+Vamos a hacer un recorrido sobre los conceptos principales del diseño como ser paletas de colores, contraste, tipografía y su incidencia e interacción con los elementos y estructuras. Vamos a hablar sobre discapacidades visuales y cognitivas y cómo se ven afectadas por el uso de estos elementos.
+
+
+Por último vamos a descubrir herramientas que nos van a permitir prever problemáticas afines durante el proceso de diseño (no de testing aunque alguna vas a poder usarlas más adelante si quisieras reforzar tu documentación)
+
+
+
+
+Discapacidades visuales y enfermedades que afectan la visión
+
+
+Según la OMS en el mundo hay al menos 2200 millones de personas con deterioro de la visión cercana o distante. 
+
+
+Las discapacidades visuales van desde la pérdida leve o moderada de la visión en uno o ambos ojos ("baja visión") hasta la pérdida sustancial e incorregible de la visión en ambos ojos ("ceguera"). Algunas personas tienen sensibilidad reducida o falta de sensibilidad a ciertos colores ("daltonismo"), o mayor sensibilidad a los colores brillantes. Estas variaciones en la percepción de los colores y el brillo pueden ser independientes de la agudeza visual.
+
+
+Las personas con discapacidades visuales generalmente dependen de cambiar la presentación del contenido web a formas que sean más útiles para sus necesidades particulares. Por ejemplo por:
+* Ampliar o reducir el tamaño del texto y las imágenes;
+* Personalización de configuraciones para fuentes, colores y espaciado;
+* Escuchar la síntesis de texto a voz del contenido;
+* Escuchar audiodescripciones de video en multimedia;
+* Lectura de texto usando Braille actualizable.
+
+
+Para que estos métodos de navegación web funcionen, los desarrolladores deben asegurarse de que la presentación del contenido web sea independiente de su estructura subyacente y que la estructura esté codificada correctamente para que los navegadores web y las tecnologías de asistencia puedan procesarla y presentarla de diferentes maneras. 
+
+
+Por ejemplo, algunas personas no ven el contenido y confían en que las listas, los encabezados, las tablas y otras estructuras de página estén codificados correctamente para que los navegadores web y las tecnologías de asistencia puedan identificarlos.
+
+
+Algunas personas solo ven pequeñas porciones del contenido a la vez o perciben los colores y el diseño de manera diferente. Algunas personas usan fuentes, colores y espacios personalizados para que el contenido sea más legible, o navegan por el contenido usando el teclado solo porque no pueden ver el puntero del mouse. Un diseño accesible admite diferentes presentaciones del contenido web y diferentes formas de interacción.
+Ejemplos de discapacidades visuales
+
+
+* Daltonismo: incluye dificultad para distinguir entre colores, como entre rojo y verde, o entre amarillo y azul, y, a veces, incapacidad para percibir cualquier color.
+* Baja visión: (en algunas regiones también llamada "visión parcial") incluye poca agudeza (visión que no es nítida), visión de túnel (ver solo la mitad del campo visual), pérdida del campo central (ver solo los bordes del campo visual) y visión nublada.
+* Ceguera: pérdida sustancial e incorregible de la visión en ambos ojos.
+* Sordoceguera: deficiencias visuales y auditivas sustanciales e incorregibles.
+Ejemplos de barreras para personas con discapacidad visual
+* Imágenes, controles y otros elementos estructurales que no tienen alternativas de texto equivalentes. (alt)
+
+
+* Texto, imágenes y diseños de página que no se pueden cambiar de tamaño o que pierden información cuando se cambia el tamaño.
+
+
+* Faltan señales de orientación visuales y no visuales, estructura de página y otras ayudas de navegación.
+
+
+* Contenido de video que no tiene alternativas de texto o audio, o una pista de audiodescripción.
+
+
+* Mecanismos de navegación y funciones de página inconsistentes, impredecibles y demasiado complicadas.
+
+
+* Texto e imágenes con contraste insuficiente entre las combinaciones de colores de primer plano y de fondo.
+* Sitios web, navegadores web y herramientas de creación que no admitan el uso de combinaciones de colores personalizadas.
+
+
+* Sitios web, navegadores web y herramientas de creación que no brindan compatibilidad total con el teclado.
+
+
+Paleta de colores y accesibilidad
+Bases de la percepción del color
+El espectro de luz visible
+Una idea básica sobre el color es que se trata de una característica de la luz. Lo que conocemos como luz son en realidad ondas electromagnéticas, como también lo son los rayos X o las ondas de radio FM. 
+
+
+Pero la luz es la parte del espectro electromagnético que los seres humanos somos capaces de percibir, y que cubre aproximadamente el rango de frecuencias de los 400nm a los 700nm. 
+
+
+Las diferentes frecuencias de onda dan lugar a experiencias de color diferentes, por lo que la luz visible suele representarse como un espectro de color. Por debajo de los 400nm están las ondas ultravioleta y por encima de los 700nm los infrarrojos:
+
+
+  
+
+
+
+En la naturaleza, los colores que vemos son resultado de cómo reflejan las superficies de los objetos a las diferentes frecuencias de la luz. 
+
+
+La luz blanca contiene ondas de todas estas frecuencias al mismo tiempo, pero los diferentes objetos absorben o reflejan la luz de manera diferencial para cada frecuencia, de forma que en ocasiones un objeto emite mucha intensidad en frecuencias cortas y poca en las largas, o al contrario.
+El sistema visual y la percepción del color
+Realmente no hay nada en la naturaleza que diga que una onda de 400nm sea azul y otra de 700nm sea roja. 
+
+
+Son nuestro sistema visual y nuestro cerebro quienes crean la experiencia de los diferentes colores que conocemos. Todo comienza en nuestra retina, un tejido situado al fondo de nuestros ojos, en el que hay dos tipos diferentes de receptores de la luz:
+
+
+* Los bastones son receptores que no detectan matices de color, pero son muy sensibles a la intensidad de la luz: son responsables de la visión en blanco y negro. 
+* Los conos son los responsables de la visión en color y hay tres tipos de ellos especializados en la detección de diferentes longitudes de onda. Por ejemplo, los conos S (short) detectan las longitudes de onda corta que dan lugar a la experiencia del color azul, los conos M (medium) están especializado en las ondas medias que se asocian a los colores verdes y, por último, los conos L (long) detectan mayoritariamente las ondas largas de los colores rojizos. 
+
+
+Esta especialización no significa que cada cono solo detecte un color, solo que es más sensible a unas frecuencias que otras como muestra la siguiente imagen: 
+
+
+  
+
+
+
+De igual manera que cualquier color puede conseguirse por la mezcla aditiva de estos tres colores primarios (azul, verde y rojo), el cualquier color que experimentamos puede derivarse de la información captada por estos conos. 
+
+
+Por otra parte, en nuestro sistema nervioso también existen diferentes tipos de neuronas oponentes que responden de manera opuesta (excitatoria vs. inhibitoria) a los pares de colores azul-amarillo y rojo-verde, a lo que se puede añadir otro mecanismo blanco-negro. 
+
+
+En definitiva, a partir de esta respuesta diferencial de los receptores y neuronas de nuestro sistema visual, los seres humanos somos capaces de percibir miles de colores diferentes. 
+
+
+La percepción del contraste
+En el ámbito de la percepción, el contraste es la propiedad que nos permite distinguir unos objetos de otros, o partes de una misma escena como diferentes. 
+
+
+La detección del contraste es una ventaja evolutiva para todos los animales, pero los seres humanos lo hemos aprovechado también como medio de transmisión de la cultura (la escritura, la pintura, o el diseño gráfico dependen de un buen contraste entre el fondo y los elementos del primer plano). 
+
+
+En el ámbito del diseño web, el contraste es importante por varios motivos. Se utiliza para ofrecer una buena legibilidad entre el texto y el fondo, pero también para diferenciar visualmente diferentes regiones de una página. 
+
+
+  
+
+
+
+¿Cómo podemos definir el contraste?
+A nivel físico, el contraste puede definirse como un atributo que depende de la diferencia en intensidad luminosa (llamada luminancia) entre dos áreas o superficies. El máximo de contraste se da entre el blanco y el negro, pero hay un rango amplio de contrastes posibles. 
+
+
+A nivel subjetivo, no solemos hablar de luminancia, sino de su equivalente psicológico: el brillo. El brillo es la luminancia juzgada por una persona, pero no es directa sino que hay otros factores que pueden influir la percepción del contraste:
+
+
+* La adaptación a la luz o la oscuridad: Nuestro sistema visual se adapta a las condiciones de la luz exterior. Si estamos a oscuras y encendemos una luz o estamos en interior y salimos fuera en un día soleado, nuestra capacidad de percibir el contraste cambiará durante un tiempo.
+
+
+* Las diferencias individuales: Hay personas que tienen dificultades con la percepción de los colores o el contraste como veremos más adelante. Pero además, las personas sin ningún déficit tienen diferente grado de sensibilidad. Lo que para una persona puede ser un buen contraste, para otra puede ser apenas perceptible.
+
+
+* El contexto circundante: El brillo que se percibe en un área depende de su color, pero también está afectado por el color del área que le circunda. Esto es así porque nuestro cerebro no ve exactamente el color que ven nuestros ojos, sino que hace una reinterpretación de la escena para que podamos reconocer objetos y escenas con mayor facilidad. Por ejemplo, fijate en la siguiente imagen:
+
+
+  
+
+
+
+El cuadrado central de la izquierda parece mucho más oscuro que el cuadrado central de la derecha. Sin embargo, si aumentamos la imagen de forma que no podamos ver el cuadrado grande que le rodea veremos que ambos son iguales. Este fenómeno se llama contraste simultáneo de color. 
+Representación del color en las pantallas
+A lo largo de la historia, el ser humano ha utilizado diferentes sistemas para crear y representar los colores. Sin entrar en detalle, recordaremos que en la impresión de colores existe el sistema sustractivo CMYK (Cyan, Magenta, Yellow, Key). 
+
+
+Las impresoras a color suelen requerir cartuchos de tinta de estos colores primarios, que se mezclan en la proporción adecuada para conseguir el resto de colores. El resultado que obtenemos de la tinta sobre el fondo en blanco es resultado de sustraer ciertas longitudes de onda de la luz y reflejar otras.
+
+
+Sin embargo, en la época de las pantallas, se utilizan principalmente los sistemas aditivos, donde los colores se expresan al sumar las diferentes longitudes de onda de la luz emitida.
+
+
+
+
+Color aditivo
+La teoría del color aditivo indica que los colores se producen mezclando luz, específicamente luz roja, verde y azul. A estos tres colores se les llama colores primarios en el modelo de color aditivo. Se pueden producir otros colores mezclando varias cantidades de luz roja, verde y azul para crear colores secundarios: Mezclar luz roja y verde nos da luz amarilla; La superposición de verde y azul produce el cian; Al combinar luz azul y luz roja; se produce magenta. 
+
+
+Cuando los tres colores primarios se juntan, se crea luz blanca.
+
+
+El espacio de color RGB que se usa comúnmente, utiliza el modelo aditivo del color en el que la luz roja, la verde y la azul se mezclan en varias cantidades para crear un amplio rango de colores.
+  
+
+Colores hexadecimales vs Colores RGB
+Los colores RGB también se conocen como colores hexadecimales. Hay una pequeña diferencia entre los colores hexadecimales y los colores RGB: la manera de mostrar el código de color mostrado al realizar el diseño. 
+
+
+Los colores hexadecimales se escriben con una # y un código de 6 dígitos que combina números y letras. Por su parte, los colores RGB se muestran como coordenadas, por ejemplo 255,91,51.
+
+
+Los tres números del código RGB es lo que determina la intensidad de cada uno de los colores, rojo, verde y azul. El rango de intensidad va desde el 0 al 255 (1 byte), siendo el 255 la intensidad más alta y 0 la más baja. Por lo tanto, el rojo más puro sería (255, 0, 0), el verde más puro sería (0, 255, 0), y por supuesto, el azul más puro sería (0, 0, 255). 
+
+
+La notación hexadecimal transforma la numeración de cada canal de color a una escala que va de 00 a FF. De esta forma un color RGB (255, 0, 16) pasaría a ser HEX #FF0010.
+
+
+  
+
+
+
+Los colores HEX suelen ser la primera opción a la hora de programar. 
+  
+
+VIOLETA
+PROFUNDO
+
+
+RGB
+R: 72
+G: 29
+B: 82
+
+
+Hex
+#481d52
+	MAGENTA
+
+
+
+
+RGB
+R: 221
+G: 81 
+B: 126
+
+
+Hex
+#dd517e
+	NARANJA
+
+
+
+
+RGB
+R: 230
+G: 142 
+B: 53
+
+
+Hex
+#e68e35
+	AZUL
+
+
+
+
+RGB
+R: 85
+G: 108
+B: 201
+
+
+Hex
+#556cc9
+	CELESTE
+
+
+
+
+RGB
+R: 122
+G: 152
+B: 237
+
+
+Hex
+#7a98ed
+	
+
+
+
+Matiz de color (Hue)
+Se refiere a la cualidad del color dentro del espectro de luz visible. Sin entrar en muchos detalles técnicos, podemos entender este concepto de forma similar a cómo usamos el lenguaje para hablar de los colores. Aunque en la naturaleza existen miles de colores diferentes, solemos clasificarlos en unas pocas categorías (azul, verde, amarillo, rojo, etc.) distinguibles unas de otras. Una forma de representar estos matices son las ruedas de color, como la que se muestra a continuación.
+Saturación 
+La saturación es la pureza del color, determinada por la intensidad luminosa y la combinación de las diferentes longitudes de onda. Cuando un matiz de color está totalmente saturado, hablamos de un color puro (predominancia de unas longitudes de onda determinadas). Si le añadimos intensidad de color gris, estaremos bajando su saturación y obteniendo diferentes colores cada vez más grisáceos.
+
+
+  
+
+
+
+En el modelo HSL el nivel de saturación suele indicarse en la escala de 0 a 255, o como un  porcentaje de 0 a 100%.
+
+
+Luminancia
+Es la intensidad de un área luminosa. Aunque los parámetros técnicos de la luminancia son complejos, puede aplicarse una escala normalizada de luminancia relativa en la que el mínimo sería el negro más oscuro y el máximo el blanco más brillante.
+En la siguiente imagen, se han obtenido diferentes variaciones de mayor y menor luminancia a partir del matiz rojo puro.
+
+
+  
+
+La luminancia suele indicarse como un porcentaje, de 0 a 100%, aunque también dentro del esquema 0 a 255.
+
+
+¿Qué es el Contrast Ratio?
+Es la relación entre la luminancia del color más brillante (blanco) y la del color más oscuro (negro) que la pantalla es capaz de reproducir. 
+
+
+La herramienta que uses para calcularlo,  toma la luminancia del color uno y la compara con la luminancia del color 2, ejecutando la siguiente operación:
+
+
+Color 1 + ( 0.05) / color 2 + (0.05)
+
+
+La relación de contraste puede variar de 1 a 21 por lo que el mayor Contrast Ratio posible es 21 a 1.
+
+
+Y se escribe así: 21:1
+
+
+A mayor Contrast Ratio es más fácil de diferenciar un color del otro.
+
+
+¿Qué es una paleta de colores?
+Una paleta de colores es un conjunto de colores que, combinados armoniosamente, expresan una idea, un sentimiento o un valor. Se usa en la creación de identidades visuales y estrategias de marketing.
+¿Cómo elegir la paleta de colores perfecta?
+Para crear una paleta de colores, no es solo escoger colores al azar, sino colores que combinen o que sean variantes de un color que ya escogimos. Otras veces, es interesante tomar un color complementario al principal y añadir otros colores neutrales.
+
+
+Son considerados colores neutros el gris, el blanco, el negro, marrón.
+
+
+El recurso más importante para hacer esta elección es el círculo cromático, donde se presentan los colores primarios, secundarios  y terciarios. 
+
+
+Además en él podemos ver los colores complementarios  y colores suplementarios. Los colores complementarios son los que se encuentran en posición opuesta uno del otro en la rueda del color. También, podemos crear variantes del mismo color.
+
+
+¿Qué es la armonía de color?
+Armonizar significa coordinar los diferentes valores que el color adquiere en una composición. Para comenzar, el círculo cromático es lo que te permite incorporar las siguientes armonías de color. Hay infinitas paletas de colores y se  pueden combinar como se desee. Pero también hay una ciencia que explica por qué ciertos colores combinados no gustan. Y por eso se siguen unas directrices.
+
+
+  
+
+
+
+Tipos de Paletas de Colores:
+Paleta monocromática
+Se trata de una que solo utiliza un color así como todos los matices que se pueden considerar de la misma familia. El blanco y negro se combinan perfectamente con cualquiera de las familias de colores y esquemas de colores brillantes, pastel, apagados. Por ejemplo, un azul y todos los rangos más claros u oscuros consiguientes.  
+
+
+Paleta análoga
+  
+
+Podemos describir a los colores análogos como aquellos que se encuentran lado los unos de los otros en el circulo cromático, por ejemplo el rojo, naranja y amarillo son análogos. Se aconseja seleccionar un color dominante, un segundo color que sustente, y uno tercero que acentúe.
+
+
+Paleta triada  
+Esta paleta utiliza  tres colores distintos que se encuentran a la misma distancia en el círculo cromático. Para usar una triada de forma exitosa, los colores deben estar equilibrados ,y se debería usar uno dominante y los otros dos para acentuar.
+
+
+
+
+
+
+
+
+Paleta complementaria  
+
+
+Los colores complementarios son los que se encuentran en los extremos opuestos del círculo cromático. Al combinar estos dos colores, se expresa contraste e interés. Por ejemplo, el complementario del amarillo es el morado y del rojo sería el verde.
+
+
+
+
+
+
+
+
+
+
+
+
+Paleta complementaria doble
+  
+
+También conocida como la  tétrada utiliza cuatro colores que se encuentran a la misma distancia en el círculo cromático. Debes tener cuidado, ya que dada la naturaleza de la tétrada, todos los colores tienden a ser distintos. Para resolver eso, deberías dejar que un color sea el dominante y utilizar los otros 3 para resaltar.
+
+
+
+
+
+
+Paleta complementaria dividida  
+Esta paleta  parte de tomar un color y  en lugar de elegir el color complementario que le corresponde en el círculo cromático   tomar los dos situados en posiciones inmediatamente adyacentes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Paletas, contraste y accesibilidad 
+Muchas personas pueden tener problemas en la percepción adecuada del color y el contraste, de forma que sufren limitaciones en el acceso a los contenidos web e interfaces gráficas. 
+Déficits en la percepción del color
+Los déficits en la percepción del color, comúnmente conocidos como daltonismos, son causados por déficits en el funcionamiento de alguno de  los 3 conos. 
+
+
+La mayoría de personas tricrómatas (puede usar los tres conos correctamente y tienen visión normal), pero hay personas que tienen dificultades con alguno de ellos. 
+
+
+Podemos hacer una clasificación de los distintos déficits en función de cómo afectan a estos receptores]:
+
+
+Tricrómatas anómalos 
+Los tricrómatas anómalos son personas que tienen los tres tipos de conos, pero no les funcionan correctamente. Se subdividen en:
+* Protanómalos, con dificultades para distinguir el rojo; 
+* Deuteranomalos, con dificultades para distinguir el verde
+* Tritanómalos, si tienen dificultad para distinguir los azules y amarillos. 
+Los tricrómatas anómalos pueden ver todos los colores, pero tienen dificultad para distinguir algunos matices. A continuación se muestra una simulación de cómo se percibirá el círculo cromático en cada caso.
+  
+
+  
+
+
+
+Dicrómatas
+Los dicrómatas carecen de un tipo de conos, por lo que su visión en color se basa solo en dos de los receptores. No es solo que dejen totalmente de percibir un color, sino también que se les hará muy difícil distinguir colores que lo contienen. Pueden distinguirse tres tipos:
+
+
+* Protanopes: si tienen problemas para percibir el rojo; 
+* Deuteranopes: si tienen problemas para percibir el verde; 
+* Tritanopes: si tienen problemas para percibir el azul. 
+
+
+  
+
+  
+
+Monocrómatas
+Los monocrómatas sufren un déficit llamado acromatopsia, son personas que no poseen conos, por lo que solo pueden percibir gamas de grises. En un déficit infrecuente de origen genético, y afecta conlleva también una hipersensibilidad a la luz. 
+
+
+Una persona puede ser monocrómata a causa de un daño cerebral (hablamos entonces de acromatopsia cerebral). En este caso los conos funcionan correctamente, pero las áreas cerebrales del cerebro están dañadas.
+  
+
+
+
+Conociendo Herramientas 
+🔗 Simulador de Daltonismo
+
+
+🔗 Testeando Colores + Contraste
+
+
+🔗 Colorable, testeando el contraste 
+
+
+Personas con baja visión
+Se habla de baja visión cuando existe algún tipo de déficit o deterioro que afecta a la agudeza visual o campo visual, y que no puede corregirse con gafas, operaciones ni tratamientos farmacológicos. 
+Diferentes patologías pueden causar la baja visión, algunas de las más frecuentes son el glaucoma, la degeneración macular, retinosis pigmentaria, etc.
+Las personas con baja visión pueden sufrir una pérdida del contraste y una alteración de la percepción del color, además de otras dificultades como visión borrosa, deslumbramiento, ceguera nocturna, entre otros.
+  
+
+Visión Normal / Glaucoma Temprano
+  
+
+Glaucoma Avanzado / Glaucoma Extremo
+  
+
+Degeneración macular
+  
+
+Retinosis pigmentaria
+Dificultades temporales y contextuales
+Desde el punto de vista del diseño inclusivo, no solo las personas con discapacidad pueden tener problemas con el color y el contraste.
+Hay muchas limitaciones temporales que puede experimentar una persona, como una operación o tratamiento ocular que le impidan ver correctamente durante algunos días.
+También puede haber dificultades dependientes del contexto o situacionales, como pueden ser una excesiva o deficiente iluminación exterior o el que nuestro teléfono móvil deba funcionar temporalmente con un brillo reducido.
+Entonces, ¿cuál es el porcentaje de la población que tiene problemas con el color y el contraste? 
+La cantidad de personas que puede encontrar dificultades con una determinada combinación de colores puede ser mucho mayor que aquellas que tienen una discapacidad, o un problema temporal o dependiente del contexto. 
+Existe una herramienta muy practica que estima el porcentaje de personas que puede tener problemas para percibir una determinada combinación de color la ofrece la herramienta WhoCanUse:
+🔗 Quién puede ver?
+Personas sin discapacidad
+Muchas personas sufren problemas para diferenciar colores y objetos con diferentes contrastes, aunque no tengan reconocida una discapacidad. Esas dificultades pueden manifestarse en fatiga visual, mayor tiempo necesario para leer o realizar tareas.
+
+
+Por otra parte, el buen uso del color y el contraste es también una cuestión de usabilidad: un texto con alto contraste es más legible y requiere menos esfuerzo que otro con un contraste bajo, aunque podamos percibir ambos. Por ejemplo, ¿a partir de cuál de los siguientes ratios de contraste te parece que es cómodo leer?:
+
+
+Ratio 1.5:1 Requisitos de accesibilidad para color y contraste en la web
+Ratio 2:1.5 Requisitos de accesibilidad para color y contraste en la web
+Ratio 3.5:1 Requisitos de accesibilidad para color y contraste en la web
+Ratio 5:1 Requisitos de accesibilidad para color y contraste en la web
+Ratio 10:1 Requisitos de accesibilidad para color y contraste en la web
+Ratio 15:1 Requisitos de accesibilidad para color y contraste en la web 
+🔗 WCAG 2.1 on contrast ratio
+Hacer la información distinguible
+El primer principio de las WCAG 2.1 es que la información que se transmite debe ser perceptible. Una de las características que contribuyen especialmente a esto es que los elementos sean distinguibles, separando el fondo del primer plano (pauta 1.4). Puede entenderse que el uso del color y el contraste son elementos importantes dentro de esta pauta, ya que las personas con dificultades de visión pueden tener problemas en diferenciar objetos si esto solo depende del color, o si no hay un contraste mínimo entre los elementos.
+
+
+Un concepto importante aquí es el de ratio de contraste. Mucha gente piensa que para que dos colores tengan buen contraste deben ser diferentes en matiz (por ejemplo, amarillo sobre azul). 
+
+
+Aunque puede obtenerse buen contraste combinando colores complementarios o colores cálidos y fríos, es mucho más fácil obtener buen contraste con colores con un matiz de color similar pero de diferente brillo. Esto es así porque el ratio de contraste se refiere a la diferencia de luminancia (en realidad, de luminancia percibida) entre el fondo y el primer plano. El rango suele variar entre 1:1 (ningún contraste) y 21:1 (contraste máximo)
+
+
+Ejemplo: En las siguientes combinaciones de color, tanto el cuadrado central (primer plano) como el cuadrado de fondo tienen exactamente el mismo matiz de color y la misma saturación, pero pueden obtenerse fácilmente diferentes ratios de contraste modificando la luminosidad del cuadrado central.
+
+
+  
+
+
+
+Criterios de conformidad relacionados con el color y el contraste 
+Las WCAG 2.1 recogen 5 criterios que hacen referencia de manera específica al uso del color y el contraste. Estos son:
+Sobre el uso del color
+* Criterio 1.3.3. Características sensoriales (Nivel A): Las instrucciones para operar o entender la interfaz no deben basarse en características sensoriales como el uso del color.
+* Criterio 1.4.1. Uso del color (Nivel A): Especifica que el color no debe ser el único medio para transmitir la información.
+Sobre el contraste
+* Criterio 1.4.3. Contraste mínimo (Nivel AA): Establece el contraste mínimo que debe tener el texto y las imágenes de texto.
+* Criterio 1.4.6. Contraste mejorado (Nivel AAA): Detalla los ratios de contraste necesarios en texto e imágenes de texto para tener una experiencia mejorada.
+* Criterio 1.4.11. Contraste de elementos no textuales (Nivel AA): Aborda de manera específica los requisitos de contraste para elementos no textuales, como los componentes de la interfaz y los objetos gráficos.
+
+
+En las siguientes secciones se describen estos criterios de accesibilidad mostrando ejemplos concretos de errores y buenas prácticas.
+
+
+El uso del color
+Criterio 1.3.3. Características sensoriales (Nivel A)
+Esta pauta se refiere a que los contenidos puedan ser accedidos por los usuarios de diferentes maneras, con diferentes agentes de usuario y dispositivos. 
+
+
+En concreto, el criterio 1.3.3. se refiere a que las instrucciones ofrecidas para entender y operar contenidos no se basan solo en características sensoriales de los componentes como la forma, tamaño, localización visual, orientación, sonido o el color. Un fallo en este criterio sería incluir instrucciones del tipo “Para continuar pulse el botón azul”.
+
+
+Para cumplir este criterio en lo referido al color, las WCAG dirigen al criterio más específico 1.4.1, que como veremos trata de evitar el mal uso del color no solo en las instrucciones sino también en otros elementos de la web.
+
+
+Criterio 1.4.1. Uso del color (Nivel A)
+Estamos acostumbrados a usar el color para comunicar información, a veces de manera inconsciente. Rojo, amarillo y verde no son solo colores del semáforo, sino que los usamos muchas veces para identificar aquello que está bien, regular y mal. 
+
+
+También podemos usar el color para enfatizar o destacar contenidos de texto (p.ej. un subrayado amarillo) o para identificar cambios de estado (p.ej. un enlace que cambia de color cuando acercamos el puntero). 
+
+
+También es habitual asignar colores a diferentes variables en la visualización de datos, de forma que podemos interpretar gráficas visualmente. Pero muchos de estos códigos pueden carecer de significado para las personas que no pueden distinguir colores.
+
+
+El criterio 1.4.1 de las WCAG establece que el color no debe ser el único medio visual para transmitir información, indicar una acción, pedir una respuesta o distinguir un elemento visual. Esto no significa que no usemos el color, sino que este no sea el único medio. Puede hacerse la información redundante utilizando formas, posición y texto. Una buena metáfora del uso de información redundante es la del semáforo:
+
+
+  
+
+
+
+En el semáforo clásico para vehículos se usa verde, amarillo y rojo para indicar cómo debe comportarse el tráfico. 
+
+
+La información se transmite por color, pero además se comunica por la posición de las luces. Es decir, una persona que no pueda percibir el color podría conducir guiándose por el código de posición abajo, intermedio, arriba. 
+
+
+Un ejemplo aún mejor es el del semáforo de peatones, que nos transmite que debemos avanzar o esperar mediante los colores verde o rojo. Aquí también podría guiarse por la posición de las luces (arriba – abajo), pero además puede basarse en que la forma de las siluetas es diferente (una representa a un peatón parado, el otro andando).
+
+
+Ejemplos de buen y mal uso del color
+Mensajes de estado
+Muchas veces utilizamos el color rojo, verde, azul o amarillo para indicar diferentes estados del sistema o para comunicar un error. Este no debería ser el único medio, e idealmente debería poderse usar medios redundantes de comunicación. Por ejemplo, el siguiente mensaje de error se comunica en color rojo:
+  
+
+
+
+Podría pensarse que el texto del mensaje ya es suficiente explícito para indicar lo que ha pasado, pero el color se utiliza también aquí para llamar la atención sobre una acción crítica. A una persona ciega al color podría pasarle desapercibida. 
+
+
+Una mejor forma de comunicar este error sería la siguiente:
+  
+
+En este caso se ha indicado de forma explícita mediante texto que se trata de un error, y además hemos incluido un símbolo indicativo que no depende tanto del color para llamar la atención.
+Instrucciones para interactuar basadas en el color
+El siguiente ejemplo muestra una situación muy común, en la que la persona debe seleccionar los asientos que desea ocupar para un evento o en un medio de transporte. 
+Muy a menudo, el patrón de diseño UX/UI utilizado muestra una imagen como la de la izquierda, en la que la disponibilidad se comunican sólo mediante el color, indicando instrucciones como “Elija su asiento entre aquellos coloreados en verde. Los asientos rojos ya están ocupados”. 
+Una solución accesible es utilizar algún símbolo que también los distinga, como muestra la imagen de la derecha. En ese caso pueden darse las instrucciones “Elija su asiento entre aquellos libres coloreados en verde. Los asientos rojos marcados con una X ya están ocupados.”
+  
+
+
+
+Herramientas para validar desde Figma
+🔗 Color Blind Plug-in
+🔗 A11y - Color Contrast Checker
+🔗 A11y - Focus Order
+🔗 Low Vision
+🔗 Axe for figma
+🔗 Spell Checker
+Herramientas para validar desde el Navegador
+🔗 Testeando Colores + Contraste
+🔗 Quién puede ver?
+🔗 WCAG 2.1 on contrast ratio
+🔗 Web AIM constrast Checker
+🔗 Colorable, testeando el contraste 
+
+
+🔗 Simulador de Daltonismo
+
+
+
+
+Material para profundizar
+Si te interesó algunos de los temas de hoy, te dejo material alternativo para que profundices al respecto, te recomiendo ver los videos que son cortos e interesantes! No es material obligatorio
+
+
+Sugerencias para profundizar sobre Accesibilidad Cognitiva
+Pautas de accesibilidad cognitiva web pdf
+
+
+Investigación de usuarios de accesibilidad cognitiva (W3C)
+
+
+Cuando Youtube junta a la Degeneración Macular y la tecnología 
+Canal de Youtube "The Blind Life"

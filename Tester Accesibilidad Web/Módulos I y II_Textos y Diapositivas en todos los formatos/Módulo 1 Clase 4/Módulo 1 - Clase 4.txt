@@ -1,0 +1,301 @@
+﻿Clase 4  
+Introducción a la discapacidad y accesibilidad web 
+¿Qué vamos a ver hoy?
+Vamos a recordar los 10 principios heurísticos que vimos la semana pasada y vamos a conocer elementos y estructura básica de una web. 
+
+
+Vamos a interiorizarnos en la base conceptual en la que no vamos a parar de ahora en más respecto de la discapacidad y la accesibilidad; así como del universo de las tecnologías asistivas y la incidencia en el vínculo con las personas.
+
+
+¿Qué entendemos por discapacidad?
+Vamos a enmarcar la discapacidad como falta o limitación de alguna facultad física o mental que imposibilita o dificulta el desarrollo esperado de la actividad de una persona. 
+
+
+Según la OMS, el 15% de la población mundial se enmarca dentro de 1.000 millones de personas.
+
+
+Es importante que sepamos hacer la diferencia entre discapacidad e impedimento, siendo que la primera no es equivalente a la segunda. Sin embargo la discapacidad se transforma en un impedimento cuando el afuera es inaccesible. 
+
+
+La relación del usuario con el afuera es lo que marca las limitaciones de las acciones y la capacidad de realizar alguna acción. Nosotros somos dis-capaces en relación a algo, de aquí es donde surge el concepto de normalidad que va a ser relevante para nosotros.  
+
+
+Por ejemplo, muchas personas pueden cantar, pero si el parámetro de normalidad sería cantar como Adele muchos de nosotros seríamos discapaces. El concepto de discapacidad surge debido al criterio de normalidad que la sociedad en la que vivimos maneja. 
+
+
+Nuestro objetivo es quebrar la existencia de este impedimento, reformulando el concepto de normalidad; trayendo la accesibilidad al plano base. Al reformular o resignificar eso que hoy se entiende por normalidad que excluye a parte de quienes habitan la sociedad toda, la discapacidad deja de ser lo que etimológicamente se conoce como y se transforma en una diversidad funcional. 
+
+
+Existen grados de capacidad, no existe persona en el mundo capaz de todo. Todas  las personas tienen impedimentos en relación a distintas cosas, según el momento de vida en el que se encuentre. 
+
+
+La discapacidad a su vez puede dividirse de tres grupos:
+* Permanente: Es aquella que no puede ser modificada con el tiempo, ya sea nos acompañe desde nacimiento o se de lugar más adelante en nuestras vidas.  Ejemplo: Discapacidad cognitiva
+* Temporaria: Es aquella que surge de un impedimento temporal como puede ser una lesión, lo que resulta en no poder realizar algún tipo de actividad de manera temporal. Ejemplo: Me quebré una pierna y no puedo caminar.
+* Situacional: Es aquella que está directamente ligada a una condición particular y/o momentánea en referencia a la Interacción con el entorno. Ejemplo: Necesitamos usar una app de reserva de vuelo en medio de un viaje y el producto que está en un idioma que no es el nativo o el cual se tiene un .
+
+
+Tipos de discapacidad
+* Discapacidad motora: se presenta cuando hay limitaciones en las funciones y estructuras corporales de los sistemas osteoarticular y neuro-musculotendinoso (asociadas, o no, a otras funciones y/o estructuras corporales). 
+* Discapacidad sensorial auditiva: limitaciones en las funciones y estructuras corporales del sistema auditivo. 
+* Discapacidad sensorial visual: limitaciones en las funciones visuales y estructuras corporales del ojo y/o sistema nervioso.
+*  Discapacidad visceral: limitaciones en las funciones y estructuras corporales de los sistemas cardiovascular, hematológico, inmunológico, respiratorio, digestivo, metabólico, endocrino y genitourinario. 
+* Discapacidad mental: limitaciones en las funciones mentales y estructuras del sistema nervioso.
+
+
+La base en la construimos nuestro concepto de accesibilidad y por la cual prima nuestra lectura evaluativa en la mirada relacional con el afuera es la autonomía de la persona. Esta se hace lugar cuando la persona realiza tareas ajustadas a su capacidad real, cuando puede elegir entre algunas opciones y selecciona aquella que mejor se ajusta a sus necesidades y a lo que la situación demanda. La autonomía no está determinada por la capacidad intelectual ya que cada persona puede analizar una situación y adaptar sus respuestas según sus características.
+La clave del respeto al principio de autonomía es la independencia en la toma de decisiones y el control del propio comportamiento según las capacidades concretas de cada persona, sin necesidad de que intervenga otra persona.
+
+
+Entendiendo el uso práctico de la accesibilidad en la tecnología
+Al inicio de nuestro material desmitificamos algunos conceptos sobre accesibilidad y la definimos como un modo de pensar y crear el mundo.
+
+
+Esta visión del mundo se basa, groseramente, en que la mayoría de los bienes y servicios están creados para el general personas. Es decir, se estima sobre una media que es una mayoría con determinadas características más o menos parecidas.
+
+
+Sucede en cada aspecto de la vida, y en relación a cada cosa, que un grupo puede estar fuera de esa mayoría.
+A esas barreras, que dividen a las personas que pueden hacer algo de las que no, respecto a una actividad o un bien específicos, las llamaremos “discapacidad”.
+
+
+Esto nos llevó a concluir dos puntos esenciales:
+1. Todos somos personas con discapacidad respecto a algo. Esta puede ser física, mental o técnica. Por ejemplo: muchos de nosotros no sabemos manejar una grúa, o carecemos de la capacidad de hacer multiplicaciones por 5 cifras mentalmente.
+2. Todos tenemos distintos grados de discapacidad/capacidad respecto a cada cosa que nos rodea. Por ejemplo: yo puedo tocar la guitarra pero no tengo la capacidad técnica actualmente para tocar la guitarra como Jimi Hendrix.
+¿Por qué la accesibilidad es un modo de pensar y crear el mundo?
+Porque la accesibilidad busca el modo de bajar esas barreras, quitarlas o rodearlas.
+
+
+En el caso que nos ocupa a nosotros, lo hacemos a través de la tecnología y puntualmente del testeo de desarrollo de productos digitales.
+
+
+Las primeras preguntas que nos hacemos para comenzar son:
+¿Qué barreras se identifican en este producto? ¿Quiénes quedarían excluidos de su uso?
+
+
+Luego, ¿cómo saltar, rodear, o eliminar esta barrera? Y por último, ¿cómo puede hacerse realidad la solución a la que hemos llegado?
+
+
+Esta manera de pensar requiere de una gran empatía, estar abierto a ponerse en el lugar del otro, y también una buena sensibilidad para reconocer que las soluciones, así como los problemas por derrotar, pueden venir de cualquier lado, y tener las formas más simples.
+
+
+Es primordial ponerse en contacto con las personas con la discapacidad que queremos ayudar a superar, y dejar que sean ellas quienes tengan la última palabra sobre el producto, ya que sin importar nuestras habilidades técnicas y cómo creemos que algo funciona, nadie va a saberlo mejor que los futuros usuarios.
+
+
+La próxima vez que pensemos en un producto o estemos testeandolo, pensemos en cuán accesible es para cada sector de la sociedad e ideemos formas de incluir a la mayor cantidad de personas posibles: esto va a elevar significativamente la calidad de nuestros productos y la calidad de vida de todos los usuarios.
+
+
+Discapacidad y accesibilidad web, ¿para quién diseñamos?
+
+
+“El poder de la web está en su universalidad. El acceso por cualquier persona, independientemente de la discapacidad que presente es un aspecto esencial.”
+Tim Berners-Lee, Director del W3C 
+
+
+Actualmente, existen muchas definiciones de Accesibilidad, nosotros la enmarcamos de la siguiente manera:
+
+
+Entendemos a la accesibilidad como el conjunto de medidas, que deben tomarse durante la definición, diseño y desarrollo del producto o servicio, para que el producto final pueda ser comprendido, utilizado y alimentado por todos los usuarios, más allá de sus dificultades (técnicas, físicas o intelectuales) al mismo nivel de comprensión, navegabilidad y seguridad que cualquier otro usuario sin dichas dificultades.
+
+
+La iniciativa de Accesibilidad Web se trata de una actividad desarrollada por el W3C (World Wide Web Consortium), que es un organismo que tiene como objetivo facilitar el acceso de las personas con discapacidad, desarrollando pautas de accesibilidad y mejorando las herramientas para la evaluación y reparación de accesibilidad web.
+
+
+Una página Web accesible permite proporcionar un acceso equitativo e igualdad de oportunidades como así también la participación activa de las personas con discapacidad.
+
+
+La Accesibilidad Web se entiende como la capacidad de acceso a la misma y a sus contenidos por todas las personas, independientemente de las discapacidades que puedan presentar y de las características de su entorno. Depende del trabajo conjunto de diferentes componentes, incluyendo software, hardware y personas.
+
+
+Según el consorcio w3c, la accesibilidad web refiere al acceso de todos a la web, independientemente del tipo de hardware, software, infraestructura de red, idioma, cultura, localización geográfica y capacidades de los usuarios.
+
+
+Cómo afectan las diferentes discapacidades al acceso a la Web
+El W3C tiene publicado el documento “Cómo utilizan la Web las personas con discapacidad “ donde trata esta cuestión en el apartado 3, “Distintas discapacidades que pueden afectar a la accesibilidad web”:
+
+
+Discapacidad visual
+Imágenes o elementos multimedia sin texto alternativo; el tamaño del texto muy reducido; información basada exclusivamente en el color; combinaciones de colores con poco contraste.
+Discapacidad auditiva
+Ausencia de transcripciones y descripciones sonoras del audio o de la banda sonora de los vídeos; textos largos y complejos; ausencia de imágenes que complementen la información textual.
+Discapacidad física
+Interfaces de usuario que sólo se pueden utilizar con mouse; enlaces y controles de formulario muy pequeños; interfaces de usuario que requieren un control muy preciso; interfaces de usuario con tiempos de respuesta por parte del usuario muy pequeños.
+Discapacidad del habla
+No supone un grave problema en la navegación por la Web hoy en día, ya que no se emplea el reconocimiento de la voz en los sitios web.
+Discapacidad cognitiva y neurológica
+Textos largos y complejos; ausencia de imágenes que complementen la información textual; ausencia de un mapa del sitio web; ausencia de descripciones y ayudas para interpretar los controles de un formulario; inconsistencias entre distintas páginas de un mismo sitio web.
+Múltiples discapacidades
+Cualquiera de las anteriormente citadas.
+Situaciones relacionadas con el envejecimiento
+Normalmente, problemas relacionados con la discapacidad visual, la discapacidad auditiva y la discapacidad física.
+Discapacidad tecnológica
+Sistemas operativos antiguos; navegadores alternativos; ancho de banda de comunicación por Internet bajo; ausencia de un plugin para reproducir ciertos contenidos; dispositivo de visualización de pequeño tamaño.
+
+
+Los problemas que tienen los usuarios con discapacidad visual o discapacidad auditiva son conocidos por la mayoría de los desarrolladores de páginas web. 
+
+
+¿Pero qué problemas tienen las personas con discapacidad cognitiva y neurológica? Estas discapacidades son bastante desconocidas. En el documento Discapacidades Específicas del Aprendizaje podemos leer una descripción detallada de este tipo de discapacidad perteneciente al grupo de las "discapacidades desconocidas".
+
+
+La persona discapacitada y la web: Consideraciones en el diseño web
+Basándonos en las investigaciones de la WebAIM (Web Accessibility In Mind) podemos hacer las siguientes distinciones:
+1. Ceguera
+Desafíos: Imágenes, fotos, gráficos inservibles
+Soluciones: Proveer de descripciones de texto en el atributo alt, si fuesen necesarias explicaciones más largas (tanto en la misma página como con un enlace externo).
+
+
+Desafíos: Algunos usuarios a veces escuchan la web
+Soluciones: Crea enlaces que permitan a los usuarios saltar los menús de navegación, listas de ítems, arte ASCII y otros elementos que puedan dificultar o hacer tediosa la escucha.
+2. Daltonismo
+Desafíos: Colores con un contraste similar a menudo son indistinguibles
+Soluciones: Asegúrate que tienen un contraste suficiente. No utilices solo el color para representar un significado.
+3. Problemas visuales
+Desafíos: A menudo los usuarios utilizan ampliadores de pantalla
+Soluciones: Para reducir el total del desplazamiento horizontal, utiliza unidades relativas en vez de absolutas (por ejemplo, usa porcentajes para el ancho de las tablas, en vez de píxeles).
+
+
+Desafíos: El texto en gráficos no se amplía sin un software especial, y se ve pixelado cuando se amplía
+Soluciones:Limita o elimina el texto dentro de gráficos. Usa anti-aliasing para conseguir un texto claro y legible.
+
+
+4. Sordera
+Desafíos: El audio es inútil
+Soluciones: Provee transcripciones para el audio. Provee de subtítulos sincronizados para los vídeos.
+5. Discapacidades motoras
+Desafíos: Los usuarios puede que no sean capaces de utilizar el ratón
+Soluciones: Asegurarse que todas las funciones están disponibles desde el teclado (intenta que con el tabulador salte de enlace a enlace). Asegurarse que el orden es lógico.
+
+
+Desafíos: Los usuarios que utilizan tecnologías de soplado y aspirado, o similares pueden fatigarse
+Soluciones: Proporciona un método para saltar listas largas o enlaces redundantes u otros contenidos tediosos
+
+
+Desafíos: Los usuarios utilizan software activado por voz
+Soluciones: El software de reconocimiento de voz generalmente no puede replicar el movimiento del ratón de una manera tan efectiva como con el uso del teclado, así que asegúrate que todas las funciones están disponibles desde el teclado.
+6. Discapacidades cognitivas
+Desafíos: Los usuarios pueden confundirse con diseños confusos o sistemas de navegación inconsistentes
+Soluciones: Simplifica el diseño tanto como sea posible. Mantén los sistemas de navegación tan consistentes como puedas.
+
+
+Desafíos: Los usuarios pueden tener dificultades de concentración o comprensión con párrafos largos
+Soluciones: Donde sea apropiado, agrupa la información debajo de encabezados lógicos. Organiza la información en "segmentos" manejables.
+
+
+Desafíos: Un solo método puede no ser suficiente
+Soluciones: Donde sea necesario, agrega ilustraciones u otro medio al texto, y viceversa.
+
+
+Cómo navegan por la Web las personas con discapacidad
+1. Usuarios con ceguera total o visión muy reducida
+2. Usuarios con deficiencia visual o visión parcial
+3. Usuarios con ceguera al color
+4. Usuarios con sordera total o deficiencia auditiva
+5. Usuarios con discapacidad física
+6. Usuarios con discapacidad cognitiva
+
+
+1. Usuarios con ceguera total o visión muy reducida
+Los usuarios con ceguera total o con visión muy reducida que les impide utilizar una pantalla de ordenador emplean una tecnología de apoyo llamada lector de pantalla (screen readers en inglés) que es un software que permite la utilización del sistema operativo y de las distintas aplicaciones de un ordenador mediante el empleo de un sintetizador de voz que "lee y explica" lo que se visualiza en la pantalla del ordenador.
+2. Usuarios con deficiencia visual o visión parcial
+Los usuarios con deficiencia visual o visión parcial que les impide ver correctamente una pantalla de ordenador recurren al aumento del tamaño del texto, emplean combinaciones de colores con un alto contraste o emplean una tecnología de apoyo llamada magnificadores de pantalla (screen magnifiers en inglés) que es un software o dispositivos hardware (por ejemplo, lupas) que permiten visualizar la pantalla con un considerable aumento en su tamaño.
+3. Usuarios con daltonismo
+Los usuarios con daltonismo no suelen emplear ningún tipo de tecnología de apoyo específica para utilizar un ordenador.
+4. Usuarios con sordera total o deficiencia auditiva
+Los usuarios con sordera total o deficiencia auditiva no suelen emplear ningún tipo de tecnología de apoyo específica para utilizar un ordenador.
+5. Usuarios con discapacidad física
+Los usuarios con discapacidad física que limita la movilidad de sus manos emplean diferentes tipos de dispositivos adaptados según el grado de movilidad que conserven: teclados especiales, conmutadores, sistemas de reconocimiento de voz, sistemas de reconocimiento facial, etc.
+6. Usuarios con discapacidad cognitiva
+Los usuarios con discapacidad cognitiva suelen emplear navegadores accesibles que simplifican la navegación.
+
+
+Tecnología asistiva vs estrategias adaptativas
+Se conoce como tecnología de apoyo o tecnología asistiva a cualquier producto (incluyendo dispositivos, equipos, instrumentos, tecnología y software) que es usado para incrementar, mantener o mejorar las capacidades funcionales de las personas.
+
+
+Permitiendo que todas las personas lleven una vida sana, productiva, independiente y digna; tomando parte en la educación, el mercado laboral y la vida social. 
+
+
+A falta de esta tecnología, ciertas personas suelen verse excluidas, aisladas y sumidas en la pobreza, lo que hace más gravosas las consecuencias de una enfermedad o discapacidad para la propia persona, su familia y la sociedad.
+
+
+A día de hoy, solo una de cada 10 personas que la necesitan tiene acceso a tecnología de asistencia, debido a su elevado coste, a la escasa sensibilización sobre el tema y a la falta de existencias, de personal formado, de políticas en la materia y de financiación.
+
+
+¿Quién puede beneficiarse de la tecnología de asistencia?
+Las personas que más la necesitan son:
+* las personas con alguna discapacidad;
+* las personas mayores;
+* las personas aquejadas de enfermedades no transmisibles, como diabetes o accidente cerebrovascular;
+* las personas con trastornos de salud mental, entre ellos la demencia y el autismo; y las personas afectadas de deterioro funcional progresivo.
+Salud, bienestar y beneficios socioeconómicos
+La tecnología asistiva puede no solo repercutir positivamente en la salud y el bienestar de una persona y sus familiares, sino también deparar beneficios socioeconómicos de orden más general. Por ejemplo:
+* El uso apropiado de audífonos por parte de niños pequeños se traduce en mejores aptitudes lingüísticas, sin las cuales una persona con pérdida de audición ve sustancialmente disminuidas las oportunidades de educación y empleo.
+* El uso de sillas de ruedas manuales facilita el acceso a la educación y el empleo, a la vez que reduce los gastos de atención sanitaria porque aminora el riesgo de úlceras de decúbito y contracturas.
+* Hace posible que las personas mayores puedan seguir viviendo en casa y retrasa o previene la necesidad de atención crónica.
+* El calzado terapéutico para los diabéticos reduce la incidencia de úlceras podales, lo que previene amputaciones de las extremidades inferiores y reduce así la carga que todo ello impone a los sistemas de salud.
+Necesidades mundiales no cubiertas de tecnología de asistencia
+En todo el mundo hay un gran número de personas que necesitan tecnología de asistencia pero no tienen acceso a ella. Valgan los siguientes ejemplos para ilustrar las necesidades mundiales no cubiertas en la materia:
+* 200 millones de personas con discapacidad visual carecen de acceso a dispositivos para mejorar la visión.
+* 75 millones de personas necesitan silla de ruedas, pero solo entre el 5% y el 15% de ellas disponen de una.
+* 466 millones de personas que padecen pérdida de audición, pero la producción actual de audífonos satisface menos del 10% de las necesidades mundiales.
+* Hay una gran escasez de trabajadores en el ámbito de la tecnología de asistencia: más del 75% de los países de ingresos bajos carecen de programas de formación en prótesis y ortesis.
+Los países con mayor prevalencia de problemas de salud relacionados con discapacidades tienden a ser aquellos donde hay un menor contingente de trabajadores sanitarios capacitados para ofrecer tecnología de asistencia (apenas 2 profesionales por cada 10 000 habitantes).
+En los países de ingresos bajos, una de las principales razones por las que las personas que los necesitan no disponen de productos de asistencia es que su precio no resulta accesible.
+
+
+Dificultades
+Relacionadas con las políticas
+Muy pocos países cuentan con una política o un programa nacional de tecnología de asistencia. En numerosos países, el sector público ofrece escaso o nulo acceso a esta tecnología.
+Incluso en países de ingresos altos, los productos de asistencia están a menudo racionados o excluidos de los sistemas de salud o protección social, lo que obliga a usuarios y familiares a desembolsar directamente fuertes sumas.
+Relacionadas con los productos
+En la actualidad, la industria de la tecnología asistiva está limitada y especializada, y atiende principalmente a mercados de altos ingresos. No solo hay falta de financiación pública, sino también de sistemas nacionales de prestación de servicios, de actividades de investigación y desarrollo centradas en el usuario, de sistemas de compras, de normas de calidad y seguridad y de productos cuyo diseño esté adaptado al contexto.
+Relacionadas con el suministro
+En los países de ingresos altos los servicios suelen funcionar aisladamente o estar atomizados. Las personas deben asistir a numerosas consultas en diferentes lugares, lo que resulta costoso y agrava la carga que ello supone tanto para los usuarios y cuidadores como para los presupuestos de salud y de servicios sociales.
+Muchos países de ingresos bajos o medianos carecen de un servicio nacional que ofrezca productos de asistencia. Quienes pueden permitírselo los adquieren directamente en una farmacia, una clínica privada o un taller.
+Las personas con poco poder adquisitivo dependen necesariamente de donaciones (siempre aleatorias) o de servicios caritativos, que a menudo privilegian la entrega de grandes cantidades de productos usados o de mala calidad. Estos productos, en general inadaptados al usuario o el contexto, no se acompañan de mecanismos de reparación o seguimiento. En los programas de respuesta a situaciones de emergencia se dan también este tipo de situaciones.
+Relacionadas con el personal
+Es esencial que el personal de salud esté capacitado para prescribir productos de asistencia, adaptarlos, instruir al usuario en su utilización y hacer el seguimiento. Cuando se incumplen estas condiciones básicas, lo habitual es que los productos de asistencia resulten inoperantes o que el usuario los abandone, e incluso puede ocurrir que provoquen daños físicos (como sucede cuando se entregan sillas de ruedas sin cojines que alivien la presión a personas con una lesión de médula espinal).
+
+
+La accesibilidad y el presupuesto
+La accesibilidad es un modo de pensar un producto y de estructurar los aspectos técnicos del mismo para que sea compatible con otras herramientas que permitan la participación, como el uso de “screen readers”, o lectores de pantalla, que dictan a las personas con visión muy reducida o ciegas, el contenido que aparece en pantalla.
+
+
+Al formar parte del modo en el que pensamos y estructuramos el producto, la accesibilidad no supone un esfuerzo ni un trabajo aparte, por lo que no encarece el producto, pero definitivamente le agrega mucho valor.
+
+
+El único caso en el que la accesibilidad es un producto que se paga aparte, es cuando se solicita volver accesible un producto existente, que actualmente no es accesible.
+
+
+  
+
+
+
+
+
+
+
+Material para profundizar
+Si te interesó algunos de los temas de hoy, te dejo material alternativo para que profundices al respecto, te recomiendo ver los videos que son cortos e interesantes! No es material obligatorio
+Cuando la empatía y la tecnología de asistiva se cruzan
+Ayudas reales para necesidades reales | Felipe Betancur | TEDxUdelRosario
+
+
+Libros sobre usabilidad web
+Descarga No me hagas pensar en pdf
+
+
+Desccarga Miro y entiendo en pdf
+
+
+Podcast revisión del libro: No me has pensar
+Spotify - No me hagas pensar
+
+
+Hay un nuevo símbolo de accesibilidad mundial
+Aprendiendo más sobre simbología e implementación 
+
+
+"NUNI SMILE" 
+Emprendimiento Jujeño 
+https://www.nuni.com.ar/

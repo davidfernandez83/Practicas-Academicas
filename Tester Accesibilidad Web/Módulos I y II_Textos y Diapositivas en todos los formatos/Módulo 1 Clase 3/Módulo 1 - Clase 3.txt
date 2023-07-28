@@ -1,0 +1,479 @@
+﻿Clase 3
+Introducción al prototipado y accesibilidad
+¿Qué vamos a ver hoy?
+Vamos a terminar el recorrido de nuestro proceso de empatizar, para definir e idear nuestra solución. Vamos a familiarizarnos con conceptos como principios heurísticos, ideación, prototipado y vamos a conocer elementos y estructura básica de una web. 
+
+
+Para poder entrar de lleno en las consideraciones para generar nuestro prototipo vamos a hacer un paneo por el puente que nos permite llegar de la clase pasa a esta entrelazando el proceso de Definir e Idear.
+
+
+Definir
+Si no generamos un corte en la etapa de research, es infinito siempre va a haber información nueva o nuevos disparadores. Es por eso que necesitamos definir nuestra investigación. De esta manera vamos a:
+* Encontrar el verdadero enfoque de nuestras problemáticas
+* Sintetizar la investigación
+* Articular nuevas perspectivas
+* Tomar decisiones y poder seguir trabajando
+Briefing
+Es un documento que condensa toda nuestra información de manera sintética y clara. Nos va a ayudar a determinar las problemáticas y crear una buena solución. Es donde necesitamos volcar los límites del proyecto y  la información necesaria para definir el problema.
+
+
+Debemos hacerlo claro para que todos operemos con esa información en la cabeza y cualquier persona que lo lea entienda hacia dónde va el proyecto por más que no hay participado en las etapas previas.
+Modelo de 4 columnas
+Hay muchas maneras de diseñar, redactar y armar un brief. Te propongo que abordemos un esquema de 4 columnas ordenadas de la siguiente manera:
+
+
+1. Situación actual: Esta es una descripción de la situación/producto/ servicio antes de cualquier solución. (No explicar problemas) Research / Data cuantitativa y cualitativa
+2. Motivaciones: Aquí se encuentran los principales puntos de dolor que hacen de esto un problema. ¿Qué es lo que hace que la situación actual sea un problema para nuestras personas?
+Debemos escribir motivaciones diferentes para cada persona que hayamos definido. 
+POV + Objetivos / Frustraciones
+3. Criterios: Donde se explica cómo mediremos el éxito de estas nuevas ideas, ¿Qué queremos mejorar? Para cada motivación podríamos tener 1 o más criterios diferentes. Siempre deben ser medibles a futuro.
+4. Límites: Esta es una descripción de los límites de la relación que contendrá la exploración de soluciones, llámese tiempos de entrega, costos, pautas, leyes, normativas por cumplir. Son absolutos no individuales para cada criterio.
+Contexto / Competidores / Benchmark
+
+
+Una vez volcada esta información debemos generar un texto de corrido, lo que nos permite darnos cuenta si es claro y preciso o debe ser corregido.
+
+
+Ejemplo de Briefing
+
+
+Situación actual
+* En Argentina se producen al menos 10 avistamientos de Ovnis por mes.
+* El 74% de las personas que encuestamos elige creer en los Ovnis antes que comprobarlo científicamente.
+* Un gran porcentaje de las personas que realizan disciplinas alternativas como el reiki, el yoga o la meditación están interesadas en los Ovnis.
+* La astronomía está fuertemente ligada a la comprensión de los avistajes.
+Motivaciones (puntos de dolor)
+* Las personas tienen dificultades para otorgar nitidez a lo registrado, para que sea claro el punto de interés a la hora de compartir avistajes.
+* Las personas consideran que hay poca información unificada, concreta y fiable sobre ovnilogía al alcance de la mano.
+* Las personas son más selectivas a la hora de compartir una experiencia referida a los avistajes, ya que no se le da credibilidad.
+Criterios (Resultados deseados)
+* Queremos permitirles a los usuarios la edición con facilidad de las imágenes capturadas y compartirlas en los avistajes
+* Queremos difundir conocimientos de ovnilogía, astronomía y disciplinas alternativas, de manera confiable
+* Queremos generar un espacio donde compartir experiencias, sobre avistajes sin ser juzgados
+Límites
+* Tenemos 51 días de trabajo.
+* La solución debería ser 100% digital y limitada a la República Argentina.
+
+
+Nuestro brief
+
+
+En la actualidad en la Argentina se producen al menos 10 avistamientos de ovnis por mes.
+
+
+El principal problema es que las personas son más selectivas a la hora de compartir una experiencia referida a los avistajes, ya que no se le da credibilidad. Y con nuestra intervención queremos generar un espacio donde compartir experiencias, sobre avistajes sin ser juzgados.
+
+
+Hay que tener en cuenta que tenemos 51 días para el desarrollo del trabajo, la solución debe ser 100% digital y de acceso solo para la república argentina.
+
+
+Ideación
+La ideación es el proceso en el que se generan ideas y soluciones a través de sesiones como bocetos , creación de prototipos , brainstorming, worst possible idea (la peor idea posible) y una gran cantidad de otras técnicas de ideación . 
+La ideación es también la tercera etapa del proceso de Design Thinking . 
+
+
+La ideación es a menudo la etapa más interesante en un proyecto de Design Thinking, porque durante la ideación, el objetivo es generar una gran cantidad de ideas para luego validarlas y filtrarlas.
+
+
+La ideación nos ayuda a:
+* Hacer las preguntas correctas e innovar con un fuerte enfoque en las personas, sus necesidades y sus conocimientos sobre ellos.
+* Ir más allá de las soluciones obvias aumentando el potencial de innovación de la solución que construyamos.
+* Reunir las perspectivas y fortalezas de los miembros de su equipo.
+* Descubrir áreas de innovación inesperadas.
+* Crear volumen y variedad en nuestras opciones de innovación.
+* Descartar las soluciones obvias ya vistas e impulsar al equipo a construir algo más allá. 
+
+
+Escenarios de Ideación
+Diseñar escenarios de ideación te va a permitir establecer criterios unificados para pensar ideas en la dirección correcta, y así aprovechar al máximo la creatividad de todo el equipo.
+Idear es un proceso individual, que alcanza su máximo esplendor cuando se realiza de forma colectiva. Por eso, es importante que todo el equipo esté de acuerdo en cuáles son los escenarios de pensamiento en los cuales se va a trabajar.
+HMW
+Uno de los frameworks más utilizados en esta etapa es el How Might We. El objetivo es poder redactar preguntas que comienzen con:
+Cómo podríamos….?
+Y definan claramente Qué acción realizamos, Para quién trabajamos y Para Qué proponemos una solución.
+
+
+¿Cómo podríamos Acción a Persona para que pueda Objetivo?
+Acción (Verbo)
+¿Qué es lo que queremos hacer por el usuario? ¿Qué lugar queremos ocupar en su vida? Como nos queremos integrar a su contexto Elegir el verbo correcto es super importante. Es el momento para preguntarnos quienes queremos ser.
+
+
+Ejemplo: ¿Cómo podríamos… Ayudar / acompañar / facilitar / educar
+
+
+Muchas veces nos vemos tentados de incluir la solución en el enunciado, recordemos que ahora estamos pensando preguntas, no respuestas. 
+
+
+Ejemplos de error: ¿Cómo podríamos… diseñar una app / hacer un sistema / armar un sitio web
+Persona (sujeto)
+Acá debemos ser precisos y definir quién es el sujeto específico dentro de este escenario. Retomamos a nuestras personas y puntos de vista. ¿Para quién estamos ideando? 
+
+
+Ejemplo: … a… una persona / un grupo específico / una institución / una organización.
+
+
+No podemos usar nichos indefinidos siendo que son imprecisos y difíciles de abordar. Si nuestro Usuario es Juan, vamos a poner su nombre y nos aseguraremos que todo el equipo de trabajo sepa sobre nuestra “persona”.
+
+
+Ejemplos de error: … a… Las personas / los ciudadanos / todos los seres humanos / las personas que le gusta la música  
+Objetivo
+Acá es donde tenemos que colocar lo que queremos lograr en nuestra idea de solución. ¿Qué podrá lograr la Persona con nuestra solución? ¿Cuáles son las oportunidades ? Retomamos las motivaciones y los criterios del Brief.
+
+
+Ejemplo: … para que puedan… objetivo a lograr / resultados a conseguir / oportunidad del desafío?
+
+
+Tenemos que tener cuidado con las respuestas vagas como “vivir mejor” porque no marcan límites concretos y generan escenarios imposibles de abordar. Y acá nuevamente debemos tener cuidado de no incluir una solución.
+
+
+Ejemplos de error: …para que puedan… resolver sus problemas / sufrir menos / viajar mejor? / …Ver una agenda de actividades con iconos distintivos?
+Ejemplos completos HMW
+
+
+¿Cómo podríamos transmitir confianza a  avistadores argentinos para que puedan compartir sus experiencias de manera segura?
+
+
+¿Cómo podríamos asistir a  alumnos del curso a distancia para que puedan organizarse mejor en el trabajo colaborativo?
+
+
+Armar mis escenarios (Según nuestro Brief y Personas)
+Escenario 1
+¿Cómo podríamos ayudar a  Juan carlos (fanatico de los ovnis) para que puedan compartir sus experiencias sin sentirse juzgado? 
+
+
+Escenario 2
+¿Cómo podríamos vincular a  avistadores de ovnis novatos para que puedan sumar experiencias del 3er tipo en argentina? 
+
+
+FODA 
+Este es el momento en donde comenzamos a pensar soluciones posibles que nos disparan nuestros escenarios.
+
+
+Siempre es importante tener presente que no existen las ideas “buenas” o “malas”; sino que hay ideas que son relevantes o irrelevantes para nuestro escenario.
+
+
+Es fundamental definir cuándo estamos ante una idea, y cuándo estamos ante una funcionalidad o un producto. 
+
+
+¿Por qué? Porque necesitamos pensar ideas abiertas que no nos cierren  caminos dentro del marco que definimos con nuestros escenarios.
+
+
+Una funcionalidad es una cristalización de la idea. Una vez que surge una funcionalidad, no puede ser otra cosa, por ejemplo: una alerta push.
+Un producto es una idea que se complejiza con muchas otras decisiones, por ejemplo: un sitio web de ecommerce. 
+
+
+Los escenarios son preguntas. Las ideas son posibles respuestas a esas preguntas.
+
+
+¿Cómo podríamos ayudar a  Juan carlos (fanatico de los ovnis) para que puedan compartir sus experiencias sin sentirse juzgado? 
+
+
+❌ Producto: “un blog que le permita compartir sus experiencias”
+❌ Una funcionalidad o feature: “uno filtro que le permita que solo otros fanáticos de ovnis puedan ver su contenido”
+👽Que juan carlos pueda informarse sobre las experiencias de los usuarios de la comunidad
+
+
+Ejemplos
+
+
+Idea: Brindarle a Juan Carlos conocimientos que permitan dar más credibilidad a lo que comparte, y así mantenerlo actualizado sobre los ovnis
+
+
+Fortaleza: La persona puede ser más escuchada/tenida en cuenta; La persona puede compartir información creíble; La persona puede estar al día con la última información sobre ovnis.
+
+
+Oportunidad: Hay sitios/apps con información muy disgregada y no verificada; Las organizaciones actuales no responden rápidamente con info confiable ni verificando info aportada; Muchos portales tienen información desactualizada o vieja; La información al alcance de la mano está muy bastardeada; la información en muchos sitios se torna muy bizarro; a información podría captar adeptos a la astronomía.
+
+
+Debilidades: La persona puede no tener el aval que creía; La persona puede desconfiar de esta credibilidad otorgada; La persona puede no estar satisfecha con la cantidad de conocimiento otorgado.
+
+
+Amenazas: Se necesita de verificación y actualización constante de la info, por ende, se necesita colaboración de estas organizaciones verificadas/avaladas; Es un nicho en el cual encontramos "fieles" a ciertos sitios con reputación e historia; Subestimación por parte del que no conoce del tema, de "creer" en las fuentes.
+
+
+Idea: Darle a Juan Carlos un entorno cómodo donde pueda contar sus experiencias e intercambiar información, acerca de sus mismos intereses, participando de manera activa.
+
+
+Fortaleza:  seguridad para participar activamente; gente con sus mismos intereses.
+
+
+Oportunidad: que el intercambio de información genere otros espacios/actividades para realizar.
+
+
+Debilidades: Que la persona no logre la comodidad pretendida para desenvolverse y "encajar" en el grupo.
+
+
+Amenazas: Muchas microcomunidades digitales creadas con este propósito.
+
+
+
+
+Principios de usabilidad de Jakob Nielsen
+En 1995 Jakob Nielsen propone estos diez principios de usabilidad web, las bases de lo que hoy conocemos con el diseño “user friendly”, es decir centrados en  los usuarios y optimizados para mejorar su experiencia.
+
+
+Él los llamó principios heurísticos, ya que son un conjunto de reglas metodológicas que sugieren cómo proceder y qué problemas evitar a la hora de generar soluciones, desarrollar y diseñar sitios Web.
+
+
+Heurística: es la estrategia sistémica, para de forma inmediata o gradual generar alternativas que son innovaciones positivas.
+
+
+1. Visibilidad del estado del sistema
+El sistema (web, app o cualquier otro producto digital) debe siempre mantener informado al usuario de lo que está ocurriendo.
+
+
+ Un gran ejemplo es la caja que aparece en la parte inferior derecha de la pantalla cuando estamos subiendo un archivo a google drive. En ella nos informa la acción "Subiendo 1 elemento" asi como la cantidad de tiempo que falta para completar el proceso.
+ 
+
+2. Relación entre el sistema y el mundo real
+El sitio web o aplicación tiene que utilizar el lenguaje del usuario, con expresiones y palabras que le resulten familiares. Además la información debe aparecer en un orden lógico y natural.
+Ejemplo: en la página 404 de Lego, el mensaje es “página no encontrada”. El usuario no tiene por qué saber qué significa el error 404.
+ Muñeco de juguete de lego con cara de sorpresa al desenchufar una toma de cable que tiene en las dos manos.
+
+Esta es la forma creativa de Lego de representar de manera visual el error 404 de página no encontrada 
+
+3. Control y libertad del usuario
+En caso de elegir alguna opción del sitio web por error, el usuario necesita disponer de una “salida de emergencia” para abandonar el estado no deseado en que se encuentre. Debe poder deshacer o repetir una acción previamente realizada.
+Ejemplo: En Gmail cuando envías un correo a la papelera te da la opción de deshacer la acción.
+ Cartel de gmail que aparece al borrar un correo avisando "se movió la conversación a la Papelera" junto con la opción  de "deshacer" la acción o la cruz para cerrar el aviso 
+
+4. Consistencia y estándares
+Es importante establecer convenciones lógicas y mantenerlas siempre. El usuario no tiene por qué saber que diferentes palabras, situaciones o acciones significan lo mismo.
+Ejemplo: un estándar de un sitio web es la situación del logo en la cabecera, en la parte superior izquierda de la página. El icono de menú en móvil (llamado menú hamburguesa) también se ha convertido en un estándar y el usuario lo identifica fácilmente.
+ Se señala la sección estándar del logo en la cabecera, en la parte superior izquierda de un sitio web. 
+
+ Se señala la sección estándar del icono de menú en móvil (llamado menú hamburguesa) en la esquina superior derecha de la aplicación. 
+
+
+
+5. Prevención de errores
+Ayuda al usuario a que no caiga en un error.
+Ejemplo: Los buscadores proporcionan asistencia a los usuarios para que encuentren lo que están buscando, con la función autocompletar o con la alternativa de resultados.
+ Se muetsra recorte del buscador de google donde nos sugiere alternativas de resultado entendiendo que tal vez hay un error de tipeo. En este caso se pone en le busqueda "casa aul" y hace la recomendación de buscar "casa azul" o ver los resultados de la busqueda original.
+ 
+
+
+
+6. Reconocimiento antes que recuerdo
+Debemos hacer visibles acciones y opciones para que el usuario no tenga que recordar información entre distintas secciones o partes del sitio web o aplicación.
+Ejemplo: los enlaces auxiliares de una home que incluyen texto más icono para reforzar el mensaje. 
+
+
+ Muestra el nombre de la sección debajo de los iconos especiales de la página que no son de uso cotidiano. 
+
+
+
+7. Flexibilidad y eficiencia de uso
+Los aceleradores o atajos de teclado, por ejemplo, pueden hacer más rápida la interacción para usuarios expertos, de tal forma que el sitio web o aplicación sea útil tanto para usuarios básicos como avanzados.
+Ejemplo: Cuando ingresamos a la app de Spotify te muestra las playlists que escuchas frecuentemente; Play/Pause con la tecla “espacio” en reproductores de vídeo o música; o la existencia de la sección configuración avanzada de Spotify.
+
+
+  
+
+
+
+
+
+8. Estética y diseño minimalista
+Las páginas no deben contener información innecesaria. Cada información extra compite con la información relevante y disminuye su visibilidad.
+Ejemplo: la tendencia del diseño actual en la web. Apple gana en el minimalismo.
+  
+
+9. Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores
+Los mensajes de error se deben entregar en un lenguaje claro y simple, indicando en forma precisa el problema y sugerir una solución constructiva al problema.
+Ejemplo: Este formulario te avisa en tiempo real de los errores que cometes al rellenarlo.
+  
+
+10. Ayuda y documentación
+Aunque es mejor que el sitio web o aplicación pueda ser usado sin ayuda, puede ser necesario proveer cierto tipo de ayuda. En este caso, la ayuda debe ser fácil de localizar, especificar los pasos necesarios y no ser muy extensa.
+Ejemplo: la web de Mirka reserva un espacio importante y fácilmente localizable para la opción de ayuda en el menú principal.
+
+
+  
+
+
+
+Todos los que nos dedicamos a construir ecosistemas digitales, debemos ser empáticos y ponernos en el lugar del usuario final. Si pensamos en el usuario, vamos a evitar frustraciones que podrían tener un grave impacto en los objetivos de nuestra web o nuestra app. Los fallos de usabilidad pueden aparecer en los lugares más insospechados. Una definición clara de objetivos y un análisis exhaustivo del producto digital nos va a permitir reducirlos a su mínima expresión.
+
+
+Prototipo
+Tipos de prototipo
+Encontramos 3 tipos de prototipos principales dentro del proceso de construcción de nuestro producto digital.
+
+
+Todos tenemos miradas diferentes ante una misma situación, el prototipo lo que nos permite es explorar, comunicar y evaluar nuestras ideas de antemano.
+Prototipamos para:
+* Validar hipotesis
+* Para evaluar caminos alternativos de diseño
+* Fallar rápido y barato
+Prototipos en baja fidelidad
+Se realizan en papel, su objetivo principal es probar cuestiones básicas del diseño como es la estructura de la interfaz, la ubicación de los componentes o la primera versión del contenido.
+Es importante que lo generemos con velocidad y poco detalle, lo que nos permite no perder oportunidades de nuevas ideas.
+  
+
+Prototipos en media
+Son los que se conocen como wireframe y se realizan con herramientas digitales que nos ayudan a maquetar las pantallas en formato de esqueleto. En este punto se maquetar flujos más extensos y funciones más avanzadas.
+Al acercarnos visualmente más al prototipo de detalle nos va a permitir hacer pruebas cada vez más parecidas al producto final.
+  
+
+Prototipo en alta fidelidad
+Una vez que se realizaron todas las correcciones pertinentes podemos avanzar a este prototipo, no antes. En esta etapa es donde vamos a poder abordar todo lo que se contempla en el diseño UI, la cara visible del producto.
+* Paleta de colores
+* Tipografia
+* Animaciones
+Más allá que en esta etapa el producto se ve como el final, seguimos en una etapa de ensayo y error. La iteración no termina nunca.
+  
+
+Prototipado en Figma
+Vamos a introducirnos en esta aplicación para reconocer sus funcionalidades básicas mientras recorremos los 3 tipos de prototipos.
+De esta manera comenzaremos a familiarizarnos con los nombres de los elementos que componen un sitio. Lo que nos servirá para comprender mejor al momento de testear. (Trasladamos a la presentación e introducimos de esta manera las partes esenciales de la estructura de un sitio web).
+
+
+Estructura básica de un sitio web
+
+
+  
+
+
+
+Header o cabecera
+El header es la parte superior de la página  web y en ella se encuentra información básica del negocio/marca. En ella podemos encontrar varios elementos importantes como es el logo y nombre de la empresa, el menú de navegación principal. 
+Además, se suelen incluir datos como el buscador de la página, y una llamada a la acción (CTA - Call to Action) como puede ser reservar, Iniciar sesión.
+Es importante que la cabecera se quede fija para que a medida que el usuario vaya navegando por las distintas páginas de la web se mantengan los accesos más importantes fijos.
+
+
+  
+
+
+
+Body o Cuerpo
+El body se encuentra situado en la parte central de la página (entre el header y el footer) y es donde se presenta al usuario el contenido de esa página o sección. Es una especie de contenedor donde plasmar todos esos textos, imágenes, videos, etc.
+Para cada página de tu sitio es diferente, puedes tener una página principal donde el contenido sea la presentación de tus productos y servicios y tu propuesta de valor o disponer de una página con un formulario de contacto.
+El espacio destinado a esta parte de la página debe ser entre un 50% / 80% del total de la página web.
+
+
+  
+
+
+
+Hero section o imagen destacada 
+Es la zona que está debajo del encabezado; prácticamente están conectadas. La imagen destacada complementa la vista con elementos que buscan captar la atención a primera entrada, como pueden ser imágenes / videos atractivos o algún texto que enganche al usuario. 
+
+
+Esta sección también puede contener un elemento de tipo slider donde, en lugar de una imagen estática, se presentan una serie de imágenes en galería (Carrusel).
+Hero section
+  
+
+
+
+Slider
+  
+
+
+
+Carrusel
+  
+
+CTA 
+Son un elemento que rara vez suele no estar en la página web. Son atajos con los que se ayuda a los visitantes a realizar las acciones que deseas, por ejemplo: pedir informes, conocer más acerca de tu producto, descargar una guía, entre otros. 
+Puede usarse de varias maneras y con diferentes intenciones. El objetivo es que estas frases cortas le indiquen al usuario que al dar clic recibirán o verán algo a cambio.
+
+
+  
+
+Search bar o buscador
+Permite explorar los contenidos o buscar un tema en específico en la página web. Puede ser muy simple y añadirse en un lugar estratégico de la página; por ejemplo, en el encabezado o en las columnas laterales. 
+Según sea la intención del tipo de servicio, puede encontrarse un buscador más robusto, con opciones múltiples, como a la hora de reservar un vuelo u hospedaje. 
+Search bar
+  
+
+Buscador robusto
+  
+
+Formulario 
+Es un lugar en el que los usuarios ingresan datos o información personal que se enviará a un servidor para su proceso. Por ejemplo, los usuarios pueden dar su nombre y correo electrónico para registrarse a un boletín o realizar un pedido.
+Una vez que completan el formulario, sus datos se guardan hasta que estén listos para su análisis. Los formularios web son herramientas cruciales para negocios para obtener la información que necesitan de sus clientes potenciales. 
+Formulario de contacto 
+Los formularios de contacto se utilizan para que los usuarios puedan hacer alguna pregunta, compartan una preocupación o incluso expliquen su necesidad para un reembolso. 
+Estos formularios web típicamente contienen campos que requieren que los usuarios agreguen sus apellidos, información de contacto y número de orden. Es posible que también tengan desplegables o entradas de texto para que las personas expliquen sus razones para contactarte y su método preferido para eso.
+  
+
+Formulario para generación de usuario
+Estos formularios web convierten a visitantes de sitio en usuarios. Generalmente piden información personal como nombre, empresa, dirección de correo, teléfono y en ocasiones un nombre de usuario y contraseña para los que regresan al sitio.
+  
+
+
+
+
+
+Formulario de orden 
+Estos formularios hacen exactamente lo que dicen: permiten que los usuarios hagan pedidos. También proporciona a los clientes una forma de pagar sus artículos y que los productos se les envíen directamente. Los formularios de orden son detallados y podrían incluir varios pasos, porque en muchas ocasiones requieren los datos de una tarjeta de crédito, información de facturación y entrega, además de los datos de contacto.
+
+
+  
+
+
+
+Formulario de registro 
+Un usuario debe completar un formulario web de registro si está interesado en registrarse en tu servicio. Este se utiliza comúnmente en sitios como mercado libre. Si un usuario busca subir un producto para vender, debe completar un formulario de registro para crear una cuenta y luego publicar el artículo.
+  
+
+
+
+Formulario de encuesta 
+Los formularios de encuesta pueden incluir respuestas de opción simple, múltiple o de llenado. Se utilizan para saber más sobre la experiencia que los clientes tienen con tus productos y servicios. Además ayudan a mejorar futuras interacciones con tus consumidores, así como educar a los usuarios sobre la forma en que tu negocio puede resolver sus problemas.
+  
+
+
+
+Video 
+Este elemento puede integrarse en cualquier parte de la estructura de la página web. Muchas marcas han optado por incluirlo en la sección de imagen destacada o en la parte central. El video puede ser largo o corto; esto dependerá de lo que quieras mostrar. Una buena práctica es la posibilidad de uso de subtítulos. 
+  
+
+ Favicon o Iconode URL
+Es un elemento que brinda detalles de cualquier sitio web. Refuerza la marca y permite a los usuarios tener una conexión visual más rápida. 
+
+
+  
+
+Side bar o Barra lateral 
+El Sidebar es el espacio que está al lado del body de una página web (especialmente en un blog), puede estar colocado en diferentes zonas, aunque lo más habitual es encontrarlo o a la izquierda o a la derecha del contenido (normalmente a la derecha). Suele contener información accesoria, que no suele añadir un valor significativo a la temática de la página.
+
+
+Se utiliza normalmente para potenciar algunas interacciones o destacar algunos elementos, mostrando estos elementos a la vista del usuario, como pueden ser un formulario de suscripción, las últimas entradas del blog, una imagen que enlace a algún producto o servicio que se venda en la web o cualquier cosa que nos interese destacar.
+
+
+  
+
+Footer o El pie de página
+Lo encontramos en la parte inferior de la página y se mantiene fijo en todas las páginas de la web. Aunque muchas veces a la hora de estructurar una web no se le da importancia, este lugar es sin duda otro elemento fundamental de una página web.
+La información a destacar en esta sección puede ser todos esos elementos que no se han podido resaltar en el resto de la página, así como elementos básicos de información.
+Se suele encontrar: el logo de la marca, ícono de las redes sociales, datos de contacto, menú simplificado, horario y ubicación, política de privacidad y de cookies.
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+Material para profundizar
+Si te interesó algunos de los temas de hoy, te dejo material alternativo para que profundices al respecto, te recomiendo ver los videos que son cortos e interesantes! No es material obligatorio
+Si querés saber más sobre heurística te recomiendo recorrer este el sitio de la consultoría de Nielsen y Norman
+
+
+🔗 Sitio NNgroup (Es en ingles)
+
+
+Si te llevas bien con el inglés te dejo uno de sus videos hablando sobre el top 10 de errores en sitios web.
+
+
+🔗 Top 10 Web-Design Mistakes

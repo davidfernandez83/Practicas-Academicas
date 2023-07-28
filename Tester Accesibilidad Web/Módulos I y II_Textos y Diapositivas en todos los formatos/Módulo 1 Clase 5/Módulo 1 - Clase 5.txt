@@ -1,0 +1,245 @@
+﻿Clase 5
+“Accesibilidad Web 101” Fundamentos de la Accesibilidad Web 
+¿Qué es la Accesibilidad web? 
+La accesibilidad web tiene como objetivo lograr que las páginas web sean accesibles y utilizables por el máximo número de personas, independientemente de sus conocimientos, capacidades personales o las características técnicas del dispositivo de acceso empleado.
+
+
+A nivel internacional, el W3C promueve la progresiva adopción de directrices de accesibilidad en la Web, especialmente a través de su grupo de trabajo Iniciativa para la Accesibilidad Web (WAI). Este grupo publicó en 1999 la primera versión de su documento Directrices de Accesibilidad del Contenido Web (Web Content Accessibility Guidelines o WCAG) que se han convertido en una referencia internacionalmente aceptada.
+
+
+La última versión de este documento, las denominadas WCAG 2.1, fueron publicadas en junio de 2018 y en ellas se explica cómo hacer el contenido Web accesible para personas con discapacidades. Estas directrices están dirigidas a los desarrolladores y diseñadores de sitios Web, a los desarrolladores de herramientas de autor para el diseño y programación de sitios Web, a los desarrolladores de herramientas de evaluación de la accesibilidad Web y para cualquiera que necesite un estándar de referencia con el que comprobar la accesibilidad de un determinado contenido en la Web.
+¿Quiénes deben respetar las directrices de accesibilidad?
+Las directrices de accesibilidad web afectan a distintos colectivos relacionados con el desarrollo y la generación de contenidos para la web; grupo a los que atraviesa: 
+1. Pautas de accesibilidad para el contenido en la Web (WCAG): enfocadas a los webmasters y diseñadores. Indican cómo se deben diseñar y programar los sitios Web de forma que sean fácilmente accesibles por personas con discapacidad o que puedan integrarse con las ayudas técnicas que estas personas necesitan emplear para navegar por la Red.
+2. Pautas de accesibilidad para Herramientas de autoría Web (ATAG): Dirigidas a los programadores y desarrolladores de los programas de diseño y herramientas de programación que usan los autores de páginas Web, para que faciliten la creación de sitios accesibles.
+3. Pautas de accesibilidad para agentes de usuario (UAAG): dirigidas a los desarrolladores de navegadores, para que estos programas integren las ayudas y funcionalidades necesarias que faciliten el acceso a los contenidos Web por personas con discapacidades.
+
+
+¿Qué es W3C?
+El W3C (World Wide Web Consortium) es un comité que se dedica a implementar tecnologías uniformes en el uso y desarrollo de Internet. El organismo fue fundado en el MIT en Cambridge, Massachusetts, EE.UU. en 1994.
+
+
+El objetivo del W3C es uniformar las especificaciones técnicas y establecer directrices para el desarrollo de tecnologías web, de forma que se mantenga la idea básica de la World Wide Web. Tecnologías como HTML, XML, CSS, otros lenguajes de marcado y servicios web son utilizados diariamente por millones de usuarios.
+¿Qué son las WCAG?
+Son pautas de accesibilidad para contenido web, disponen de una serie de recomendaciones con el objetivo de hacer el contenido web más accesible especialmente para personas con discapacidad.
+
+
+Las WCAG nacieron en su versión 1.0 en 1999. En 2008 el w3c publicó las WCAG 2.0, una evolución de las anteriores que había quedado obsoleta debido a los avances tecnológicos. Diez años después, en 2018 el WC3 ha aprobado una nueva evolución de dichas pautas, respondiendo a una mayor diversidad de tecnología (por ejemplo las pantallas táctiles de los móviles), o dando soporte a colectivos con discapacidad cognitiva, con baja visión o con dificultades para el aprendizaje. Sin embargo las pautas WCAG 2.1 no dan una solución completa a todos los retos que suponen tanto las nuevas tecnologías como los colectivos antes mencionados por lo que se plantea como una transición a las futuras WCAG 3.0.
+Lista de directrices básicas de Accesibilidad del contenido Web (WCAG)
+Recordemos que las directrices de accesibilidad WCAG 2.1 contemplan múltiples recomendaciones que afectan a variados aspectos de la presentación de la información en una Web. Las directrices básicas de estas recomendaciones se recogen en una lista de referencia rápida que incluye las recomendaciones más importantes:
+
+
+1. Alternativas de texto: ofrezca alternativas de texto para cualquier contenido que no sea texto de forma que pueda ser interpretado del modo que precisen otras personas, tal como tamaño de letra extra grande, braille, texto hablado, lenguaje de signos o un lenguaje más sencillo.
+2. Contenido alternativo al audio o video:  ofrezca alternativas para cualquier información presentada exclusivamente a través de audio o vídeo. En el desarrollo Web, ciertos contenidos como las imágenes o los vídeos disponen de la posibilidad de incluir texto alternativo. En el caso de las imágenes, el atributo “alt” permite incluir una descripción del contenido de la imagen en modo texto, que los navegadores especialmente adaptados para personas con discapacidades visuales pueden leer en voz alta. De igual forma, YouTube permite añadir archivos de subtítulos a los vídeos, de forma que las personas con discapacidad auditiva puedan leer sobreimpreso como texto el contenido de audio de los mismos. Amara.org ofrece una plataforma de uso gratuito muy interesante para la generación de archivos de subtitulado de vídeos, incluso en versiones multi-idioma, lo que permite que este contenido sea accesible para personas que no entienden la lengua empleada en la locución del vídeo.
+3. Adaptable: Se debe crear contenido que pueda ser presentado de formas distintas (por ejemplo en una maquetación más sencilla) sin perder la información o su estructura. Establecer tamaños de fuente relativos permite que los usuarios puedan configurar fácilmente el tamaño de letra con que se sienten más cómodos para la lectura, sin afectar a la presentación de los sitios Web.
+4. Distinguible: Haga más fácil para sus usuarios que vean u oigan el contenido, incluyendo el separar mejor la forma del fondo. En este sentido, ciertas tendencias estéticas que favorecen los tamaños de fuente reducidos o el uso de texto en gris sobre fondos blancos dificulta la lectura por parte de ciertas personas.
+5. Accesible mediante el teclado : Implemente las distintas funcionalidades para que se pueda acceder a ellas desde un teclado. Por ejemplo, los formularios pueden estar preparados para poder saltar de campo a campo mediante la tecla de tabulación, lo que hace más fácil su cumplimentación.
+6. Suficiente tiempo: Deje bastante tiempo para que sus usuarios puedan leer o usar adecuadamente el contenido.
+7. Ataques: no diseñe contenido de tal forma que pueda ocasionar ataques, especialmente por el uso de ciertos contrastes de color en asociación con efectos de flash y parpadeo rápido de las imágenes.
+8. Navegabilidad: ofrezca formas de ayudar a sus usuarios a navegar, encontrar el contenido y determinar dónde están dentro de su sitio Web. Los rastros de migas de pan (breadcrumb-trail), los URL semánticos, los mapas del sitio, etc. facilitan la navegación de los usuarios.
+9. Entrada de datos: Haga posible que sus usuarios puedan usar distintos tipos de dispositivos de entrada además del teclado.
+10. Legibilidad: asegúrese de que el contenido de texto es legible y fácilmente comprensible para sus usuarios. Aspectos como el contraste y la posibilidad de variar el tamaño de las fuentes de letra, como ya hemos comentado, favorecen la legibilidad de los textos.
+11. Predictibilidad: haga que sus páginas Web aparezcan y funcionen de una forma predecible por sus usuarios. Use las convenciones establecidas en su página de inicio también en todas las secciones y páginas internas.
+12. Autocorrección o ayuda en la entrada de datos: ayude a sus usuarios a evitar y corregir los errores que puedan cometer al interactuar con su página Web, rellenar formularios, seleccionar una opción… También hay funcionalidades que pueden ayudar a los usuarios al autorellenado de formularios cuando se detecta que los valores que esperan ciertos campos ya están disponibles en la memoria del navegador.
+13. Compatibilidad: optimice la compatibilidad con los navegadores actuales y futuros incluyendo tecnologías de ayuda al usuario.
+
+
+Criterios de cumplimiento de las directrices de accesibilidad
+
+
+La Iniciativa para la Accesibilidad Web del W3C establece tres niveles de adecuación o cumplimiento de un sitio Web a las directrices y recomendaciones que establecen las pautas WCAG 2.1: 
+* Nivel A: es el menos exigente e incluye páginas que cumplen ciertos criterios de conformidad determinados por la WCAG (disponibilidad de subtítulos para audios grabados o las alternativas de texto para contenidos audiovisuales).
+* Nivel AA: es el intermedio y más requerido por las entidades que expiden certificaciones de accesibilidad web, y reúne sitios web con disponibilidad de subtítulos para audios en directo, audiodescripción, tamaño de texto aumentable, etc.
+* Nivel AAA: es el más estricto y agrupa las webs que cumplen con los criterios más exigentes (interpretación por lengua de signos,  audiodescripción ampliada, explicación de abreviaturas).
+
+
+Una vez implementadas por los desarrolladores las recomendaciones WCAG 2.1 en el sitio Web, una empresa o entidad externa debidamente reconocida puede realizar una auditoría y extender el certificado correspondiente que garantiza dicho nivel de cumplimiento.
+
+
+El nivel de adecuación habitualmente exigido (es un objetivo que todos los sitios Web de administraciones públicas cumplan con este mínimo) es el nivel AA ya que, según la propia WAI reconoce, el nivel máximo AAA no es recomendable pues muchos contenidos no pueden adecuarse para que cumplan con este nivel de certificación de la accesibilidad.
+¿Cómo se organizan las WCAG 2.1?
+Las WCAG 2.1 están organizadas en cuatro capas, cuya complejidad crece exponencialmente.
+
+
+* 4 Principios: Son la base de la accesibilidad web: todo sitio web debe ser perceptible, operable, comprensible y robusto. Los principios no son evaluables. 
+
+
+* 13 Pautas (1 nueva): Los principios se dividen en pautas, con el objetivo de agrupar de un modo lógico los criterios de conformidad. Las pautas no son evaluables.  
+
+
+* 78 criterios de conformidad (17 nuevos): Los criterios de conformidad si son evaluables. Dependiendo de una serie de factores los criterios de conformidad se escalan en 3 niveles A, AA, AAA. 
+* Más de 580 técnicas y errores: Cada criterio de conformidad propone una serie de técnicas a seguir y documenta una serie de errores a evitar para alcanzar la conformidad. Por su parte cada técnica y cada error tienen su procedimiento de prueba. 
+Los cuatro principios y sus pautas
+1. Perceptible
+Nuestro sitio web puede ser visitado por personas con  diferentes tipos de preferencias y capacidades, pero también por robots (buscadores, traductores…) Nuestra información e interfaz debe tener en cuenta estas necesidades y por ello debemos ofrecer alternativas a los usuarios que no pueden utilizar alguno de sus sentidos. Las pautas de este principio son: 
+Pauta 1.1 Alternativas textuales a contenidos no textuales.
+Pauta 1.2 Alternativas a medios tempodependientes, es decir, video y audio.
+Pauta 1.3 El contenido es adaptable a diferentes formas y presentación.
+Pauta 1.4 Distinguible: El contenido es fácil de ver y escuchar.
+2. Operable
+Los diseñadores y programadores debemos proporcionar elementos de interacción y de navegación que puedan ser manejados por personas con diferentes capacidades. Las pautas de este principio son: 
+Pauta 2.1 Funcionalidad accesible por teclado.
+Pauta 2.2 Los usuarios tienen tiempo suficiente para leer y usar el contenido.
+Pauta 2.3 El contenido no causa convulsiones
+Pauta 2.4 Navegable: los usuarios pueden navegar, encontrar contenido y saber dónde está en todo momento. 
+Pauta 2.5 Facilita formas de introducir información.
+3. Comprensible
+Si nuestro usuario no entiende de que le estamos hablando, o le hacemos sentirse perdido, tenemos un problema. Debemos diseñar nuestro sitio web - incluyendo la información y la interfaz de usuario- fácil de usar. Las pautas de este principio son: 
+        Pauta 3.1 El contenido es fácil de leer y de comprender.
+Pauta 3.2 El contenido aparece y se maneja de una forma predecible.
+Pauta 3.3 Ayuda en la introducción de datos para evitar el corregir errores. 
+4. Robusto
+Este es el principio más dependiente de la tecnología. Se basa en la capacidad del sitio web de ser transmitido e interpretado por los diferentes agentes de usuario. 
+Los agentes de usuario son todos aquellos programas que muestran contenidos de internet, como los navegadores (Internet explorer, Firefox, Safari…), reproductores multimedia (Quicktime, real player, etc), plug-ins (Silverlight, java, etc), y otros programas y dispositivos como los productos de apoyo.
+
+
+Los productos de apoyo, también conocidos como ayudas técnicas, son programas o dispositivos que proporcionan la funcionalidad necesaria para cubrir las necesidades de los usuarios con discapacidad, más allá de la que proporcionan las aplicaciones de usuario principales. Son productos de apoyo, por ejemplo, un magnificador de pantalla, un teclado en pantalla, un puntero grande…
+La única pauta de este principio es:
+Pauta 4.1 El contenido es compatible con las herramientas de usuario actuales y futuras.
+ 
+Los criterios de conformidad (A / AA / AAA)
+Como decíamos anteriormente, las pautas engloban los criterios de conformidad, los cuales recordemos se clasifican en:
+* A (o simple A): el nivel más bajo.
+* AA (o Doble-A): nivel medio.
+* AAA (o Triple-A): el nivel mas alto.
+Para decidir el nivel que debería tener cada criterio, el w3c establece las siguientes preguntas:
+* Este criterio de conformidad es esencial? Es decir, si no se cumple este criterio, los agentes de usuario (incluyendo los productos de apoyo) pueden o no reproducir la página web? 
+* Este criterio de conformidad es aplicable para todos los sitios web, independientemente de su tema, del tipo de contenido, de la tecnología usada, etc.?
+* Los creadores de contenidos pueden aprender en menos de una semana a cumplir este criterio de conformidad?
+* Cómo limitaría este criterio de conformidad la apariencia, la funcionalidad, la forma de presentación, la libertad de expresión, el diseño y la estética de la página?  
+* Hay una alternativa u otro camino para acceder al contenido si no se cumple el criterio de conformidad? 
+
+
+Todos los criterios de conformidad son importantes: los más bajos aseguran que se pueda acceder al contenido de las páginas web y los más altos ayudan a mejorar su usabilidad y a llegar a un mayor número de personas. 
+
+
+Cuando se evalúan los sitios web, se repasan los criterios y se comprueba si se cumplen o no. 
+
+
+Las técnicas y los errores
+Cada criterio de conformidad recomienda una serie de técnicas, las cuales disponen de procedimientos de prueba que nos van a permitir saber si el criterio se cumple o no.
+
+
+Ninguna técnica es obligatoria, ya que las WCAG 2.1 permiten crear tus propios mecanismos alternativos para superar el criterio. Es decir, que aparte de las técnicas documentadas por el W3C, este admite que pueda haber otras formas de cumplir los criterios de conformidad, que serán aceptadas siempre y cuando:
+* Permitan alcanzar el criterio de conformidad
+* Cumplan (o no hagan fallar) el resto de los criterios
+
+
+Hay 2 categorías de técnicas 
+* Las suficientes: Ayudan a superar o cumplir el criterio de conformidad
+* Las aconsejables: Son recomendaciones para mejorar la accesibilidad y usabilidad del sitio web.
+
+
+Las técnicas pueden ser generales o referirse a una tecnología concreta (HTML, CSS, SMIL, ARIA, PDF, entre otras).
+
+
+Los errores documentados por la WCAG 2.1 son prácticas que dificultan o impiden la accesibilidad de la página. Al igual que las técnicas, disponen de procedimientos de prueba para verificar que no estamos tropezando de nuevo con la misma piedra.  
+
+
+Tanto las técnicas como los errores pueden estar asociados a más de un criterio de conformidad, por lo que podemos encontrarnos técnicas y errores usados en más de una ocasión. 
+
+
+Beneficios de respetar las recomendaciones de accesibilidad
+* Éticos: diseñar sitios Web accesibles es respetar el derecho de todas las personas a disfrutar de igualdad de oportunidades y acceso a la información.
+* Sociales: un sitio Web accesible podrá ser visitado por usuarios con discapacidades o necesidades específicas, con conexiones lentas o equipamiento informático obsoleto. En España, un 9 por 100 de personas tienen algún tipo de discapacidad y alrededor del 21 por 100 de toda la población es mayor de 60 años. Esto significa que con un sitio accesible, su Web puede llegar hasta a un 30 por 100 más de personas.
+* Económicas: más usuarios significan más ventas. Montar un sitio Web implica tiempo y dinero y si el potencial cliente que lo visita se encuentra con problemas para acceder a la información (productos) es muy probable que deje de visitarlo. Además, ciertos segmentos de población con necesidades específicas o mayores de 60 años cuentan con una renta disponible que los convierte en un público muy atractivo.
+* Compatibilidad: al respetar los estándares Web y separar el contenido del diseño (hojas de estilo CSS), los sitios Web accesibles son más compatibles con una mayor variedad de terminales de sobremesa, móviles y resoluciones de pantalla.
+* Mejora en los tiempos de descarga: la maquetación con hojas de estilo CSS aligera el peso total de la página y hace el proceso de descarga y presentación del contenido mucho más eficiente que el de las páginas maquetadas mediante tablas o con la definición de estilos incluida en HTML.
+* Ahorro en el uso de ancho de banda: al emplear hojas de estilo CSS, el tamaño de los archivos puede reducirse hasta a la mitad, con el consiguiente ahorro de ancho de banda y de energía.
+* Mejora en el posicionamiento: el uso de hojas de estilo CSS permite situar el contenido más importante de la página entre los primeros elementos a descargar. Adicionalmente, la maquetación con estilos CSS mejora el ratio código/texto de la página. Además, desde la actualización del algoritmo Google Caffeine, la velocidad de descarga de los archivos se pondera con un mayor peso en el cálculo de relevancia. Muchas de las recomendaciones de accesibilidad mejoran igualmente la relevancia de la página, como emplear los atributos alt y title en imágenes y enlaces o la de emplear texto descriptivo en los enlaces.
+* Mejora en el nivel de popularidad y autoridad: alcanzar un cierto nivel de certificación de accesibilidad puede conllevar que nuestra Web aparezca listada en algunos sitios Web de alta credibilidad (TrustRank). Esto podría implicar una autoridad de dominio más alta.
+* Legales: en algunos países, ciertos tipos de sitios Web deben cumplir por ley con los requisitos de la certificación de accesibilidad de un cierto nivel, generalmente la doble AA.
+* Responsabilidad social corporativa: incluir requisitos de usabilidad a la hora de solicitar el diseño de un nuevo sitio Web significa apostar por una mayor responsabilidad social en la propia cultura de la empresa.
+
+
+
+
+Nuestro manual de accesibilidad Web (obligatorio)
+Este libro será la base que nos guiará durante nuestro testeos, vayan leyéndolo. Es de lectura amable para ayudarnos con la comprensión de estos nuevos conceptos. Guiarse directamente por la página de la W3G suele ser un poco abrumador, es por esto que este libro será una herramienta invaluable para nosotros. 
+
+
+Link descarga libro Accesibilidad Web en PDF
+Certificaciones internacionales de Accesibilidad: Cuáles existen y de qué tratan
+IAAP
+La primera sigla que es importante recordar en cuanto a certificaciones internacionales es la IAAP. Significa, en inglés, International Association of Accessibility Professionals. En español la conocemos como Asociación Internacional de Profesionales de Accesibilidad, y es una división de otra organización llamada G3ict (Iniciativa Global para las Tecnologías de Información y Comunicación Inclusivas).
+La misión de la IAAP es definir, promover, mejorar y diversificar la profesión de la accesibilidad a nivel mundial. La cumple a través de certificación, educación y construcción de redes para permitir la creación de productos, contenido, servicios y entornos accesibles.
+Está conformada, en su mayoría, por profesionales de accesibilidad de todas partes del mundo.
+La IAAP también otorga certificaciones internacionales a profesionales de accesibilidad, que tienen validez mundial.
+¿Qué certificaciones existen hasta la fecha?
+CPACC o Certificated Professional in Accessibility Core Competencies
+Es una certificación de competencias básicas de accesibilidad.
+El cuerpo de conocimiento abarca, entre otros temas:
+* Conceptos básicos de discapacidad.
+* Modelos teóricos de discapacidad.
+* Beneficios del diseño accesible.
+* Principios de accesibilidad web.
+* Diseño universal para web, para espacios físicos y para el aprendizaje.
+* Usabilidad y accesibilidad.
+* Panorama legal mundial.
+Actualmente, el examen puede rendirse en inglés. Se está preparando su versión en español.
+WAS o Web Accessibility Specialist
+Es una certificación de competencias técnicas de accesibilidad un poco más avanzadas.
+El cuerpo de conocimiento abarca, entre otros temas:
+* Pautas, principios y técnicas para cumplir con los criterios de éxito, incluidas: WCAG 2.1, WAI-ARIA, ATAG, lo que es normativo frente a lo no-normativo, lo que se incluye en diferentes niveles (A, AA, AAA).
+* Conocimientos básicos de programación.
+* Aseguramiento de la calidad de la accesibilidad.
+* Tecnologías compatibles con la accesibilidad.
+* Controles estándar versus controles personalizados.
+* Aplicaciones de una sola página.
+* Problemas de interoperabilidad y compatibilidad.
+* Pruebas con tecnologías de asistencia.
+* Prueba de impacto en las personas usuarias finales.
+* Recomendaciones, estrategias y/o técnicas para solucionar problemas.
+Actualmente, puede rendirse en inglés. Se está preparando su versión en español.
+CPWA o Certified Professional in Web Accessibility
+Es una certificación que se le otorga a profesionales que tienen las dos anteriores: CPACC y WAS.
+ADS o Accessible Document Specialist
+Es una certificación para profesionales que desean especializarse en la creación de documentos accesibles.
+El cuerpo de conocimiento abarca, entre otros temas:
+* Creación de documentos electrónicos.
+* Reparación de documentos electrónicos
+* Remediar en formato final.
+* Corregir en formato de autoría.
+* Utilización de OCR (reconocimiento óptico de caracteres).
+* Auditoría y prueba de accesibilidad de documentos.
+* Planificación y formación de accesibilidad de documentos.
+* Promoción de políticas, defensa y asesoramiento.
+
+
+CPABE o Certified Professional in Accessible Built Environments
+Es una certificación que está dirigida a profesionales que desean especializarse en accesibilidad en espacios físicos.
+
+
+El cuerpo de conocimiento abarca, entre otros temas:
+* Auditoría en el entorno construido.
+* Recopilación de detalles y evaluación de la accesibilidad del entorno construido, así como auditorías previas y posteriores a la ocupación para confirmar que las recomendaciones se han incorporado adecuadamente.
+* Experiencia en la aplicación del diseño universal para garantizar la accesibilidad para todas las personas.
+* Conocimiento sobre los requisitos de seguridad contra incendios, vida y salida, evacuación de emergencia accesible.
+* Estándares de accesibilidad, códigos, conocimiento de la legislación internacional.
+* Informes y recomendaciones.
+
+
+La IAAP continúa creando más certificaciones cada año, sobre diversas temáticas y niveles de expertise, junto a expertos de todo el mundo. Dejo el link en la sección material para profundizar.
+
+
+
+
+Material para profundizar
+Si te interesó algunos de los temas de hoy, te dejo material alternativo para que profundices al respecto, te recomiendo ver los videos que son cortos e interesantes! No es material obligatorio
+
+
+La IAAP
+Link para saber más sobre la IAAP
+
+
+Cómo cumplir con las WCAG
+Link referencia rápida WCAG
+
+
+Inscripción Congreso Latinoamericano de Accesibilidad y Usabilidad
+Formulario de Inscripción
+
+
+WEB CLAU
+Entrevista a Olga Carreras. Accesibilidad Digital
+Entrevista podcast En Modo Inclusivo a Olga Carreras

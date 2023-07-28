@@ -1,0 +1,15 @@
+Anarchy-R-Us, Inc. sospecha que uno de sus empleados, llamado Ann Dercover, es en realidad un agente secreto que trabaja para su competidor. Ann tiene acceso a los activos de premios de la compañía, la receta secreta. El personal de seguridad esta preocupado de que Ann puede tratar de escaparse con la receta secreta de la compañía.
+
+El personal de seguridad ha estado monitoreando la actividad de Ann por algún tiempo, pero no han encontrado nada sospechoso hasta ahora. Hoy  un ordenador portátil inesperadamente apareció brevemente en la red inalámbrica de la empresa. Personal de seguridad piensa en la hipótesis de que podría haber sido alguien en el estacionamiento, ya que no hay personas extrañas vistas en el edificio. El equipo de Ann, (192.168.1.158) envió mensajes instantáneos en la red inalámbrica a este equipo. El portátil sospechoso desapareció poco después.
+
+"Tenemos una captura de paquetes de la actividad", dijo el personal de seguridad, "pero no podemos averiguar lo que está pasando. ¿Puedes ayudarme? "
+
+Usted es el investigador forense. Su misión es la de averiguar quién era Ann, a quien envió los mensajes, y recuperar la evidencia, incluyendo:
+
+1. ¿Cuál es el nombre del amigo de Ann?
+2. ¿Cuál fue el primer comentario en la conversación de mensajería instantánea capturada?
+3. ¿Cuál es el nombre del archivo que Ann ha transferido?
+4. ¿Cuál es el número mágico del archivo que desea extraer (primeros cuatro bytes)?
+5. ¿Cuál fue el MD5sum del archivo?
+6. ¿Cuál es la receta secreta?
+

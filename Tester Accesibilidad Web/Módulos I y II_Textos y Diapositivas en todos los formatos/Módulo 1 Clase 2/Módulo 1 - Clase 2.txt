@@ -1,0 +1,719 @@
+﻿Clase 2
+De dónde venimos y hacia dónde vamos
+¿Qué vamos a ver hoy?
+
+
+Vamos a familiarizarnos con conceptos como El UX Design, El design thinking, El diseño centrado en las personas y su relación con la accesibilidad y los diferentes pasos dentro del proceso de ideación.
+
+
+¿Pero qué tiene que ver todo esto con lo que nos convoca a este curso que es en realidad el “Testeo de accesibilidad Web”?
+
+
+Es de gran importancia que podamos hacer un paneo general por los pasos principales dentro de la construcción del sitio web, que es lo que vamos a analizar. Entender qué llevó a generar ese error (de haberlo) y si podría haberse evitado, de qué manera y en qué parte del proceso.
+
+
+
+
+Diseño UX
+¿Qué es?
+
+
+Hay un sin fin de definiciones alrededor del diseño de experiencia de usuario sin embargo en la mayoría hay ciertas palabras o frases que se reiteran: Interacción con un producto, Usuario, proceso, experiencia…
+
+
+Definición 
+
+
+“El diseño de experiencia de usuario se encarga de diseñar la forma en que las personas interactúan con un producto o servicio. Teniendo como base de este proceso la usabilidad, accesibilidad e interacción.”
+
+
+Pero no podemos hablar del UX Design sin nombrar a Don Norman y Jakob Nielsen, quienes fundaron en 1998 “The Nielsen Norman Group” una consultoría dedicada a la usabilidad.
+
+
+Jakob Nielsen 
+Se lo conoce mundialmente como el gurú de la usabilidad web y creador de los famosos principios de usabilidad Jakob Nielsen.
+
+
+Definió la usabilidad 
+Como el atributo de calidad que mide lo fáciles que son de usar las interfaces web. 
+¿Qué es un sitio web usable? 
+Aquel en el que los usuarios pueden interactuar de la forma más fácil, cómoda, segura e inteligentemente posible.
+
+
+Usabilidad no es exactamente lo mismo que diseño de experiencia de usuario. Más bien, la usabilidad se incluye en el paraguas UX que engloba diversas técnicas y conceptos para conseguir una experiencia de usuario óptima.
+
+
+Nielsen formuló en su blog los 10 principios básicos de usabilidad web en 1995 también conocidos como “Reglas Heurísticas de Usabilidad”. (Clase 3) Lo hizo después de haber estado investigando junto a Rolf Molich sobre cómo mejorar la interacción entre el humano y la computadora. Su trabajo fue tan atinado y minucioso que aún hoy día se siguen tomando como referencia a la hora de medir la usabilidad de un sitio web e identificar errores.
+La heurística
+Es un término que comparte raíz y etimología griega con eureka, se refiere a la capacidad humana de buscar soluciones creativas y tomar decisiones desde la experiencia.
+
+
+
+
+Don Norman 
+Ingeniero Electrónico y Psicólogo, desde 1960 ha sido uno de los precursores en preocuparse porque las computadoras pudieran ser utilizadas por cualquier persona. Estudió el comportamiento humano y su interacción con ellas e investigó de qué manera podían ser menos intimidantes y más usables. Además fue pionero en los estudios de diseño centrado en el usuario. 
+
+
+ Interacción Humano-Computadora
+
+
+Norman es probablemente el escritor más prolífico en cuanto a libros y divulgación relacionada con el diseño y la experiencia de usuario. Tiene un trabajo muy extenso y continuo en la disciplina Human-Computer Interaction (o Interacción humano-máquina). Es la disciplina dedicada a estudiar sobre cómo se diseñan, implementan y usan los sistemas informáticos interactivos y la manera en que influyen los ordenadores en los individuos, las organizaciones y la sociedad. Buscando generar un vínculo interactivo entre ellos de forma natural e intuitiva.
+
+
+Se convirtió en una referencia con la publicación de “La psicología de los objetos cotidianos” y “Sistema de diseño centrado en el usuario: nuevas perspectivas de HCI”. En ellos analiza los problemas del diseño de los objetos que nos rodean en la vida cotidiana y el tipo de conocimiento que cada uno requiere.
+
+
+Don Norman fue quien dió nombre a los UX Designers, cuando entró al equipo de Apple por los años 90 's, como “User Experience Architect”.
+
+
+“Inventé el término porque creía que el término interfaz humana y usabilidad eran demasiado estrechos: tenía la necesidad de cubrir todos los aspectos de la experiencia de las personas con el sistema, incluyendo el diseño industrial, el gráfico, de interfaz, la interacción física y la manual.” _
+Don Norman
+¿Qué es una interfaz?
+Se entiende como una interfaz, cualquier objeto físico, digital o de audio que sirve como un puente de interacción entre la persona y el sistema u objeto que tiene como fin, realizar una acción. Su objetivo es generar una comunicación entre el humano y la máquina.
+Principios del diseño según Don Norman
+Hacer un sistema fácil de entender y fácil de usar, requiere de habilidades extra, principalmente sobre el entendimiento en el usuario y sus necesidades. 
+Visibilidad
+Mientras más visibles las funciones importantes, será más fácil encontrarlas. Se trata de poner a disponibilidad del usuario las funciones básicas y de una forma de fácil acceso a la vista.
+Feedback
+Informar siempre al usuario la acción que acaba de realizar. Se trata de ser transparente entre la acción y el resultado de la acción. Por ejemplo: si elimina un archivo de mi biblioteca de archivos, el sistema me avisa la acción que acabo de realizar como un “Archivo ha sido eliminado”. 
+
+
+Restricciones
+De acuerdo al tipo del proyecto, de la cultura o del dispositivo se definen el tipo de limitaciones. Si se tiene en cuenta esto, se puede definir el tipo de diseño que se va a seguir, si por ejemplo, el color naranja tiene un significado cultural distinto en india, al que se tiene en latinoamérica o si el dispositivo es táctil o cuenta con botones.
+Mapping
+Se trata de estar seguros si el usuario puede determinar la relación entre las acciones y los efectos dentro del sistema, entre el sistema y lo que se percibe de una señal o sonido, entre el estado del sistema y las necesidades del usuario y lo que espera de las acciones del sistema.
+Consistencia
+Volvemos al tema de que si la página de inicio tiene una forma de ser o de hacer, los demás lugares del sitio deben tener una forma similar, o igual de realizar las cosas. Esto aplica tanto al diseño visual como a las funciones que se realizan dentro del sitio, todas deben realizarse de la misma manera, tratando que el usuario no tenga confusión al usar el sistema.
+Affordance
+Adoptó este término como la capacidad de hacer que un objeto, digital o no digital, haga que el usuario sepa inmediatamente para qué es. Por ejemplo, si en una puerta se pone una manija, ya sabes que con ella puedes abrir la puerta. Este concepto debe facilitar la vida y hacer de una interacción exitosa.
+
+
+Ejemplos Diseño UX
+
+
+No hay mejor forma de entender qué es el diseño ux que con ejemplos, vamos a ver algunos.
+
+
+Heinz
+ Primer Botella:
+Es de vidrio, refinada, epoca de los 50, se para sobre la base.
+
+Segundo envase:
+Es de plástico, ergonómico, la morfología invita a agarrarlo conla mano ya que tiene dos endiduras ne los costados que permite el apoyo de la mano al presionarlo, su apoyo es sobre la tapa y no sobre la base.
+ 
+
+Timbre colectivo
+ El primero: 
+Es un timbre de morfología geometrica, media piramidal, en su centro se encuentra el circulo que deja encontrar el botón que debemos presionar en otro color. El mecanismo del tiempre hace que al apretarlo se retraiga hacia adentro. La circunferencia debe ser de un diametro próximo a 3 sentimetros.
+
+Segundo timbre
+Morfológicamente se alinea con una pelota, hay una continuidad entre la estructura del pulsador y lo que lo sostiene. El tamaño de la parte a presionar ocupa casi 1/3 del tamaño total del dispositivo. Es de un color diferencial. 
+
+Desire Path
+
+
+ a la derecha de la imagen se encuentra un sector de pasto de una suerte de plaza desgastado por la elección repetida de las personas por atravesar transversalmente este sector, en ves de seguir el camino que lo enmarca de cemento. Es decir, no utilizan el camino arquitectónico sino el que construyó la huella de las personas que acortaron camino por el pasto. 
+
+
+
+
+
+- El diseño centrado en las personas y la accesibilidad, 
+Link Charla Ted:  Por qué el diseño accesible es para todos- Stefanie Reid
+¿por qué es importante para nosotros?
+
+
+Introducción al Design Thinking 
+¿Pero cómo llegamos a diseñar de esta manera?
+Utilizando una Metodología Ágil llamada Design Thinking que consiste en integrar las necesidades de las personas y el uso de las nuevas tecnologías para encontrar soluciones prácticas ante los problemas de las personas.
+
+
+El Design Thinking es un abordaje metodológico que permite organizar el proceso de diseñar soluciones, utilizando técnicas y herramientas propias del pensamiento proyectual y llevarlo al desarrollo de soluciones digitales. El término se popularizó gracias al trabajo de Tim Brown, la consultora IDEO y el libro “Change by Design”.
+
+
+Existen diferente modelos de Design Thinking que nos convoca es el de la escuela de Stanford que propone el siguiente esquema de pasos:
+  
+
+Primera etapa: Product Discovery
+Empatizar
+Es la primera parte fundamental del abordaje al problema. Pone en juego nuestra capacidad de entender la experiencia de otra persona desde su perspectiva.
+Es clave para estudiar el problema en todas sus dimensiones: actores, objetivos, emociones, competidores, etc.
+“Nos diseñes para vos. Vos no sos todos los demás”
+Definir
+Es crucial definir el perfil y el contexto de las personas para las cuales diseñamos. Así como los límites del problema que abordamos y el modelo de negocio que rodea la solución.
+Segunda etapa: Product Design
+Idear
+Es el proceso de observar soluciones para un problema definido. La dimensión de la idea no importa en tanto y en cuanto se alinee con el descubrimiento de la solución más relevante para un escenario particular.
+Prototipar
+Es el proceso de materializar las soluciones, explorar caminos tangibles, poner a prueba nuestras hipótesis y comunicar nuestras ideas.
+“Lo perfecto es el enemigo de lo posible”
+Evaluar
+Es el proceso de evaluación y validación de nuestras hipótesis e ideas. Nos ayuda a descubrir oportunidades de mejora y a tomar decisiones para seguir trabajando.
+Resonador magnético y Doug Dietz
+ Fotografia de un resonador magnetico vacio en la sala de un hospital, con iluminación fría tanto que transmite esa misma sensación on corporea.  
+
+
+
+
+
+ Mujer adulta interactuando con niños mientras dibujan y vinculan.
+ 
+
+
+
+ Resonador magnetico intervenido con proter de colores, parece una suerte de nave espacial moderna. La sección donde los niños o niñas se recostarian juega con la idea que al moverse los introduce en esa nave.
+La pared y el piso de la sala tambien estan ploteado con temática espacial y personajes vestidos de astronautas felices saludando. 
+
+
+
+Hospital Garrahan
+
+
+ La version del hospital garrahan con ploteo de aliens divertidos esperandonos a que entremos en el resonador mientras que las paredes nos devuelven imagenes incaicas. 
+
+Metodologías Ágiles
+¿ Qué es una Metodologías Ágiles?
+Existen múltiples abordajes, herramientas y procesos para organizar nuestro trabajo. Estos procesos y herramientas bien articuladas son marcos de trabajo que han comprobado ser de gran ayuda para los equipos a generar soluciones adecuadas a diversos objetivos. Es por eso que no existe un framework único, cada equipo adopta el que mejor les convenga según sus capacidades y objetivos.
+Framework 
+Es un conjunto simple pero muy poderoso de principios y prácticas que ayudan a los equipos a entregar productos en ciclos cortos, habilita un feedback rápido, permitiendo una mejora continua y adaptación a los cambios. 
+
+
+La metodología Agile se usa en el desarrollo de software y otros proyectos de alto rendimiento; se centra en la implementación rápida de un equipo eficiente y flexible para planear el flujo de trabajo. Brinda la capacidad de elegir la mejor opción en cada situación sin comprometer el proyecto.
+Objetivos
+* Flexibilidad 
+* Enfoque incremental e iterativo 
+* Reducción de frustraciones 
+* Reducción de tiempos 
+* Reducción de costos 
+* Definición de un entregable de valor agregado
+
+
+El Diseño UX y Las Metodologías Ágiles 
+Veamos en qué puntos se encuentran estas dos disciplinas y por qué de su interacción en el campo. 
+Énfasis en entregar valor a los usuarios 
+El resultado siempre debe aportar valor a sus usuarios. Están alineados con el modelo de diseño que se centra en resolver problemas para las personas para las cuales diseñamos los productos y servicios y no con una mirada hacia adentro. 
+Importancia del trabajo en equipo
+Sin un equipo de personas no hay modo de poder trabajar en este campo. Valoran, destacan la importancia y hacen hincapié en la colaboración del equipo completo por sobre todas las cosas para poder llegar al mejor resultado.
+Priman la comunicación y el diálogo de equipo 
+Promueven que los miembros del equipo se comuniquen entre sí para poder entender lo que vaya surgiendo y evaluar cómo adaptar y ajustar los procesos sin esperar hasta el final. 
+Recordemos este ítem del Manifiesto Ágil: personas e interacciones por sobre procesos y herramientas.
+Promoción del desarrollo iterativo e incremental
+Tanto Agile como el diseño UX trabajan con la lógica de ciclos continuos de valor agregado.
+
+
+Método Kanban
+Kanban es una metodología que se enmarca dentro de las metodologías Agile, esta permite la gestión de proyectos a través de la visualización de los flujos y la carga de trabajo.
+
+
+Hay tres componentes principales dentro de la metodología Kanban: visualización del flujo de trabajo , establecimiento de límites WIP y cadencias de reuniones.
+Pasos
+Cuando utilizan esta metodología los equipos presentan una gran acumulación de proyectos que deben abordarse. En este punto, las partes interesadas son responsables de mantener y priorizar el trabajo pendiente.
+* Cuando un miembro del equipo está listo para trabajar en un nuevo proyecto, lo extrae del trabajo pendiente y la coloca en la columna «En progreso» en el tablero Kanban. 
+* A medida que avanza el proyecto, se mueve a través del tablero hasta que se completa. 
+* Los miembros del equipo que manejan ese proyecto no deben comenzar con nada más del trabajo pendiente hasta que su proyecto actual esté completado.
+Tablero Kanban
+Un tablero Kanban es una visualización del progreso de un proyecto y es una parte crucial de la transparencia que hace de Kanban una excelente metodología de gestión de proyectos. 
+
+
+Un tablero Kanban necesita una visualización real que refleje la realidad del flujo de trabajo del equipo, no la forma en que deseamos que sucedan las cosas o la forma en que las partes interesadas piensan que se hacen las cosas.
+
+
+El tablero Kanban más simple tiene sólo tres columnas:
+* Por hacer (To do)
+* En proceso (Doing)
+* Terminado (Done)
+
+
+Tarjetas Kanban
+Una tarjeta Kanban representa una sola tarea de trabajo (o historia de usuario ), que se mueve por las columnas del tablero Kanban hasta que se completa. 
+
+
+Límites del trabajo en curso
+Una vez que el tablero Kanban está listo, es hora de establecer algunas reglas sobre cómo se maneja el trabajo en cada columna. 
+Cada columna y fila del tablero Kanban tiene un límite, y una vez que se alcanza ese límite, ningún elemento nuevo puede entrar en esa fila hasta que se termine uno. 
+Trabajos atrasados
+Aquí es donde los gerentes del proyecto y cualquier otra persona que tenga interés en decidir qué trabajo hace el equipo agregan nuevos proyectos. 
+Reuniones diarias
+Los miembros del equipo Kanban se reúnen todas las mañanas en una breve reunión para mantenerse al día sobre el progreso y las dificultades. Estas reuniones son vitales para mantener el flujo de trabajo a través del equipo Kanban.
+
+
+Si hay elementos que se han atascado o que están marcados como bloqueados, es necesario analizarlos. 
+Reunión de seguimiento 
+Las partes interesadas, tanto dentro como fuera del equipo, se reúnen para asegurarse de que la cartera de pedidos refleje con precisión las prioridades comerciales actuales. 
+
+
+Reunión de entrega
+Dependiendo de la complejidad del proceso, es posible que necesitemos programar la entrega del trabajo completado de manera recurrente.
+Reunión retrospectiva
+Las reuniones retrospectivas son el alma mater de un sistema Kanban exitoso. Es importante tomarse el tiempo necesario para discutir cómo le está yendo al equipo de cara a que la realización de su próxima ronda de trabajo sea aún mejor.
+Herramienta Trello
+
+
+Roles en UX Design
+Retomamos nuestro proceso de diseño centrado en las personas para conocer cuales son los diferentes roles dentro de un equipo de Diseño UX. 
+
+
+Dependiendo de la magnitud del trabajo o la empresa la cantidad de roles que adquiere una persona.
+
+
+Analista UX / UX Research
+Es la persona que recaba la información y la analiza, se encarga de la primera parte del proceso, es quien suele tener mayor contacto con el usuario por medio de investigaciones ( realización de encuestas, focus group e implementación de otro tipo de técnicas  para conocer hábitos y costumbres del público objetivo.); Define el perfil de usuario; Benchmarking; Realización de prototipos; Preparación, realización y análisis de test de usuario; Establecimiento de los lineamientos de usabilidad del proyecto y definir un plan de trabajo que incluya tiempos.
+Arquitectura de la información
+Encargados de construir el esqueleto del producto o flujos de información, organizando y estructurando el contenido de tal modo que pueda facilitar la navegación del usuario. 
+Diseño de interacción
+Define y diseña los lenguajes de conversación entre un sistema y la persona; construye diálogo y feedback. Trabajar con wireframes y distribución de los contenidos; Establece puntos de interacción entre el sistema y el usuario; Identifica puntos flojos en la estructura y sugerir mejoras y Diseña la interfaz de usuario (UI).
+UX Writing / Content Strategy
+Se encarga de construir la voz y el tono del producto, es rol fundamental para generar una comunicación más efectiva y distinguirse de la competencia.
+Diseño UI
+Se encarga de la parte estética del proceso, su objetivo es el diseño visual de la interfaz de usuario.  
+
+
+UX Research
+Para ponernos en la piel de un Researcher, primero debemos comprender de qué se trata el UX Research: es el área de práctica que se centra en investigar el mercado y las personas, empatizando y comprendiendo el comportamiento, las necesidades y motivaciones involucradas en una temática. Se basa en técnicas de observación, empatía y análisis para obtener información del mercado y feedback directo de las personas usuarias y de stakeholders involucrados.
+
+
+EMPATIZAR CON
+ Gráfico de empratia: Nosotros somos el centro y debemos empatizar hacia dos grupos importante. Por un lado con el negocio representado por el stakeholder asi como con el usuario, que representa a los usuarios finales.   
+
+Técnicas de research
+Las podemos dividir en técnicas de Desk Research y de User Research. 
+Desk Research
+Son aquellas técnicas que nos permiten investigar por nuestra cuenta, sin la necesidad de convocar a usuarios.
+* Análisis de actores y competidores
+* Benchmarking
+* Análisis de contexto
+* Generación de hipótesis
+* Datos cuantitativos generales
+* Analíticas web
+* Mapas de empatía
+* Clustering
+* Persona
+* Análisis heurístico
+User Research
+Son técnicas y herramientas que necesariamente requieren interactuar con usuarios o stakeholders.
+* Estudios etnográficos
+* Entrevistas
+* Encuestas
+* A/B testing
+* Focus groups
+* Card sorting
+* Eye tracking
+* Observación participativa
+* Mapas de calor
+* Pruebas de guerrilla
+* Pruebas de usabilidad
+
+
+Mapa de contexto
+
+
+Tipos de actores y competidores
+Tipos de actores y competidores directos
+Son todos aquellos actores que resuelven un problema igual o casi igual al nuestro y que lo hacen para el mismo segmento de usuarios en el que estamos. 
+ Primero aparece una lata de gaseosa coca-cola y al lado una de pepsi 
+
+Tipos de actores y competidores indirectos
+Son aquellos actores que no resuelven lo mismo que nosotros, pero pueden llegar a satisfacer parcialmente las mismas necesidades.
+
+
+Ejemplo:
+* Necesidad de hidratarse
+* Necesidad de energizarse
+* Necesidad de algo dulce
+
+
+ Imagen de un bebedero de parque vertiendo agua mientras es accionado par la mano de quien le esta dando uso
+  Una botella de agua plastica villavicencio
+  Una botella azul de una bebida energizante de la parca power ade  Un paquete rojo de una golosina de chocolate llamada kit kat  Una lata de gaseosa de coca-cola  Una lata de cerveza quilmes Mapa de competencia
+Una vez que detectamos nuestros competidores debemos volcarlos en un mapa compuesto por dos ejes. Cada eje representa una variable de análisis, con el objetivo de monitorear a los actores del mercado y detectar áreas de oportunidad.
+
+
+Ej: Precio/Calidad
+
+
+ Gráficos de doble eje en forma de cruz donde el eje vertical superior tiene como referencia la palabra innovador y en su opuesto Tradicional; mientras que en el eje horizontal a su izquierda tiene como referencia la palabra popular y a su derecha exclusivo. 
+
+Océanos azules y rojos
+En 1990, W. Chan Kim y Renée Mauborgne, profesores de la Escuela de Negocios de INSEAD, revolucionaron el sector empresarial con un concepto clave: el océano azul. Mediante esta estrategia, plantea dejar de lado la competencia entre las organizaciones para dar cabida a la ampliación de los mercados con ideas innovadoras.
+
+
+Característica de los Océanos rojos
+* Competir en un mercado existente
+* Ganarle a la competencia
+* Exportar la demanda existente
+
+
+Característica de los Océanos Azules
+* Generar nuevos mercados y espacios para el consumo
+* Hacer la competencia irrelevante
+* Crear y capturar nueva demanda
+
+
+ Gráficos de doble eje en forma de cruz donde el eje vertical superior tiene como referencia la palabra exclusivo y en su opuesto Accesible; mientras que en el eje horizontal a su izquierda tiene como referencia la palabra Clásico y a su derecha Deportivo.
+
+Sección exclusivo / deportivo = Logo de Mini cooper, BMW, Audi
+
+Sección deportivo / Accesible = Logo de Honda, Volkswagen
+
+Sección Accesible / Clásico = Logo de Toyota, Ford, Citroen, Renault, Kia
+
+Sección Clásico / Exclusivo = Logo de Toyota, Ford, Citroen, Renault, Kia 
+
+
+
+El encuadre clásico / accesible representa el Área de saturación (océano rojo), mientras que en su opuesto encuadre Accesible / Deportivo posiblemente se aloje el área de oportunidad (océano azul) para nuestro producto. 
+Los océanos azules nos permiten innovar, por eso son importantes en UX.
+Principios de la estrategia de océanos azules
+1. Ir más allá de la demanda. No pensar solamente en los consumidores existentes.
+2. Reconstruir los límites del mercado. Cruzar fronteras.
+3. Hacer foco en la “big picture” y no en los números. Pensar fuera
+de la caja, más allá del negocio.
+4. La secuencia estratégica correcta. La implementación tiene
+que ser factible.
+Benchmarking
+El Benchmarking es una técnica que se basa en conocer mejores prácticas fuera de la empresa (aunque a veces se puede hacer benchmark dentro de la misma empresa); es un proceso de comparación referencial usado para medir y mejorar la calidad y el rendimiento de sus productos, servicios y procesos.
+El benchmark no es trasladar las soluciones de los otros a nuestros problemas, sino entender el proceso de esa solución.
+Benchmark interno
+Se aplica dentro de una empresa; por ejemplo, cuando se toman como referencia las prácticas utilizadas por una determinada área de la empresa que, a diferencia de las otras, está obteniendo muy buenos resultados.
+
+
+Ejemplo: Una franquicia de maquillaje, selecciona la tienda con más ventas de todo latinoamérica y la utiliza de ejemplo a seguir para todas sus otras tiendas en diversos países. De esta manera, compara los procesos y prácticas que esta tienda realiza para ser exitosa, con la finalidad de que sus otras tiendas también puedan implementarlos en sus procesos internos. 
+ Uno de los locales de belleza de la cadena española Sephora 
+
+Benchmark competitivo
+Se aplica con empresas que son competidoras directas; por ejemplo,
+cuando se toma como referencia las prácticas de la competencia en donde esta nos supera.
+El desafío del benchmark externo es que vos tenés el qué hacen pero no el porqué, tampoco si funciona o no. Sirve para generar hipótesis, pero no tenés la certeza.
+
+
+Ejemplo: Dos cadenas de cafeterías locales unen esfuerzos y comparten información entre sí, para lograr hacer frente a una nueva cadena internacional de cafeterías que trata de abrir en la misma localidad. El objetivo, es que ambas cafeterías locales, puedan lograr ser competitivas y no se vean en la necesidad de cerrar debido a la nueva competencia. 
+ Fachada de cafetería martinez 
+ Fachada de cafetería havanna 
+ Cartel de la cafeteria Starbucks 
+
+
+
+Benchmark funcional
+Se aplica con empresas que podrían ser o no competidoras directas.
+
+
+Ejemplo: El dueño de un centro de pediatría, empieza a analizar la manera en que una clínica veterinaria realiza sus gestiones y trámites, con la finalidad de mejorar sus procesos internos y llevar a su empresa a un nivel más organizado y eficiente. Aunque ambas empresas sean de sectores diferentes, pueden generar grandes aportes entre sí. 
+
+
+ Sala de espera de un centro pediátrico, con una familia esperando a ser atendida
+ 
+ Fachada de una clinica veterinaria 
+
+Definición de objetivos del Benchmarking
+Antes de comenzar nuestra comparativa necesitamos determinar los aspectos en donde se quiere mejorar y que, por tanto, se van a tomar como referencia de nuestros competidores.
+
+
+¿Con quién nos comparamos?
+Aquellos actores o empresas, competidoras directas o no, que tengan o mejor hagan lo que se quiere mejorar. Por ejemplo, mayores ventas.
+
+
+¿Qué información recolectar?
+Aquella información relacionada a los aspectos que van a ser sometidos
+a benchmarking de las empresas seleccionadas. Por ejemplo, los medios publicitarios, mensajes publicitarios, público objetivo y promociones
+de ventas.
+
+
+Recolectar, analizar
+Una vez que se ha recolectado la información se procede a su análisis, a fin de comparar los aspectos de las empresas seleccionadas con los propios y con los de otras empresas. Además, se intentará identificar los mejores y los que sean posibles de aplicar en la propia empresa.
+
+
+Adaptar las mejoras
+Una vez definidos los aspectos a aplicar, los adaptamos mejorándolos, aplicando el plus que los haga diferenciales y propios de nuestra empresa o proyecto.
+
+
+Entrevistas
+Es fundamental entender a las personas en profundidad antes de tomar decisiones de diseño, ya que todos tenemos una vida única, experiencias y puntos de vista particulares.
+
+
+Las entrevistas nos permiten entender el por qué de los comportamientos y motivaciones de las personas.
+Las entrevistas en UX nos ayudan a
+   * Aprender sobre deseos, necesidades y experiencias previas
+   * Generar nuevas ideas para expandir y mejorar un producto existente
+   * Crear productos y servicios que tengan un valor real para las personas
+   * Empatizar, entender y conocer a las personas y sus actitudes
+   * Saber cómo se comportan frente a un determinado problema/situación
+   * Poner a prueba nuestras hipótesis desde una mirada cualitativa
+
+
+Nuestro objetivo es salir de la entrevista con la mayor cantidad de insights posible.
+
+
+No siempre está alineado lo que nos dicen con lo que hacen, es por esto que hay ciertas consideraciones a tener en cuenta:
+   * Le pedimos a los usuarios que recuerden o que especulen sobre
+una temática / experiencia / producto.
+   * La memoria humana es falible (selectiva).
+   * Las personas suelen inventar historias para racionalizar sus decisiones o sus actos (como en el ejemplo de las medias).
+   * Las personas tienden a querer quedar bien con quien los entrevista.
+
+
+Clustering 
+Es un método que nos ayuda a concentrar grandes volúmenes de información y datos, y organizarlos en grupos basados en sus relaciones. Esta práctica es ideal para encontrar patrones comunes en procesos de research e ideación en equipo.
+
+
+Clusterizar nos permite visualizar y mapear la información, brindando un entendimiento más claro de la problemática y sus puntos clave.
+
+
+Los insights de un proceso de research se tienen que pasar en limpio y trasladando a post-its una idea, concepto o frase recuperado de nuestros datos cualitativos y cuantitativos.
+
+
+Es información super valiosa pero el desorden atenta contra la posibilidad de comprender con mayor profundidad a las personas.
+
+
+Es en este punto donde hay que ponerse a ordenar y agruparlos bajo algún criterio. Los criterios van a surgir de analizar el  contenido de los post-it y ver qué relación o afinidad encontramos entre ellos.
+
+
+ Cuatros rectangulos que agrupan pos-its nomenclados con las siguiente temáticas; Hábitos cotidianos, herramientas, obstáculos y frustraciones, aspiraciones. 
+
+Ejemplo: Agrupar los insights por hábitos cotidianos, herramientas, obstáculos y frustraciones, y aspiraciones. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Empatía
+¿Se acuerdan de la empatía? El diseño de experiencia de usuario, la enmarca en entender los problemas, necesidades y motivaciones de otro sin juzgar. Es una herramienta de la cual nos vamos a servir. Debemos racionalizar esa empatía para crear soluciones que verdaderamente aporten valor.
+Mapas de empatía
+Es una herramienta para racionalizar, ordenar y mapear nuestros hallazgos. Nos permite comenzar a tomar definiciones más concretas sobre las personas para las cuales estamos trabajando.
+Una de las virtudes de esta herramienta es que nos permite visualizar la información en un contexto personal y humano; al mismo tiempo nos abre la puerta para hacer más preguntas y seguir investigando.
+
+
+El mapa de empatía trabaja sobre las diferentes percepciones, pensamientos, emociones, actitudes y comportamiento que tienen las personas en determinado contexto. Nos habilita a comprender las similitudes y diferencias que tienen las diferentes personas comprendidas por nuestro segmento.
+
+
+ 
+Qué ve?
+Entorno y contexto, oferta de mercado y autopercepción.
+Qué dice?
+Citas textuales, frases destacadas y expresiones explícitas / verbales.
+Qué hace?
+Aspecto y lenguaje corporal, actitud en público / en su contexto y acciones de su vida diaria.
+Qué piensa y siente?
+Lo que realmente le importa, principales preocupaciones, inquietudes y  aspiraciones.
+ 
+
+
+
+ Los esfuerzos = miedos, frustraciones y obstáculos 
+ Resultado = Deseos/necesidades, medida del éxito, obstáculos 
+
+
+
+Qué ve?
+Entorno y contexto, oferta de mercado y autopercepción.
+Qué dice?
+Citas textuales, frases destacadas y expresiones explícitas / verbales.
+Qué hace?
+Aspecto y lenguaje corporal, actitud en público / en su contexto y acciones de su vida diaria.
+Qué piensa y siente?
+Lo que realmente le importa, principales preocupaciones, inquietudes y  aspiraciones.
+
+
+Los esfuerzos (miedos, frustraciones y obstáculos) es donde se ubican los puntos de dolor y el resultado (Deseos/necesidades, medida del éxito, obstáculos) y donde se ubican los beneficios. 
+
+
+Ejemplo de un mapa de empatía 
+Persona: Andrea, Agencia de la cultura de Córdoba (actor pasivo, respetuoso del tema.)
+
+
+Qué ve?
+      * El contenido me nutre
+      * Ovnis o avistajes se bromea o se hace montajes
+      * Se lucra con los Ovnis
+      * Excursión = Marketinero
+
+
+Qué dice?
+      * No esta bueno la virtualidad al 100% pero da herramientas
+      * Somos seres humanos espirituales
+      * Sobre las personas que organizan avistajes: "Los que hacen eso están re locos" (locos en el sentido del peligro al que se exponen).
+      * Aprecio a la gente que respeta el sentimiento del otro
+
+
+Qué hace?
+      * Un avistaje no altera su rutina
+      * Combina rutina laboral tradicional con disciplinas alternativas
+      * Yoga / Meditación
+      * Se lo ve centrado, espiritual pero serio. 
+
+
+Qué piensa y siente? 
+      * Cree en las energías.
+      * Le importa la armonía entre los seres vivos. 
+      * Le tiene respeto a los ovnis, pero no es algo que le quite el sueño
+      * Reconoce su existencia pero… siente incertidumbre sobre su comportamiento.
+Esfuerzos
+      * Que la gente no se toma en serio o no respete las creencias y el sentimiento del otro.
+      * Cada vez que quiere conectar con alguien que haya tenido una experiencia de avistaje no tiene cómo.
+Resultados
+      * Experimentar un avistaje.
+      * Utilizar herramientas de autoconocimiento para conectar con otro plano energéticamente.
+
+
+Personas
+A través de los mapas de empatía, empezamos a tomar definiciones más concretas sobre las personas para las cuales estamos trabajando. Visualizamos la información en un contexto personal y humano; al mismo tiempo que surgieron nuevas preguntas para seguir investigando.
+
+
+Personas es una metodología de investigación y definición a través de la cual se puede definir una forma precisa de pensar y comunicar cómo son los grupos de usuarios, cómo se comportan, cómo piensan, qué quieren lograr y por qué. “Personas” es una herramienta para tomar decisiones.
+
+
+¿Cuáles son sus objetivos?
+      * Representar a usuarios reales.
+      * Descubrir atributos y descripciones de personas exactos y completos.
+      * Conocer mejor y empatizar con los usuarios.
+      * Contextualizar los números (saber no sólo lo que ocurre, sino también por qué).
+
+
+Es un arquetipo de un humano real y debe ser descrito como si fuesen individuos de verdad. 
+Pasos para construir nuestra persona
+      1. Investigación y recolección de datos
+      2. Análisis de datos
+      3. Construccion del usuario persona
+
+
+Estrategia de investigación
+Tomamos datos cuantitativos y cualitativos de nuestro research y sumamos las observaciones de nuestras entrevistas. 
+
+
+Análisis de datos
+Detectamos patrones de insights y los ordenamos para comprender mejor la información recolectada, lo que conocimos como Clustering y Mapas de empatía. 
+
+
+Construccion del usuario persona
+Una vez volcada esta información se debate en el grupo de trabajo y se da nacimiento a nuestras personas.
+
+
+Qué debe contener una ficha de “persona”
+      * Datos demográficos (Ej: Edad, profesión)
+      * Biografía 
+      * Rasgos de personalidad
+      * Objetivos / Motivaciones 
+      * Obstáculos
+      * Nombre y foto
+
+
+Ejemplo de persona
+  
+
+
+
+Nombre: Josefa Ilaoy
+Edad: 25
+Ocupación: Diseñadora gráfica / Community Manager
+Familia: Soltera S/hijos
+Ubicación: BNA - España
+Biografía
+Josefa tiene 25 años y es oriunda de Colombia, aunque vivió sus últimos 4 años en Argentina y estudió en La Universidad de Buenos Aires diseño gráfico.
+Vivió su estadía por Argentina trabajando en hostels del centro porque es bastante extrovertida y le gustó el ritmo de vida de estar asentada en un lugar fijo pero sin perder el contacto con gente que va y viene.
+Objetivos
+      * Realizar un diseño para una tienda virtual de ropa de cáñamo.
+      * Aprender frances
+      * Crear un diseño en base a un viaje psicodélico
+Frustraciones y Obstáculos
+      * No quiere afrontar la falta de trabajo
+      * El idioma francés le impide alcanzar sus metas
+      * Perder/ que le roben sus herramientas de trabajo. No poder comprarse mejores equipos de trabajo.
+"Salir de tu zona de confort es entrar a tu zona de crecimiento"
+Otras Observaciones
+Amante de los animales, le costó bastante embarcar este nuevo estilo de vida sin su compañera gatuna.
+Le gusta conocer gente nueva y diversa, se adapta a cualquier situación sin problema. Su objetivo principal es conocer todo tipo de culturas y vivir en una casa comunitaria.
+
+
+
+
+Ejercitamos en conjunto, llevando la teoría a la práctica. ¡Desarrollamos un proyecto UX express!
+Tema: Mundo Ovni 🛸
+Descubriendo y entendiendo, algunas preguntas disparadoras para el research:
+      * ¿Qué significa ser ufólogo?
+      * ¿Quiénes creen en la existencia de OVNIS?
+      * ¿Cómo se define cuando un avistamiento es un OVNI y cuándo no?
+      * ¿Dónde se juntan las personas que creen en OVNIS?
+      * ¿Por qué hay personas que creen en los OVNIS?
+      * ¿Cómo se organiza un viaje para ver OVNIS?
+      * ¿Qué tipos de encuentro cercano del tercer tipo hay?
+      * ¿Dónde se buscan información sobre OVNIS?
+La investigación de escritorio (Desk Research)
+Hacer una investigación rápida en equipo sobre el mundo de los ovnis, cuáles son sus características, qué puedo traer sobre ese universo, particularidades, contexto, etc.
+Y la volcamos en nuestro mapa de contexto
+Benchmark (Desk Research)
+Hagamos un benchmark comparativo sobre nuestra idea de producto
+Entrevistas (User Research)
+Para poder entender un poco más nuestro contexto es momento de entrevistar a nuestros usuarios. Conocé cómo se sienten estas personas, cómo se ven afectadas en su vida cotidiana, en el plano familiar, laboral, y personal. Indagar en los métodos que utilizan para tratar su problema. ¿Alguno de ustedes es simpatizante de los encuentros del 3er tipo? Entrevistencé! Te dejo una guía de preguntas posibles:
+
+
+PREGUNTAS ORGANIZADAS POR TEMAS
+
+
+SOBRE EL ENTREVISTADO
+      * ¿Podrías decirme tu nombre? ¿Qué edad tenés?
+      * ¿Contanos qué hacés o a qué te dedicas?
+INTERÉS SOBRE EL TEMA
+      * ¿Cuál es tu nivel de interés sobre los ovnis?
+      * ¿De dónde surgió tu interés por los ovnis?
+      * ¿Qué pensás que quieren de nosotros?
+      * ¿Tenés algún referente que haga avistamientos o se dedique a esto?
+      * ¿Alguna vez has visto algún fenómeno paranormal?
+SI VIO UN OVNI
+      * ¿En qué lugares viste?
+      * ¿Cuál fue tu primera reacción al verlo? / qué sentiste, qué hiciste, pensaste?
+      * ¿Cuánto tiempo duró el avistaje? / ¿Pudiste grabarlo / fotografiarlo?
+      * ¿Intentaste comprobar si era mentira o buscaste info para refutarlo? ("no drone, bolsa, globo")
+      * ¿Por qué creés que te pasa a vos? 
+      * ¿Se te ocurrió compartir tus grabaciones/experiencias en algún lugar público?
+      * ¿Conocés otros lugares donde se hacen avistajes?
+      * ¿Harías un avistaje vía streaming?
+SI ES UN PROFESIONAL EN AVISTAMIENTOS
+      * ¿Tenés una rutina para estos avistamientos?
+      * ¿Estudiaste sobre el tema? Qué libros leíste/ Películas viste
+SOBRE GRUPOS DE PERTENENCIA
+      * ¿Sabés si existe algún grupo en internet, como Facebook, blogs, etc. donde intercambien información, compartan estos mismos intereses, o estén en contacto con otros que avistaron?
+      * ¿Sos parte de alguno de ellos?
+OPINIONES EXTERNAS
+      * ¿Qué te dice la gente en general, cuando les contás sobre tus avistajes?
+Cierre 
+      * En definitiva ¿Creés o no creés? / ¿Qué pensás sobre los escépticos?
+      * Querés contarme algo más referido al tema.
+Detectando y definiendo el problema
+Debatan con sus compañeros y compañeras de equipo y determinen algunos de los problemas que consideran relevante y para el cual generarían una solución.
+Mapa de empatía + Creación de Persona (Desk Research)
+Ahora es momento de entrar en la cabeza de nuestros usuarios e imaginarnos que         qué ven, qué dicen, qué hacen y qué piensan y sienten.
+Y terminar construyendo a nuestra persona!
+
+
+
+
+
+
+
+
+
+
+Material para profundizar
+Si te interesó algunos de los temas de hoy, te dejo material alternativo para que profundices al respecto, te recomiendo ver los videos que son cortos e interesantes! No es material obligatorio
+Diseño UX
+Link video explicación termino UX por Don Norman 
+Jakob Nielsen 
+Conocé el sitio de Nielsen Norman Group
+Don Norman
+Link a video sobre las Puertas Norman
+Link del libro: Psicología de los objetos cotidianos - Donald Norman
+Resonador magnético y Doug Dietz
+Link Charla Ted: Transformando la atención médica para los niños y sus familias -  Doug Dietz 
+
+
+Diseño centrado en las personas y la accesibilidad
+Link Charla Ted: Creando un futuro digital accesible - Judy Brewer

@@ -1,0 +1,19 @@
+[root@localhost Test]# ln ./Documentos/X/cia.txt cia_ln
+[root@localhost Test]# ls
+cia_ln  Datos  Documentos  UTN
+[root@localhost Test]# cd UTN
+[root@localhost UTN]# ln -s ../Documentos/X/area61.txt
+[root@localhost UTN]# ls
+area61.txt
+[root@localhost UTN]# ln -s ../Documentos/X/area61_ln
+[root@localhost UTN]# ls
+area61_ln  area61.txt
+[root@localhost UTN]# rm *
+rm: remove symbolic link ‘area61_ln’? y
+rm: remove symbolic link ‘area61.txt’? y
+[root@localhost UTN]# ls
+[root@localhost UTN]# ln -s ../Documentos/X/area61.txt area61_ln
+[root@localhost UTN]# ls
+area61_ln
+[root@localhost UTN]# 
+
